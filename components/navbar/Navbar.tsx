@@ -6,39 +6,15 @@ import Link from "next/link";
 
 import { Phone, Mail, ChevronDown, Menu, X } from "lucide-react";
 
-import DestinationMegaMenu from "./destination/DestinationMegaMenu";
-
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [destinationOpen, setDestinationOpen] = useState(false);
   const [themeOpen, setThemeOpen] = useState(false);
 
-  const destinationRef = useRef<HTMLDivElement>(null);
   const themeRef = useRef<HTMLDivElement>(null);
-
-  const closeTimer = useRef<NodeJS.Timeout | null>(null);
-
-  const openDestinationMenu = () => {
-    if (closeTimer.current) {
-      clearTimeout(closeTimer.current);
-    }
-
-    setDestinationOpen(true);
-  };
-
-  const closeDestinationMenu = () => {
-    closeTimer.current = setTimeout(() => {
-      setDestinationOpen(false);
-    }, 200);
-  };
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       const target = event.target as Node;
-
-      if (destinationRef.current && !destinationRef.current.contains(target)) {
-        setDestinationOpen(false);
-      }
 
       if (themeRef.current && !themeRef.current.contains(target)) {
         setThemeOpen(false);
@@ -109,6 +85,7 @@ export default function Navbar() {
               className="object-contain"
             />
           </Link>
+
           {/* Navigation */}
 
           <nav className="hidden items-center gap-10 font-medium text-gray-700 md:flex">
@@ -116,19 +93,12 @@ export default function Navbar() {
               Home
             </Link>
 
-            {/* Destinations */}
-
-            <div
-              ref={destinationRef}
-              className="flex h-[72px] items-center"
-              onMouseEnter={openDestinationMenu}
-              onMouseLeave={closeDestinationMenu}
+            <Link
+              href="/#destinations"
+              className="hover:text-blue-600"
             >
-              <button className="flex items-center gap-1 hover:text-blue-600">
-                Destinations
-                <ChevronDown size={16} />
-              </button>
-            </div>
+              Destinations
+            </Link>
 
             {/* Themes */}
 
@@ -176,20 +146,9 @@ export default function Navbar() {
 
             <div>
               <p className="font-bold text-gray-900">07744848000</p>
-
               <p className="text-xs text-gray-500">Grab The Best Deal Now</p>
             </div>
           </div>
-        </div>
-
-        {/* Destination Mega Menu */}
-
-        <div
-          className="absolute left-0 top-full w-full"
-          onMouseEnter={openDestinationMenu}
-          onMouseLeave={closeDestinationMenu}
-        >
-          <DestinationMegaMenu isOpen={destinationOpen} />
         </div>
       </div>
     </header>
