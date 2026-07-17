@@ -1,5 +1,7 @@
 export type Package = {
   id: number;
+  slug: string;
+
   image: string;
   title: string;
 

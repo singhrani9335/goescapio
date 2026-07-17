@@ -127,7 +127,7 @@ export default function PopularDestinations() {
 function DestinationCard({ destination }: any) {
   return (
     <Link
-      href={`/destinations/${destination.id}`}
+      href={`/destination/${destination.slug}`}
       className="
       group
       relative

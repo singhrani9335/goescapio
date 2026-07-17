@@ -1,5 +1,7 @@
 export interface LimitedTimeOffer {
   id: number;
+  slug: string;
+
   image: string;
   title: string;
   nights: string;

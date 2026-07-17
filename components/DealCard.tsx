@@ -154,7 +154,7 @@ export default function DealCard({ deal }: DealCardProps) {
   {/* BUTTON */}
 
   <Link
-    href={`/packages/${deal.id}`}
+    href={`/package/${deal.slug}`}
     className="
       rounded-md
       bg-purple-600

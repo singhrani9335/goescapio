@@ -3,6 +3,7 @@ import type { Package } from "@/types/package";
 export const domesticPackages: Package[] = [
   {
     id: 1,
+    slug: "beauty-of-andaman",
     image: "/images/handpicked-holidays/andaman-4n.jpg",
     title: "05 Nights & 06 Days Beauty of Andaman",
     nights: 5,
@@ -25,6 +26,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 2,
+    slug: "chail",
     image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "2 Nights & 3 Days Chail Weekend Package",
     nights: 2,
@@ -47,6 +49,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 3,
+    slug: "ooty",
     image: "/images/handpicked-holidays/baku-4n.png",
     title: "2 Nights & 3 Days Ooty Hill Station Getaway",
     nights: 2,
@@ -69,6 +72,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 4,
+    slug: "haridwar-rishikesh",
     image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "3 Nights 4 Days Ultimate Haridwar & Rishikesh Tour",
     nights: 3,
@@ -91,6 +95,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 5,
+    slug: "blissful-kerala",
     image: "/images/handpicked-holidays/blissful-kerala.jpg",
     title: "4 Nights & 5 Days Blissful Kerala",
     nights: 4,
@@ -113,6 +118,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 6,
+    slug: "gorgeous-kashmir",
     image: "/images/handpicked-holidays/kashmir.png",
     title: "4 Nights & 5 Days Gorgeous Kashmir",
     nights: 4,
@@ -132,9 +138,9 @@ export const domesticPackages: Package[] = [
       meal: false,
     },
   },
-
   {
     id: 7,
+    slug: "south-india",
     image: "/images/handpicked-holidays/south-india.png",
     title: "4 Nights & 5 Days Incredible South India",
     nights: 4,
@@ -157,6 +163,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 8,
+    slug: "shimla",
     image: "/images/handpicked-holidays/shimla-manali-4n.jpg",
     title: "4 Nights & 5 Days The Allure of Shimla",
     nights: 4,
@@ -179,6 +186,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 9,
+    slug: "glorious-rajasthan",
     image: "/images/handpicked-holidays/chm-0003.jpg",
     title: "5 Nights & 6 Days Glorious Rajasthan",
     nights: 5,
@@ -201,6 +209,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 10,
+    slug: "marvelous-kashmir",
     image: "/images/handpicked-holidays/meghalaya-4n.jpg",
     title: "5 Nights & 6 Days Marvelous Kashmir",
     nights: 5,
@@ -223,6 +232,7 @@ export const domesticPackages: Package[] = [
 
   {
     id: 11,
+    slug: "meghalaya",
     image: "/images/handpicked-holidays/meghalaya-4n.jpg",
     title: "5 Nights & 6 Days Meghalaya Explorer",
     nights: 5,

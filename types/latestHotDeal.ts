@@ -1,5 +1,7 @@
 export interface LatestHotDeal {
   id: number;
+  slug: string;
+
   image: string;
   title: string;
   nights: string;

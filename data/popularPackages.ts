@@ -1,8 +1,27 @@
 import type { PopularPackage } from "@/types/popularPackage";
 
 export const popularPackages: PopularPackage[] = [
+
   {
     id: 1,
+    slug: "beauty-of-andaman",
+    image: "/images/handpicked-holidays/andaman-4n.jpg",
+    title: "05 Nights & 06 Days Beauty of Andaman",
+    nights: "5 Nights",
+    location: "Havelock - Andaman, India",
+    price: "25,990",
+    features: {
+      hotel: true,
+      activity: true,
+      sightseeing: true,
+      transport: true,
+      meal: false,
+    },
+  },
+
+  {
+    id: 2,
+    slug: "chail",
     image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "2 Nights & 3 Days Chail Weekend Package",
     nights: "2 Nights",
@@ -18,7 +37,8 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 2,
+    id: 3,
+    slug: "ooty",
     image: "/images/handpicked-holidays/baku-4n.png",
     title: "2 Nights & 3 Days Ooty Hill Station Getaway",
     nights: "2 Nights",
@@ -34,7 +54,8 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 3,
+    id: 4,
+    slug: "toronto",
     image: "/images/handpicked-holidays/andaman-4n.jpg",
     title: "2 Nights & 3 Days Toronto City Break",
     nights: "2 Nights",
@@ -50,8 +71,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 4,
-    image: "/images/handpicked-holidays/blissful-kerala.jpg",
+    id: 5,
+    slug: "jordan",
+    image: "/images/handpicked-holidays/classic-jordan.jpg",
     title: "3 Nights & 4 Days Jordan Timeless Treasures",
     nights: "3 Nights",
     location: "Amman, Jordan",
@@ -66,8 +88,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 5,
-    image: "/images/handpicked-holidays/classic-cairo.png",
+    id: 6,
+    slug: "vietnam",
+    image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "3 Nights & 4 Days Vietnam Timeless Charm",
     nights: "3 Nights",
     location: "Hanoi, Vietnam",
@@ -82,8 +105,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 6,
-    image: "/images/handpicked-holidays/classic-georgia.jpg",
+    id: 7,
+    slug: "haridwar-rishikesh",
+    image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "3 Nights 4 Days Ultimate Haridwar & Rishikesh Tour",
     nights: "3 Nights",
     location: "Haridwar, India",
@@ -98,8 +122,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 7,
-    image: "/images/handpicked-holidays/classic-jordan.jpg",
+    id: 8,
+    slug: "baku",
+    image: "/images/handpicked-holidays/baku-4n.png",
     title: "4 Nights & 5 Days Baku Tour",
     nights: "4 Nights",
     location: "Baku, Azerbaijan",
@@ -114,8 +139,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 8,
-    image: "/images/handpicked-holidays/singapore-cruise.jpg",
+    id: 9,
+    slug: "blissful-kerala",
+    image: "/images/handpicked-holidays/blissful-kerala.jpg",
     title: "4 Nights & 5 Days Blissful Kerala",
     nights: "4 Nights",
     location: "Munnar, India",
@@ -130,8 +156,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 9,
-    image: "/images/handpicked-holidays/dubai-vibes.jpg",
+    id: 10,
+    slug: "classic-cairo",
+    image: "/images/handpicked-holidays/classic-cairo.png",
     title: "4 Nights & 5 Days Classic Cairo with Alexandria Excursion",
     nights: "4 Nights",
     location: "Cairo, Egypt",
@@ -146,8 +173,9 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 10,
-    image: "/images/handpicked-holidays/georgia-4n.jpg",
+    id: 11,
+    slug: "classic-georgia",
+    image: "/images/handpicked-holidays/classic-georgia.jpg",
     title: "4 Nights & 5 Days Classic Georgia",
     nights: "4 Nights",
     location: "Tbilisi, Georgia",
@@ -160,41 +188,11 @@ export const popularPackages: PopularPackage[] = [
       meal: false,
     },
   },
-    {
-    id: 11,
-    image: "/images/handpicked-holidays/dubai-family-4n.jpg",
-    title: "4 Nights & 5 Days Classic Jordan",
-    nights: "4 Nights",
-    location: "Amman, Jordan",
-    price: "46,990",
-    features: {
-      hotel: true,
-      activity: true,
-      sightseeing: true,
-      transport: true,
-      meal: false,
-    },
-  },
 
   {
     id: 12,
-    image: "/images/handpicked-holidays/kashmir.png",
-    title: "4 Nights & 5 Days Disney Adventure Cruise with 1 Free Night at Singapore",
-    nights: "4 Nights",
-    location: "Singapore, Singapore",
-    price: "88,890",
-    features: {
-      hotel: true,
-      activity: true,
-      sightseeing: true,
-      transport: true,
-      meal: false,
-    },
-  },
-
-  {
-    id: 13,
-    image: "/images/handpicked-holidays/hong-kong-4n.jpg",
+    slug: "dubai-vibes",
+    image: "/images/handpicked-holidays/dubai-vibes.jpg",
     title: "4 Nights & 5 Days Dubai Vibes",
     nights: "4 Nights",
     location: "Dubai, United Arab Emirates",
@@ -209,12 +207,30 @@ export const popularPackages: PopularPackage[] = [
   },
 
   {
-    id: 14,
-    image: "/images/handpicked-holidays/south-india.png",
-    title: "4 Nights & 5 Days Enchanting Georgia Getaway",
+    id: 13,
+    slug: "gorgeous-kashmir",
+    image: "/images/handpicked-holidays/kashmir.png",
+    title: "4 Nights & 5 Days Gorgeous Kashmir",
     nights: "4 Nights",
-    location: "Tbilisi, Georgia",
-    price: "68,290",
+    location: "Srinagar, India",
+    price: "16,990",
+    features: {
+      hotel: true,
+      activity: true,
+      sightseeing: true,
+      transport: true,
+      meal: false,
+    },
+  },
+
+  {
+    id: 14,
+    slug: "hong-kong-family",
+    image: "/images/handpicked-holidays/hong-kong-4n.jpg",
+    title: "4 Nights & 5 Days Hong Kong Family Special",
+    nights: "4 Nights",
+    location: "Hong Kong, Hongkong",
+    price: "81,690",
     features: {
       hotel: true,
       activity: true,
@@ -226,55 +242,8 @@ export const popularPackages: PopularPackage[] = [
 
   {
     id: 15,
-    image: "/images/handpicked-holidays/kenya-safari.jpg",
-    title: "4 Nights & 5 Days Family Time in Dubai with FREE Miracle Garden",
-    nights: "4 Nights",
-    location: "Dubai, United Arab Emirates",
-    price: "43,990",
-    features: {
-      hotel: true,
-      activity: true,
-      sightseeing: true,
-      transport: true,
-      meal: false,
-    },
-  },
-
-  {
-    id: 16,
-    image: "/images/handpicked-holidays/mauritius-4n.jpg",
-    title: "4 Nights & 5 Days Gorgeous Kashmir",
-    nights: "4 Nights",
-    location: "Srinagar, India",
-    price: "16,990",
-    features: {
-      hotel: true,
-      activity: true,
-      transport: true,
-      sightseeing: true,
-      meal: false,
-    },
-  },
-
-  {
-    id: 17,
-    image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
-    title: "4 Nights & 5 Days Hong Kong Family Special",
-    nights: "4 Nights",
-    location: "Hong Kong, Hongkong",
-    price: "81,690",
-    features: {
-      hotel: true,
-      activity: true,
-      transport: true,
-      sightseeing: true,
-      meal: false,
-    },
-  },
-
-  {
-    id: 18,
-    image: "/images/handpicked-holidays/thailand-bachelor.jpg",
+    slug: "south-india",
+    image: "/images/handpicked-holidays/south-india.png",
     title: "4 Nights & 5 Days Incredible South India",
     nights: "4 Nights",
     location: "Bangalore, India",
@@ -282,15 +251,15 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
-
-  {
-    id: 19,
-    image: "/images/handpicked-holidays/shimla-manali-4n.jpg",
+    {
+    id: 16,
+    slug: "kenya-safari",
+    image: "/images/handpicked-holidays/kenya-safari.jpg",
     title: "4 Nights & 5 Days Kenyan Safari Adventure",
     nights: "4 Nights",
     location: "Nairobi, Kenya",
@@ -298,15 +267,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 20,
-    image: "/images/handpicked-holidays/andaman-5n.png",
+    id: 17,
+    slug: "mauritius",
+    image: "/images/handpicked-holidays/mauritius-4n.jpg",
     title: "4 Nights & 5 Days Luxurious Mauritius",
     nights: "4 Nights",
     location: "Mauritius, Mauritius",
@@ -314,14 +284,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
-    {
-    id: 21,
-    image: "/images/handpicked-holidays/cambodia-5d.png",
+
+  {
+    id: 18,
+    slug: "phu-quoc",
+    image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "4 Nights & 5 Days Phu Quoc Escape",
     nights: "4 Nights",
     location: "Phu Quoc, Vietnam",
@@ -329,15 +301,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 22,
-    image: "/images/handpicked-holidays/beauty-of-europe.jpg",
+    id: 19,
+    slug: "thailand-bachelor",
+    image: "/images/handpicked-holidays/thailand-bachelor.jpg",
     title: "4 Nights & 5 Days Thailand Bachelor’s Trip – Pattaya & Bangkok",
     nights: "4 Nights",
     location: "Bangkok, Thailand",
@@ -345,15 +318,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 23,
-    image: "/images/handpicked-holidays/bali-voyage.jpg",
+    id: 20,
+    slug: "shimla",
+    image: "/images/handpicked-holidays/shimla-manali-4n.jpg",
     title: "4 Nights & 5 Days The Allure of Shimla",
     nights: "4 Nights",
     location: "Shimla, India",
@@ -361,15 +335,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 24,
-    image: "/images/handpicked-holidays/chm-0003.jpg",
+    id: 21,
+    slug: "wow-andaman",
+    image: "/images/handpicked-holidays/andaman-5n.png",
     title: "4 Nights & 5 Days Wow Andaman",
     nights: "4 Nights",
     location: "Havelock - Andaman, India",
@@ -377,15 +352,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 25,
-    image: "/images/handpicked-holidays/dazsin.jpg",
+    id: 22,
+    slug: "amsterdam-paris",
+    image: "/images/handpicked-holidays/beauty-of-europe.jpg",
     title: "5 Nights & 6 Days Amsterdam & Paris Classic",
     nights: "5 Nights",
     location: "Amsterdam, Netherlands",
@@ -393,30 +369,15 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 26,
-    image: "/images/handpicked-holidays/maldives-5d.jpg",
-    title: "5 Nights & 6 Days Andaman Fully Loaded With Neil Stay",
-    nights: "5 Nights",
-    location: "Havelock - Andaman, India",
-    price: "46,990",
-    features: {
-      hotel: true,
-      activity: true,
-      transport: true,
-      sightseeing: true,
-      meal: false,
-    },
-  },
-
-  {
-    id: 27,
+    id: 23,
+    slug: "azerbaijan-explorer",
     image: "/images/handpicked-holidays/malaysia-4n.jpg",
     title: "5 Nights & 6 Days Azerbaijan Explorer",
     nights: "5 Nights",
@@ -425,15 +386,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 28,
-    image: "/images/handpicked-holidays/meghalaya-4n.jpg",
+    id: 24,
+    slug: "dubai-extravaganza",
+    image: "/images/handpicked-holidays/dubai-family-4n.jpg",
     title: "5 Nights & 6 Days Dubai Extravaganza",
     nights: "5 Nights",
     location: "Dubai, United Arab Emirates",
@@ -441,15 +403,16 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 29,
-    image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
+    id: 25,
+    slug: "glorious-rajasthan",
+    image: "/images/handpicked-holidays/chm-0003.jpg",
     title: "5 Nights & 6 Days Glorious Rajasthan",
     nights: "5 Nights",
     location: "Jaipur, India",
@@ -457,15 +420,50 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
-    id: 30,
-    image: "/images/handpicked-holidays/baku-4n.png",
+    id: 26,
+    slug: "hong-kong-extravaganza",
+    image: "/images/handpicked-holidays/dazsin.jpg",
+    title: "5 Nights & 6 Days Hong Kong Extravaganza",
+    nights: "5 Nights",
+    location: "Hong Kong, Hongkong",
+    price: "96,790",
+    features: {
+      hotel: true,
+      activity: true,
+      sightseeing: true,
+      transport: true,
+      meal: false,
+    },
+  },
+
+  {
+    id: 27,
+    slug: "iceland",
+    image: "/images/handpicked-holidays/meghalaya-4n.jpg",
+    title: "5 Nights & 6 Days Iceland Holiday",
+    nights: "5 Nights",
+    location: "Reykjavik, Iceland",
+    price: "1,09,990",
+    features: {
+      hotel: true,
+      activity: true,
+      sightseeing: true,
+      transport: true,
+      meal: false,
+    },
+  },
+
+  {
+    id: 28,
+    slug: "marvelous-kashmir",
+    image: "/images/handpicked-holidays/kashmir.png",
     title: "5 Nights & 6 Days Marvelous Kashmir",
     nights: "5 Nights",
     location: "Srinagar, India",
@@ -473,9 +471,44 @@ export const popularPackages: PopularPackage[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
+
+  {
+    id: 29,
+    slug: "thailand-honeymoon",
+    image: "/images/handpicked-holidays/thailand-bachelor.jpg",
+    title: "5 Nights & 6 Days Thailand Honeymoon Special – Krabi & Phuket",
+    nights: "5 Nights",
+    location: "Krabi, Thailand",
+    price: "33,990",
+    features: {
+      hotel: true,
+      activity: true,
+      sightseeing: true,
+      transport: true,
+      meal: false,
+    },
+  },
+
+  {
+    id: 30,
+    slug: "discover-egypt",
+    image: "/images/handpicked-holidays/classic-cairo.png",
+    title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
+    nights: "6 Nights",
+    location: "Cairo, Egypt",
+    price: "1,10,990",
+    features: {
+      hotel: true,
+      activity: true,
+      sightseeing: true,
+      transport: true,
+      meal: false,
+    },
+  },
+
 ];

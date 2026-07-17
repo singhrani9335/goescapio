@@ -1,6 +1,8 @@
 export interface PopularPackage {
   id: number;
 
+  slug: string;
+
   image: string;
 
   title: string;
@@ -11,11 +13,19 @@ export interface PopularPackage {
 
   price: string;
 
+  duration?: string;
+
+  hotel?: string;
+
+  transport?: string;
+
+  meals?: string;
+
   features: {
     hotel: boolean;
     activity: boolean;
-    transport: boolean;
     sightseeing: boolean;
+    transport: boolean;
     meal: boolean;
   };
 }

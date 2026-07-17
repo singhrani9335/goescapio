@@ -178,7 +178,9 @@ export default function HolidayThemes() {
                       </h3>
 
                       <Link
-                        href={`/themes/${theme.id}`}
+                        href={`/themes/${theme.slug}`}
+
+
                         className="
                         mt-4
                         inline-flex

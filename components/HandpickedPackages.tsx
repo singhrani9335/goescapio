@@ -255,7 +255,8 @@ export default function HandpickedPackages() {
                     </p>
 
                     <Link
-                      href={`/packages/${item.id}`}
+                      href={`/package/${item.slug}`}
+
                       className="
                       mt-6
                       inline-block

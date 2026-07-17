@@ -38,7 +38,7 @@ export default function TourPackageCard({
     >
       {/* Image */}
 
-      <Link href={`/packages/${packageData.id}`}>
+      <Link href={`/package/${packageData.slug}`}>
         <div
           className="
             relative
@@ -70,7 +70,7 @@ export default function TourPackageCard({
       >
         {/* Package Title */}
 
-        <Link href={`/packages/${packageData.id}`}>
+        <Link href={`/package/${packageData.slug}`}>
           <h3
             className="
               h-[55px]

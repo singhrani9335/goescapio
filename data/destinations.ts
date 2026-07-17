@@ -3,6 +3,7 @@ import type { Destination } from "@/types/destination";
 export const destinations: Destination[] = [
   {
     id: 1,
+    slug: "africa",
     image: "/images/destinations/africa.png",
     title: "Africa",
     description:
@@ -23,6 +24,7 @@ export const destinations: Destination[] = [
 
   {
     id: 2,
+    slug: "asia",
     image: "/images/destinations/asia.png",
     title: "Asia",
     description:
@@ -43,6 +45,7 @@ export const destinations: Destination[] = [
 
   {
     id: 3,
+    slug: "australasia-pacific",
     image: "/images/destinations/australasia-pacific.png",
     title: "Australasia & Pacific",
     description:
@@ -63,6 +66,7 @@ export const destinations: Destination[] = [
 
   {
     id: 4,
+    slug: "europe",
     image: "/images/destinations/europe.png",
     title: "Europe",
     description:
@@ -83,6 +87,7 @@ export const destinations: Destination[] = [
 
   {
     id: 5,
+    slug: "indian-ocean",
     image: "/images/destinations/indian-ocean.png",
     title: "Indian Ocean",
     description:
@@ -103,6 +108,7 @@ export const destinations: Destination[] = [
 
   {
     id: 6,
+    slug: "middle-east",
     image: "/images/destinations/middle-east.png",
     title: "Middle East",
     description:
@@ -123,6 +129,7 @@ export const destinations: Destination[] = [
 
   {
     id: 7,
+    slug: "usa-canada",
     image: "/images/destinations/usa-canada.png",
     title: "USA & Canada",
     description:

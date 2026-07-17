@@ -3,6 +3,7 @@ import type { Package } from "@/types/package";
 export const internationalPackages: Package[] = [
   {
     id: 1,
+    slug: "jordan",
     image: "/images/handpicked-holidays/classic-jordan.jpg",
     title: "3 Nights & 4 Days Jordan Timeless Treasures",
     nights: 3,
@@ -25,6 +26,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 2,
+    slug: "vietnam",
     image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "3 Nights & 4 Days Vietnam Timeless Charm",
     nights: 3,
@@ -47,6 +49,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 3,
+    slug: "baku",
     image: "/images/handpicked-holidays/baku-4n.png",
     title: "4 Nights & 5 Days Baku Tour",
     nights: 4,
@@ -69,6 +72,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 4,
+    slug: "classic-cairo",
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "4 Nights & 5 Days Classic Cairo with Alexandria Excursion",
     nights: 4,
@@ -91,6 +95,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 5,
+    slug: "classic-georgia",
     image: "/images/handpicked-holidays/classic-georgia.jpg",
     title: "4 Nights & 5 Days Classic Georgia",
     nights: 4,
@@ -113,6 +118,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 6,
+    slug: "dubai-vibes",
     image: "/images/handpicked-holidays/dubai-vibes.jpg",
     title: "4 Nights & 5 Days Dubai Vibes",
     nights: 4,
@@ -135,6 +141,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 7,
+    slug: "hong-kong-family",
     image: "/images/handpicked-holidays/hong-kong-4n.jpg",
     title: "4 Nights & 5 Days Hong Kong Family Special",
     nights: 4,
@@ -154,8 +161,10 @@ export const internationalPackages: Package[] = [
       meal: false,
     },
   },
-    {
+
+  {
     id: 8,
+    slug: "kenya-safari",
     image: "/images/handpicked-holidays/kenya-safari.jpg",
     title: "4 Nights & 5 Days Kenyan Safari Adventure",
     nights: 4,
@@ -178,6 +187,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 9,
+    slug: "mauritius",
     image: "/images/handpicked-holidays/mauritius-4n.jpg",
     title: "4 Nights & 5 Days Luxurious Mauritius",
     nights: 4,
@@ -197,9 +207,9 @@ export const internationalPackages: Package[] = [
       meal: false,
     },
   },
-
   {
     id: 10,
+    slug: "phu-quoc",
     image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "4 Nights & 5 Days Phu Quoc Escape",
     nights: 4,
@@ -222,6 +232,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 11,
+    slug: "thailand-bachelor",
     image: "/images/handpicked-holidays/thailand-bachelor.jpg",
     title: "4 Nights & 5 Days Thailand Bachelor’s Trip – Pattaya & Bangkok",
     nights: 4,
@@ -244,6 +255,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 12,
+    slug: "amsterdam-paris",
     image: "/images/handpicked-holidays/beauty-of-europe.jpg",
     title: "5 Nights & 6 Days Amsterdam & Paris Classic",
     nights: 5,
@@ -266,6 +278,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 13,
+    slug: "azerbaijan-explorer",
     image: "/images/handpicked-holidays/malaysia-4n.jpg",
     title: "5 Nights & 6 Days Azerbaijan Explorer",
     nights: 5,
@@ -288,6 +301,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 14,
+    slug: "dubai-extravaganza",
     image: "/images/handpicked-holidays/dubai-family-4n.jpg",
     title: "5 Nights & 6 Days Dubai Extravaganza",
     nights: 5,
@@ -307,8 +321,10 @@ export const internationalPackages: Package[] = [
       meal: false,
     },
   },
-    {
+
+  {
     id: 15,
+    slug: "hong-kong-extravaganza",
     image: "/images/handpicked-holidays/dazsin.jpg",
     title: "5 Nights & 6 Days Hong Kong Extravaganza",
     nights: 5,
@@ -331,6 +347,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 16,
+    slug: "iceland",
     image: "/images/handpicked-holidays/meghalaya-4n.jpg",
     title: "5 Nights & 6 Days Iceland Holiday",
     nights: 5,
@@ -353,6 +370,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 17,
+    slug: "thailand-honeymoon",
     image: "/images/handpicked-holidays/thailand-bachelor.jpg",
     title: "5 Nights & 6 Days Thailand Honeymoon Special – Krabi & Phuket",
     nights: 5,
@@ -375,6 +393,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 18,
+    slug: "discover-egypt",
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
     nights: 6,

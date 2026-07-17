@@ -24,29 +24,33 @@ const slides = [
     src: "/images/hero/hero6.jpg",
     title: "Kerala Tour Packages",
     description: "Where Every Trip Begins With A Dream !",
+    slug: "kerala",
   },
   {
     src: "/images/hero/hero2.jpg",
     title: "Phuket & Krabi Tour Packages",
     description: "Where Every Trip Begins With A Dream !",
+    slug: "phuket-krabi",
   },
   {
     src: "/images/hero/hero3.jpg",
     title: "Singapore Tour Packages",
     description: "Where Every Trip Begins With A Dream !",
+    slug: "singapore",
   },
   {
     src: "/images/hero/hero4.jpg",
     title: "Bali Tour Packages",
     description: "Where Every Trip Begins With A Dream !",
+    slug: "bali",
   },
   {
     src: "/images/hero/hero5.jpg",
     title: "Dubai Tour Packages",
     description: "Where Every Trip Begins With A Dream !",
+    slug: "dubai",
   },
 ];
-
 export default function Hero() {
   const swiperRef = useRef<any>(null);
 
@@ -165,7 +169,7 @@ export default function Hero() {
                       {slide.description}
                     </h1>
 
-                    <Link href="/packages">
+                    <Link href={`/book-now/${slide.slug}`}>
                       <button
                         className="
                           mt-8

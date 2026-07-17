@@ -29,7 +29,7 @@ export default function DiscoverRight() {
 
       {/* Clickable Card */}
       <Link
-        href={discoverBanner.href}
+        href={`/package/${discoverBanner.slug}`}
         className="
           group
           relative

@@ -1,5 +1,7 @@
 export interface PackageCard {
   id: number;
+  slug: string;
+
   image: string;
   title: string;
   description: string;
@@ -13,6 +15,8 @@ export interface PackageCard {
 export const packages: PackageCard[] = [
   {
     id: 1,
+    slug: "haridwar-rishikesh",
+
     image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "Ultimate Haridwar & Rishikesh Tour",
     description:
@@ -26,6 +30,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 2,
+    slug: "baku",
+
     image: "/images/handpicked-holidays/baku-4n.png",
     title: "Baku Tour",
     description:
@@ -39,6 +45,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 3,
+    slug: "beauty-of-andaman",
+
     image: "/images/handpicked-holidays/andaman-4n.jpg",
     title: "Beauty of Andaman",
     description:
@@ -52,6 +60,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 4,
+    slug: "blissful-kerala",
+
     image: "/images/handpicked-holidays/blissful-kerala.jpg",
     title: "Blissful Kerala",
     description:
@@ -65,6 +75,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 5,
+    slug: "classic-cairo",
+
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "Classic Cairo with Alexandria Excursion",
     description:
@@ -78,6 +90,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 6,
+    slug: "classic-georgia",
+
     image: "/images/handpicked-holidays/classic-georgia.jpg",
     title: "Classic Georgia",
     description:
@@ -91,6 +105,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 7,
+    slug: "jordan",
+
     image: "/images/handpicked-holidays/classic-jordan.jpg",
     title: "Classic Jordan",
     description:
@@ -101,9 +117,10 @@ export const packages: PackageCard[] = [
     transport: "Airport Pickup",
     sightseeing: "Petra & Wadi Rum",
   },
-
-  {
+    {
     id: 8,
+    slug: "hong-kong-extravaganza",
+
     image: "/images/handpicked-holidays/singapore-cruise.jpg",
     title: "Disney Adventure Cruise with 1 Free Night at Singapore",
     description:
@@ -117,6 +134,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 9,
+    slug: "dubai-vibes",
+
     image: "/images/handpicked-holidays/dubai-vibes.jpg",
     title: "Dubai Vibes",
     description:
@@ -130,6 +149,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 10,
+    slug: "classic-georgia",
+
     image: "/images/handpicked-holidays/georgia-4n.jpg",
     title: "Enchanting Georgia Getaway",
     description:
@@ -143,6 +164,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 11,
+    slug: "dubai-extravaganza",
+
     image: "/images/handpicked-holidays/dubai-family-4n.jpg",
     title: "Family Time in Dubai with Free Miracle Garden",
     description:
@@ -156,6 +179,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 12,
+    slug: "gorgeous-kashmir",
+
     image: "/images/handpicked-holidays/kashmir.png",
     title: "7 Days Gorgeous Kashmir",
     description:
@@ -169,6 +194,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 13,
+    slug: "hong-kong-family",
+
     image: "/images/handpicked-holidays/hong-kong-4n.jpg",
     title: "Hong Kong Family Special",
     description:
@@ -182,6 +209,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 14,
+    slug: "south-india",
+
     image: "/images/handpicked-holidays/south-india.png",
     title: "Incredible South India",
     description:
@@ -194,6 +223,8 @@ export const packages: PackageCard[] = [
   },
     {
     id: 15,
+    slug: "kenya-safari",
+
     image: "/images/handpicked-holidays/kenya-safari.jpg",
     title: "Kenyan Safari Adventure",
     description:
@@ -207,6 +238,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 16,
+    slug: "mauritius",
+
     image: "/images/handpicked-holidays/mauritius-4n.jpg",
     title: "Luxurious Mauritius",
     description:
@@ -220,6 +253,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 17,
+    slug: "phu-quoc",
+
     image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "Phu Quoc Escape",
     description:
@@ -233,6 +268,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 18,
+    slug: "thailand-bachelor",
+
     image: "/images/handpicked-holidays/thailand-bachelor.jpg",
     title: "Thailand Bachelor’s Trip – Pattaya & Bangkok",
     description:
@@ -246,6 +283,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 19,
+    slug: "shimla",
+
     image: "/images/handpicked-holidays/shimla-manali-4n.jpg",
     title: "The Allure of Shimla",
     description:
@@ -259,6 +298,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 20,
+    slug: "wow-andaman",
+
     image: "/images/handpicked-holidays/andaman-5n.png",
     title: "Wow Andaman",
     description:
@@ -272,6 +313,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 21,
+    slug: "discover-egypt",
+
     image: "/images/handpicked-holidays/cambodia-5d.png",
     title: "Cambodia Tour: Phnom Penh – Battambang – Siem Reap",
     description:
@@ -282,9 +325,10 @@ export const packages: PackageCard[] = [
     transport: "Private Transfer",
     sightseeing: "Temple & City Tour",
   },
-
-  {
+    {
     id: 22,
+    slug: "amsterdam-paris",
+
     image: "/images/handpicked-holidays/beauty-of-europe.jpg",
     title: "Grand European Discovery",
     description:
@@ -298,6 +342,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 23,
+    slug: "bali-voyage",
+
     image: "/images/handpicked-holidays/bali-voyage.jpg",
     title: "Bali Voyage - 04 Nights",
     description:
@@ -311,6 +357,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 24,
+    slug: "chardham-yatra",
+
     image: "/images/handpicked-holidays/chm-0003.jpg",
     title: "Chardham Yatra Ex Delhi",
     description:
@@ -324,6 +372,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 25,
+    slug: "singapore",
+
     image: "/images/handpicked-holidays/dazsin.jpg",
     title: "Dazzling Singapore - 03 Nights",
     description:
@@ -337,6 +387,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 26,
+    slug: "maldives",
+
     image: "/images/handpicked-holidays/maldives-5d.jpg",
     title: "Magnificent Maldives",
     description:
@@ -350,6 +402,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 27,
+    slug: "maldives-serenity",
+
     image: "/images/handpicked-holidays/malaysia-4n.jpg",
     title: "Maldives Serenity Tour Package",
     description:
@@ -363,6 +417,8 @@ export const packages: PackageCard[] = [
 
   {
     id: 28,
+    slug: "meghalaya",
+
     image: "/images/handpicked-holidays/meghalaya-4n.jpg",
     title: "Mesmerizing Meghalaya",
     description:

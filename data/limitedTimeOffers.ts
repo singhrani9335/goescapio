@@ -1,8 +1,10 @@
 import type { LimitedTimeOffer } from "@/types/limitedTimeOffer";
 
 export const limitedTimeOffers: LimitedTimeOffer[] = [
+
   {
     id: 1,
+    slug: "beauty-of-andaman",
     image: "/images/handpicked-holidays/andaman-4n.jpg",
     title: "05 Nights & 06 Days Beauty of Andaman",
     nights: "5 Nights",
@@ -19,6 +21,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 2,
+    slug: "chail",
     image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "2 Nights & 3 Days Chail Weekend Package",
     nights: "2 Nights",
@@ -35,6 +38,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 3,
+    slug: "ooty",
     image: "/images/handpicked-holidays/baku-4n.png",
     title: "2 Nights & 3 Days Ooty Hill Station Getaway",
     nights: "2 Nights",
@@ -51,6 +55,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 4,
+    slug: "toronto",
     image: "/images/handpicked-holidays/andaman-4n.jpg",
     title: "2 Nights & 3 Days Toronto City Break",
     nights: "2 Nights",
@@ -67,6 +72,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 5,
+    slug: "jordan",
     image: "/images/handpicked-holidays/classic-jordan.jpg",
     title: "3 Nights & 4 Days Jordan Timeless Treasures",
     nights: "3 Nights",
@@ -83,6 +89,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 6,
+    slug: "vietnam",
     image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "3 Nights & 4 Days Vietnam Timeless Charm",
     nights: "3 Nights",
@@ -99,6 +106,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 7,
+    slug: "haridwar-rishikesh",
     image: "/images/handpicked-holidays/haridwar-rishikesh.jpg",
     title: "3 Nights 4 Days Ultimate Haridwar & Rishikesh Tour",
     nights: "3 Nights",
@@ -115,6 +123,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 8,
+    slug: "baku",
     image: "/images/handpicked-holidays/baku-4n.png",
     title: "4 Nights & 5 Days Baku Tour",
     nights: "4 Nights",
@@ -131,6 +140,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 9,
+    slug: "blissful-kerala",
     image: "/images/handpicked-holidays/blissful-kerala.jpg",
     title: "4 Nights & 5 Days Blissful Kerala",
     nights: "4 Nights",
@@ -147,6 +157,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 10,
+    slug: "classic-cairo",
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "4 Nights & 5 Days Classic Cairo with Alexandria Excursion",
     nights: "4 Nights",
@@ -160,8 +171,10 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
       meal: false,
     },
   },
-    {
+
+  {
     id: 11,
+    slug: "classic-georgia",
     image: "/images/handpicked-holidays/classic-georgia.jpg",
     title: "4 Nights & 5 Days Classic Georgia",
     nights: "4 Nights",
@@ -178,6 +191,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 12,
+    slug: "dubai-vibes",
     image: "/images/handpicked-holidays/dubai-vibes.jpg",
     title: "4 Nights & 5 Days Dubai Vibes",
     nights: "4 Nights",
@@ -194,6 +208,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 13,
+    slug: "gorgeous-kashmir",
     image: "/images/handpicked-holidays/kashmir.png",
     title: "4 Nights & 5 Days Gorgeous Kashmir",
     nights: "4 Nights",
@@ -210,6 +225,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 14,
+    slug: "hong-kong-family",
     image: "/images/handpicked-holidays/hong-kong-4n.jpg",
     title: "4 Nights & 5 Days Hong Kong Family Special",
     nights: "4 Nights",
@@ -218,14 +234,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 15,
+    slug: "south-india",
     image: "/images/handpicked-holidays/south-india.png",
     title: "4 Nights & 5 Days Incredible South India",
     nights: "4 Nights",
@@ -234,14 +251,14 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
-
-  {
+    {
     id: 16,
+    slug: "kenya-safari",
     image: "/images/handpicked-holidays/kenya-safari.jpg",
     title: "4 Nights & 5 Days Kenyan Safari Adventure",
     nights: "4 Nights",
@@ -250,14 +267,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 17,
+    slug: "mauritius",
     image: "/images/handpicked-holidays/mauritius-4n.jpg",
     title: "4 Nights & 5 Days Luxurious Mauritius",
     nights: "4 Nights",
@@ -266,14 +284,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 18,
+    slug: "phu-quoc",
     image: "/images/handpicked-holidays/phu-quoc-4n.jpg",
     title: "4 Nights & 5 Days Phu Quoc Escape",
     nights: "4 Nights",
@@ -282,14 +301,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 19,
+    slug: "thailand-bachelor",
     image: "/images/handpicked-holidays/thailand-bachelor.jpg",
     title: "4 Nights & 5 Days Thailand Bachelor’s Trip – Pattaya & Bangkok",
     nights: "4 Nights",
@@ -298,14 +318,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 20,
+    slug: "shimla",
     image: "/images/handpicked-holidays/shimla-manali-4n.jpg",
     title: "4 Nights & 5 Days The Allure of Shimla",
     nights: "4 Nights",
@@ -314,13 +335,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
-    {
+
+  {
     id: 21,
+    slug: "wow-andaman",
     image: "/images/handpicked-holidays/andaman-5n.png",
     title: "4 Nights & 5 Days Wow Andaman",
     nights: "4 Nights",
@@ -329,14 +352,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 22,
+    slug: "amsterdam-paris",
     image: "/images/handpicked-holidays/beauty-of-europe.jpg",
     title: "5 Nights & 6 Days Amsterdam & Paris Classic",
     nights: "5 Nights",
@@ -345,14 +369,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 23,
+    slug: "azerbaijan-explorer",
     image: "/images/handpicked-holidays/malaysia-4n.jpg",
     title: "5 Nights & 6 Days Azerbaijan Explorer",
     nights: "5 Nights",
@@ -361,14 +386,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 24,
+    slug: "dubai-extravaganza",
     image: "/images/handpicked-holidays/dubai-family-4n.jpg",
     title: "5 Nights & 6 Days Dubai Extravaganza",
     nights: "5 Nights",
@@ -377,14 +403,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 25,
+    slug: "glorious-rajasthan",
     image: "/images/handpicked-holidays/chm-0003.jpg",
     title: "5 Nights & 6 Days Glorious Rajasthan",
     nights: "5 Nights",
@@ -393,14 +420,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 26,
+    slug: "hong-kong-extravaganza",
     image: "/images/handpicked-holidays/dazsin.jpg",
     title: "5 Nights & 6 Days Hong Kong Extravaganza",
     nights: "5 Nights",
@@ -409,14 +437,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 27,
+    slug: "iceland",
     image: "/images/handpicked-holidays/meghalaya-4n.jpg",
     title: "5 Nights & 6 Days Iceland Holiday",
     nights: "5 Nights",
@@ -425,14 +454,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 28,
+    slug: "marvelous-kashmir",
     image: "/images/handpicked-holidays/kashmir.png",
     title: "5 Nights & 6 Days Marvelous Kashmir",
     nights: "5 Nights",
@@ -441,14 +471,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 29,
+    slug: "thailand-honeymoon",
     image: "/images/handpicked-holidays/thailand-bachelor.jpg",
     title: "5 Nights & 6 Days Thailand Honeymoon Special – Krabi & Phuket",
     nights: "5 Nights",
@@ -457,14 +488,15 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },
 
   {
     id: 30,
+    slug: "discover-egypt",
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
     nights: "6 Nights",
@@ -473,8 +505,8 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
     features: {
       hotel: true,
       activity: true,
-      transport: true,
       sightseeing: true,
+      transport: true,
       meal: false,
     },
   },

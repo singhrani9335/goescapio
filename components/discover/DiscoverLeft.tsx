@@ -63,7 +63,7 @@ export default function DiscoverLeft() {
             key={city.id}
             image={city.image}
             title={city.title}
-            href={city.href}
+            href={`/package/${city.slug}`}
           />
         ))}
       </div>
