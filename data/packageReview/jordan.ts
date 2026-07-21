@@ -8,16 +8,11 @@ const jordan: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/jordan/1.jpg",
-    "/images/packageReview/jordan/2.jpg",
-    "/images/packageReview/jordan/3.jpg",
-    "/images/packageReview/jordan/4.jpg",
-    "/images/packageReview/jordan/5.jpg",
-    "/images/packageReview/jordan/6.jpg",
-    "/images/packageReview/jordan/7.jpg",
-    "/images/packageReview/jordan/8.jpg",
-    "/images/packageReview/jordan/9.jpg",
-    "/images/packageReview/jordan/10.jpg",
+    "/images/packageReview/jordan/gallery/1.jpg",
+    "/images/packageReview/jordan/gallery/2.jpg",
+    "/images/packageReview/jordan/gallery/3.jpg",
+    "/images/packageReview/jordan/gallery/4.jpg",
+    "/images/packageReview/jordan/gallery/5.jpg",
   ],
 
 
@@ -25,15 +20,15 @@ const jordan: PackageReview = {
   // PACKAGE SUMMARY
   // ===========================
 
-  title: "5 Nights & 6 Days Amazing Jordan Tour",
+  title: "4 nights & 5 days classic jordan",
 
-  price: "74,990",
+  price: "46,990",
 
   priceType: "Per Person | Twin Sharing Price",
 
-  duration: "5 Nights",
+  duration: "4 Nights",
 
-  location: "Amman - Petra - Jordan",
+  location: "Petra - Jordan",
 
   features: {
     hotel: true,
@@ -48,9 +43,7 @@ const jordan: PackageReview = {
   // ===========================
 
   overview: `
-    Explore the ancient wonders and breathtaking landscapes of Jordan with
-    this amazing holiday package. Discover Petra, desert landscapes, historical
-    attractions and experience the rich culture of this beautiful destination.
+    Step into a land where history, legend, and breathtaking landscapes come alive. Classic Jordan is a perfectly balanced journey through ancient civilizations, dramatic deserts, and natural wonders. Walk through the rose-red city of Petra, explore the historic sites of Madaba and Mount Nebo, experience Bedouin hospitality under the stars in Wadi Rum, and relax in the mineral-rich waters of the Dead Sea. This journey offers the perfect combination of heritage, adventure, and unforgettable experiences.
   `,
 
 
@@ -62,65 +55,63 @@ const jordan: PackageReview = {
     {
       day: 1,
       title: "Arrival In Amman",
-      image: "/images/packageReview/jordan/1.jpg",
+      image: "/images/packageReview/jordan/itinerary/1.jpg",
       description:
-        "Arrive at Amman airport and transfer to your hotel. Enjoy leisure time after check-in.",
+        "Arrive at Queen Alia International Airport, where you will be welcomed by our representative. After meet and assist, transfer to your hotel in Amman, Jordan's capital city known for its ancient heritage and modern lifestyle. Check in at the hotel and relax after your journey. Overnight stay in Amman.",
     },
 
     {
       day: 2,
-      title: "Amman City Tour",
-      image: "/images/packageReview/jordan/2.jpg",
+      title: "Amman – Madaba – Mount Nebo – Petra (King’s Highway)",
+      image: "/images/packageReview/jordan/itinerary/2.jpg",
       description:
-        "Explore the historical attractions of Amman including ancient sites and local markets.",
+        "After breakfast, begin your journey along the historic King’s Highway. Visit Madaba, famous for its ancient mosaic map of the Holy Land at St. George’s Church. Continue to Mount Nebo, where Moses is believed to have viewed the Promised Land, and enjoy spectacular views of the Jordan Valley and Dead Sea. Later proceed towards Petra through scenic landscapes. Check in at the hotel and overnight stay in Petra.",
     },
 
     {
       day: 3,
-      title: "Visit Petra",
-      image: "/images/packageReview/jordan/3.jpg",
+      title: "Petra – Wadi Rum",
+      image: "/images/packageReview/jordan/itinerary/3.jpg",
       description:
-        "Discover the famous UNESCO World Heritage site of Petra and its magnificent architecture.",
+        "After breakfast, explore Petra, the famous rose-red city and one of the New Seven Wonders of the World. Walk through the narrow Siq leading to the iconic Treasury, and discover ancient Nabatean monuments including the Street of Facades and Royal Tombs. Later drive to Wadi Rum, also known as the Valley of the Moon. Enjoy a thrilling 4x4 Jeep Safari through the desert landscapes, natural rock formations, and ancient inscriptions. Experience a beautiful sunset followed by traditional Bedouin dinner and overnight stay at the desert camp.",
     },
 
     {
       day: 4,
-      title: "Wadi Rum Desert Experience",
-      image: "/images/packageReview/jordan/4.jpg",
+      title: "Wadi Rum – Dead Sea",
+      image: "/images/packageReview/jordan/itinerary/4.jpg",
       description:
-        "Enjoy the stunning desert landscapes and experience the beauty of Wadi Rum.",
+        "After breakfast at the camp, continue your journey towards the Dead Sea, the lowest point on Earth. Enjoy a relaxing experience floating in the mineral-rich waters and applying natural Dead Sea mud. Spend leisure time enjoying the beautiful surroundings and peaceful atmosphere. Overnight stay at Dead Sea.",
     },
 
     {
       day: 5,
-      title: "Dead Sea Experience",
-      image: "/images/packageReview/jordan/5.jpg",
+      title: "Departure",
+      image: "/images/packageReview/jordan/itinerary/5.jpg",
       description:
-        "Relax at the famous Dead Sea and enjoy the unique natural surroundings.",
-    },
-
-    {
-      day: 6,
-      title: "Departure From Jordan",
-      image: "/images/packageReview/jordan/6.jpg",
-      description:
-        "Check out from the hotel and transfer to the airport for your onward journey.",
+        "After breakfast, check out from the hotel and transfer to Queen Alia International Airport for your onward journey. Depart Jordan with unforgettable memories of Petra, Wadi Rum, and the Dead Sea experience.",
     },
   ],
-
-
-  // ===========================
+    // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
 
   inclusions: [
-    "Hotel accommodation",
-    "Daily breakfast",
-    "Airport transfers",
-    "Private transportation",
-    "Sightseeing as per itinerary",
-    "Local assistance",
-    "All applicable taxes",
+    "Meet & assist upon arrival at Queen Alia International Airport",
+    "4 nights accommodation in selected or similar hotels",
+    "1 night accommodation in Amman",
+    "1 night accommodation in Petra",
+    "1 night accommodation in Wadi Rum Desert Camp",
+    "1 night accommodation at Dead Sea",
+    "Daily breakfast and dinner as per itinerary",
+    "Jordan entry visa for eligible nationalities",
+    "All airport transfers and sightseeing by air-conditioned vehicle",
+    "Private English-speaking guide throughout the tour",
+    "Entrance fees to attractions mentioned in the itinerary",
+    "Horse ride in Petra from Visitors Centre to the beginning of the Siq",
+    "4x4 Jeep Safari experience in Wadi Rum",
+    "Daily bottled drinking water during sightseeing",
+    "All applicable local taxes",
   ],
 
 
@@ -130,11 +121,15 @@ const jordan: PackageReview = {
 
   exclusions: [
     "International airfare",
-    "Visa charges",
+    "Lunch during the tour",
+    "Drinks during meals",
+    "Personal expenses such as laundry, shopping, telephone calls, and minibar",
+    "Porterage at airports and hotels",
+    "Carriage ride in Petra",
+    "Tips for guide, driver, and camp staff",
+    "Optional activities not mentioned in the itinerary",
     "Travel insurance",
-    "Personal expenses",
-    "Optional activities",
-    "Anything not mentioned in inclusions",
+    "Any service not mentioned under inclusions",
   ],
 
 
@@ -143,16 +138,20 @@ const jordan: PackageReview = {
   // ===========================
 
   terms: [
-    "All bookings are subject to availability.",
-    "Package prices may change based on availability.",
-    "Advance payment is required for confirmation.",
-    "Cancellation charges apply as per company policy.",
-    "Valid passport and travel documents are required.",
-    "Go Escapio is not responsible for flight delays.",
-    "Hotel policies will apply for check-in and check-out.",
-    "Personal expenses are not included.",
-    "Travel insurance is recommended.",
-    "All services are subject to availability.",
+    "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+    "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+    "Payments must strictly follow the defined payment policy. Non-compliance may lead to cancellation of services.",
+    "All cancellations must be submitted in writing and cancellation charges will apply as per policy.",
+    "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+    "Travellers are responsible for carrying valid passports, visas, and required travel documents.",
+    "Go Escapio is not responsible for flight delays, cancellations, baggage issues, or airline-related problems.",
+    "Hotel check-in is generally at 2 PM and check-out at 11 AM. Early check-in or late check-out is subject to availability and extra charges.",
+    "City taxes, personal expenses, and optional tours are not included unless specifically mentioned.",
+    "Visa approval is solely at the discretion of immigration authorities.",
+    "Travel insurance is recommended and remains the traveller's responsibility.",
+    "Go Escapio acts as an intermediary and is not responsible for third-party service disruptions.",
+    "Hotel rooms, rates, and services are subject to availability at the time of booking.",
+    "Limited availability. Blackout dates and peak season surcharges may apply.",
   ],
 };
 

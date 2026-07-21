@@ -9,12 +9,12 @@ const phuketKrabi: BookNow = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/phuket-krabi/1.jpg",
-    "/images/packageReview/phuket-krabi/2.jpg",
-    "/images/packageReview/phuket-krabi/3.jpg",
-    "/images/packageReview/phuket-krabi/4.jpg",
-    "/images/packageReview/phuket-krabi/5.jpg",
-  ],
+  "/images/bookNow/phuket-krabi/gallery/1.jpg",
+  "/images/bookNow/phuket-krabi/gallery/2.jpg",
+  "/images/bookNow/phuket-krabi/gallery/3.jpg",
+  "/images/bookNow/phuket-krabi/gallery/4.jpg",
+  "/images/bookNow/phuket-krabi/gallery/5.jpg",
+],
 
 
 
@@ -60,108 +60,50 @@ const phuketKrabi: BookNow = {
   // ===========================
 
   itinerary: [
+  {
+    day: 1,
+    title: "Phuket Arrival",
+    image: "/images/bookNow/phuket-krabi/itinerary/day-1.jpg",
+    description:
+      "Arrive at Phuket Airport and transfer to your hotel. Relax and enjoy your first evening in Phuket.",
+  },
 
-    {
-      day: 1,
-      title: "Phuket Arrival",
-      image: "/images/packageReview/phuket-krabi/1.jpg",
-      description:
-        "Arrive at Phuket Airport and transfer to your hotel. Relax and enjoy your first evening in Phuket.",
-    },
+  {
+    day: 2,
+    title: "Phi Phi Island Tour",
+    image: "/images/bookNow/phuket-krabi/itinerary/day-2.jpg",
+    description:
+      "Enjoy a beautiful Phi Phi Island tour with crystal clear water, beaches and exciting activities.",
+  },
 
+  {
+    day: 3,
+    title: "Phuket To Krabi",
+    image: "/images/bookNow/phuket-krabi/itinerary/day-3.jpg",
+    description:
+      "Transfer to Krabi and enjoy the scenic beauty of this peaceful island destination.",
+  },
 
-    {
-      day: 2,
-      title: "Phuket City Tour",
-      image: "/images/packageReview/phuket-krabi/2.jpg",
-      description:
-        "Explore Phuket's famous attractions including viewpoints, beaches and cultural landmarks.",
-    },
+  {
+    day: 4,
+    title: "Krabi Island Tour",
+    image: "/images/bookNow/phuket-krabi/itinerary/day-4.jpg",
+    description:
+      "Explore Krabi islands, beaches and enjoy relaxing moments surrounded by nature.",
+  },
 
-
-    {
-      day: 3,
-      title: "Phi Phi Island Tour",
-      image: "/images/packageReview/phuket-krabi/3.jpg",
-      description:
-        "Enjoy a beautiful Phi Phi Island tour with crystal clear water, beaches and exciting activities.",
-    },
-
-
-    {
-      day: 4,
-      title: "Phuket To Krabi",
-      image: "/images/packageReview/phuket-krabi/4.jpg",
-      description:
-        "Transfer to Krabi and enjoy the scenic beauty of this peaceful island destination.",
-    },
-
-
-    {
-      day: 5,
-      title: "Krabi Island Tour",
-      image: "/images/packageReview/phuket-krabi/5.jpg",
-      description:
-        "Explore Krabi islands, beaches and enjoy relaxing moments surrounded by nature.",
-    },
-
-
-    {
-      day: 6,
-      title: "Krabi Departure",
-      image: "/images/packageReview/phuket-krabi/1.jpg",
-      description:
-        "After breakfast check out from hotel and transfer to airport for your onward journey.",
-    },
-
-  ],
+  {
+    day: 5,
+    title: "Krabi Departure",
+    image: "/images/bookNow/phuket-krabi/itinerary/day-5.jpg",
+    description:
+      "After breakfast check out from hotel and transfer to airport for your onward journey.",
+  },
+],
 
 
 
-
-  // ===========================
-  // HOTELS
-  // ===========================
-
-  hotels: [
-
-    {
-      name: "Patong Resort Hotel",
-      image: "/images/packageReview/phuket-krabi/hotel-1.jpg",
-      rating: 4,
-      location: "Phuket",
-      category: "4 Star Hotel",
-      nights: "3",
-      description:
-        "Patong Resort Hotel offers a comfortable stay near Phuket beaches with modern facilities and easy access to attractions.",
-    },
-
-
-    {
-      name: "Krabi Resort",
-      image: "/images/packageReview/phuket-krabi/hotel-2.jpg",
-      rating: 4,
-      location: "Krabi",
-      category: "4 Star Hotel",
-      nights: "2",
-      description:
-        "Krabi Resort provides a peaceful beachfront stay surrounded by beautiful natural views.",
-    },
-
-
-    {
-      name: "Deevana Plaza Phuket",
-      image: "/images/packageReview/phuket-krabi/hotel-3.jpg",
-      rating: 4,
-      location: "Phuket",
-      category: "4 Star Hotel",
-      nights: "1",
-      description:
-        "Deevana Plaza Phuket offers comfortable rooms and excellent hospitality for travellers.",
-    },
-
-  ],
-
+  
 
 
 

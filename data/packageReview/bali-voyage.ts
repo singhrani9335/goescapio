@@ -7,18 +7,13 @@ const baliVoyage: PackageReview = {
   // PACKAGE GALLERY
   // ===========================
 
-  gallery: [
-    "/images/packageReview/bali-voyage/1.jpg",
-    "/images/packageReview/bali-voyage/2.jpg",
-    "/images/packageReview/bali-voyage/3.jpg",
-    "/images/packageReview/bali-voyage/4.jpg",
-    "/images/packageReview/bali-voyage/5.jpg",
-    "/images/packageReview/bali-voyage/6.jpg",
-    "/images/packageReview/bali-voyage/7.jpg",
-    "/images/packageReview/bali-voyage/8.jpg",
-    "/images/packageReview/bali-voyage/9.jpg",
-    "/images/packageReview/bali-voyage/10.jpg",
-  ],
+gallery: [
+  "/images/packageReview/bali-voyage/gallery/1.jpg",
+  "/images/packageReview/bali-voyage/gallery/2.jpg",
+  "/images/packageReview/bali-voyage/gallery/3.jpg",
+  "/images/packageReview/bali-voyage/gallery/4.jpg",
+  "/images/packageReview/bali-voyage/gallery/5.jpg",
+],
 
   // ===========================
   // PACKAGE SUMMARY
@@ -59,47 +54,44 @@ const baliVoyage: PackageReview = {
   // PACKAGE ITINERARY
   // ===========================
 
-  itinerary: [
-    {
-      day: 1,
-      title: "Arrival In Bali & Leisure Day",
-      image: "/images/packageReview/bali-voyage/1.jpg",
-      description:
-        "Arrive at Ngurah Rai International Airport, meet our representative and transfer to your hotel. Spend the rest of the day at leisure exploring nearby beaches or relaxing at the resort.",
-    },
+itinerary: [
+  {
+    day: 1,
+    title: "Arrival In Bali & Leisure Day",
+    image: "/images/packageReview/bali-voyage/itinerary/1.jpg",
+    description:
+      "Arrive at Ngurah Rai International Airport, meet our representative and transfer to your hotel. Spend the rest of the day at leisure exploring nearby beaches or relaxing at the resort.",
+  },
+  {
+    day: 2,
+    title: "Kintamani Volcano & Ubud Tour",
+    image: "/images/packageReview/bali-voyage/itinerary/2.jpg",
+    description:
+      "Visit the famous Kintamani Volcano, Tegenungan Waterfall, Ubud Art Market, coffee plantations and the beautiful Tegallalang Rice Terraces.",
+  },
+  {
+    day: 3,
+    title: "Water Sports & Uluwatu Temple",
+    image: "/images/packageReview/bali-voyage/itinerary/3.jpg",
+    description:
+      "Enjoy thrilling water sports at Tanjung Benoa followed by a visit to the iconic Uluwatu Temple overlooking the Indian Ocean. Witness a spectacular sunset before returning to the hotel.",
+  },
+  {
+    day: 4,
+    title: "Tanah Lot Temple & Local Sightseeing",
+    image: "/images/packageReview/bali-voyage/itinerary/4.jpg",
+    description:
+      "Explore Bali's cultural attractions including Tanah Lot Temple, local handicraft villages and enjoy shopping for traditional Balinese souvenirs.",
+  },
+  {
+    day: 5,
+    title: "Departure From Bali",
+    image: "/images/packageReview/bali-voyage/itinerary/5.jpg",
+    description:
+      "Check out from the hotel and transfer to the airport for your onward journey with unforgettable memories of Bali.",
+  },
+],
 
-    {
-      day: 2,
-      title: "Kintamani Volcano & Ubud Tour",
-      image: "/images/packageReview/bali-voyage/2.jpg",
-      description:
-        "Visit the famous Kintamani Volcano, Tegenungan Waterfall, Ubud Art Market, coffee plantations and the beautiful Tegallalang Rice Terraces.",
-    },
-
-    {
-      day: 3,
-      title: "Water Sports & Uluwatu Temple",
-      image: "/images/packageReview/bali-voyage/3.jpg",
-      description:
-        "Enjoy thrilling water sports at Tanjung Benoa followed by a visit to the iconic Uluwatu Temple overlooking the Indian Ocean. Witness a spectacular sunset before returning to the hotel.",
-    },
-
-    {
-      day: 4,
-      title: "Tanah Lot Temple & Local Sightseeing",
-      image: "/images/packageReview/bali-voyage/4.jpg",
-      description:
-        "Explore Bali's cultural attractions including Tanah Lot Temple, local handicraft villages and enjoy shopping for traditional Balinese souvenirs.",
-    },
-
-    {
-      day: 5,
-      title: "Departure From Bali",
-      image: "/images/packageReview/bali-voyage/5.jpg",
-      description:
-        "Check out from the hotel and transfer to the airport for your onward journey with unforgettable memories of Bali.",
-    },
-  ],
     // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
@@ -136,18 +128,22 @@ const baliVoyage: PackageReview = {
   // TERMS & CONDITIONS
   // ===========================
 
-  terms: [
-    "Package confirmation is subject to availability.",
-    "Rates may change without prior notice until booking is confirmed.",
-    "Standard hotel check-in and check-out timings apply.",
-    "Cancellation charges apply as per company policy.",
-    "Guests must carry valid government-issued ID proof.",
-    "Go Escapio is not responsible for delays caused by airlines or weather.",
-    "Unused services are non-refundable.",
-    "Itinerary may change due to operational requirements.",
-    "Travel insurance is strongly recommended.",
-    "All disputes are subject to the jurisdiction of Delhi courts.",
-  ],
+terms: [
+  "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+  "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+  "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+  "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+  "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+  "Travellers are responsible for carrying valid travel documents; Go Escapio is not liable for any documentation issues.",
+  "Go Escapio is not responsible for flight delays, baggage issues, or cancellations.",
+  "Hotel check-in is generally at 2:00 PM and check-out at 11:00 AM; early check-in or late check-out may incur additional charges.",
+  "City taxes, personal expenses, and optional tours are not included in the package unless specifically mentioned.",
+  "Visa approval is at the sole discretion of the respective embassy or immigration authorities; Go Escapio holds no liability for delays or rejections.",
+  "Travel insurance is recommended and not included; travellers are responsible for their safety during all activities.",
+  "Go Escapio acts as an intermediary and is not liable for any third-party service disruptions, delays, or losses.",
+  "Rates and room availability are subject to confirmation at the time of booking.",
+  "Limited availability. Blackout dates may apply. Book now.",
+],
 };
 
 export default baliVoyage;

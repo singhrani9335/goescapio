@@ -9,13 +9,12 @@ const dubai: BookNow = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/dubai/1.jpg",
-    "/images/packageReview/dubai/2.jpg",
-    "/images/packageReview/dubai/3.jpg",
-    "/images/packageReview/dubai/4.jpg",
-    "/images/packageReview/dubai/5.jpg",
-  ],
-
+  "/images/bookNow/dubai/gallery/1.jpg",
+  "/images/bookNow/dubai/gallery/2.jpg",
+  "/images/bookNow/dubai/gallery/3.jpg",
+  "/images/bookNow/dubai/gallery/4.jpg",
+  "/images/bookNow/dubai/gallery/5.jpg",
+],
 
 
   // ===========================
@@ -59,62 +58,49 @@ const dubai: BookNow = {
   // ITINERARY
   // ===========================
 
-  itinerary: [
+itinerary: [
+  {
+    day: 1,
+    title: "Dubai Arrival",
+    image: "/images/bookNow/dubai/itinerary/day-1.jpg",
+    description:
+      "Arrive at Dubai International Airport and transfer to your hotel. Relax and enjoy your first evening in Dubai.",
+  },
 
-    {
-      day: 1,
-      title: "Dubai Arrival",
-      image: "/images/packageReview/dubai/1.jpg",
-      description:
-        "Arrive at Dubai International Airport and transfer to your hotel. Relax and enjoy your first evening in Dubai.",
-    },
+  {
+    day: 2,
+    title: "Dubai City Tour",
+    image: "/images/bookNow/dubai/itinerary/day-2.jpg",
+    description:
+      "Explore Dubai's famous attractions including Burj Khalifa, Dubai Mall, Jumeirah Beach and other iconic landmarks.",
+  },
 
+  {
+    day: 3,
+    title: "Desert Safari Experience",
+    image: "/images/bookNow/dubai/itinerary/day-3.jpg",
+    description:
+      "Enjoy an exciting desert safari with dune bashing, Arabian dinner, cultural performances and beautiful sunset views.",
+  },
 
-    {
-      day: 2,
-      title: "Dubai City Tour",
-      image: "/images/packageReview/dubai/2.jpg",
-      description:
-        "Explore Dubai's famous attractions including Burj Khalifa, Dubai Mall, Jumeirah Beach and other iconic landmarks.",
-    },
+  {
+    day: 4,
+    title: "Dubai Marina & Leisure",
+    image: "/images/bookNow/dubai/itinerary/day-4.jpg",
+    description:
+      "Visit Dubai Marina and enjoy free time for shopping, sightseeing and exploring the city's modern lifestyle.",
+  },
 
+  {
+    day: 5,
+    title: "Shopping & Free Day",
+    image: "/images/bookNow/dubai/itinerary/day-5.jpg",
+    description:
+      "Spend the day shopping at Dubai's famous malls and explore local markets at your own pace.",
+  },
 
-    {
-      day: 3,
-      title: "Desert Safari Experience",
-      image: "/images/packageReview/dubai/3.jpg",
-      description:
-        "Enjoy an exciting desert safari with dune bashing, Arabian dinner, cultural performances and beautiful sunset views.",
-    },
-
-
-    {
-      day: 4,
-      title: "Dubai Marina & Leisure",
-      image: "/images/packageReview/dubai/4.jpg",
-      description:
-        "Visit Dubai Marina and enjoy free time for shopping, sightseeing and exploring the city's modern lifestyle.",
-    },
-
-
-    {
-      day: 5,
-      title: "Shopping & Free Day",
-      image: "/images/packageReview/dubai/5.jpg",
-      description:
-        "Spend the day shopping at Dubai's famous malls and explore local markets at your own pace.",
-    },
-
-
-    {
-      day: 6,
-      title: "Dubai Departure",
-      image: "/images/packageReview/dubai/1.jpg",
-      description:
-        "After breakfast check out from hotel and transfer to Dubai Airport for your onward journey.",
-    },
-
-  ],
+  
+],
 
 
 
@@ -127,7 +113,7 @@ const dubai: BookNow = {
 
     {
       name: "Citymax Hotel Bur Dubai",
-      image: "/images/packageReview/dubai/hotel-1.jpg",
+      image: "/images/bookNow/dubai/hotel-1.jpg",
       rating: 3,
       location: "Bur Dubai",
       category: "3 Star Hotel",
@@ -137,28 +123,7 @@ const dubai: BookNow = {
     },
 
 
-    {
-      name: "Howard Johnson Plaza Dubai",
-      image: "/images/packageReview/dubai/hotel-2.jpg",
-      rating: 4,
-      location: "Dubai",
-      category: "4 Star Hotel",
-      nights: "2",
-      description:
-        "Howard Johnson Plaza Dubai provides a comfortable stay with convenient facilities for travellers.",
-    },
-
-
-    {
-      name: "Golden Sands Hotel Apartments",
-      image: "/images/packageReview/dubai/hotel-3.jpg",
-      rating: 3,
-      location: "Dubai",
-      category: "3 Star Hotel",
-      nights: "1",
-      description:
-        "Golden Sands Hotel Apartments offers spacious rooms and a comfortable stay experience in Dubai.",
-    },
+    
 
   ],
 

@@ -324,7 +324,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 15,
-    slug: "hong-kong-extravaganza",
+    slug: "disney-adventure-cruise",
     image: "/images/handpicked-holidays/dazsin.jpg",
     title: "5 Nights & 6 Days Hong Kong Extravaganza",
     nights: 5,
@@ -393,7 +393,7 @@ export const internationalPackages: Package[] = [
 
   {
     id: 18,
-    slug: "discover-egypt",
+    slug: "cambodia-tour",
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
     nights: 6,

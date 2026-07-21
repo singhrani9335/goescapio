@@ -8,19 +8,13 @@ const wowAndaman: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/wow-andaman/1.jpg",
-    "/images/packageReview/wow-andaman/2.jpg",
-    "/images/packageReview/wow-andaman/3.jpg",
-    "/images/packageReview/wow-andaman/4.jpg",
-    "/images/packageReview/wow-andaman/5.jpg",
-    "/images/packageReview/wow-andaman/6.jpg",
-    "/images/packageReview/wow-andaman/7.jpg",
-    "/images/packageReview/wow-andaman/8.jpg",
-    "/images/packageReview/wow-andaman/9.jpg",
-    "/images/packageReview/wow-andaman/10.jpg",
-  ],
-
-
+  "/images/packageReview/wow-andaman/gallery/1.jpg",
+  "/images/packageReview/wow-andaman/gallery/2.jpg",
+  "/images/packageReview/wow-andaman/gallery/3.jpg",
+  "/images/packageReview/wow-andaman/gallery/4.jpg",
+  "/images/packageReview/wow-andaman/gallery/5.jpg",
+  
+],
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
@@ -63,46 +57,46 @@ const wowAndaman: PackageReview = {
   // ===========================
 
   itinerary: [
-    {
-      day: 1,
-      title: "Arrival At Port Blair",
-      image: "/images/packageReview/wow-andaman/1.jpg",
-      description:
-        "Arrive at Port Blair and meet our representative. After lunch, proceed for local sightseeing including Cellular Jail and nearby attractions.",
-    },
+  {
+    day: 1,
+    title: "Arrival At Port Blair",
+    image: "/images/packageReview/wow-andaman/itinerary/1.jpg",
+    description:
+      "Arrive at Port Blair and meet our representative. After lunch, proceed for local sightseeing including Cellular Jail and nearby attractions.",
+  },
 
-    {
-      day: 2,
-      title: "Port Blair To Havelock (Corbyn’s Cove Beach)",
-      image: "/images/packageReview/wow-andaman/2.jpg",
-      description:
-        "Transfer to Havelock Island by ferry and enjoy the beautiful beaches of Andaman. Visit Corbyn’s Cove Beach and explore the island.",
-    },
+  {
+    day: 2,
+    title: "Port Blair To Havelock (Corbyn’s Cove Beach)",
+    image: "/images/packageReview/wow-andaman/itinerary/2.jpg",
+    description:
+      "Transfer to Havelock Island by ferry and enjoy the beautiful beaches of Andaman. Visit Corbyn’s Cove Beach and explore the island.",
+  },
 
-    {
-      day: 3,
-      title: "Excursion To Elephant Beach & Radhanagar Beach",
-      image: "/images/packageReview/wow-andaman/3.jpg",
-      description:
-        "Enjoy exciting water activities at Elephant Beach and visit the world-famous Radhanagar Beach known for its scenic beauty.",
-    },
+  {
+    day: 3,
+    title: "Excursion To Elephant Beach & Radhanagar Beach",
+    image: "/images/packageReview/wow-andaman/itinerary/3.jpg",
+    description:
+      "Enjoy exciting water activities at Elephant Beach and visit the world-famous Radhanagar Beach known for its scenic beauty.",
+  },
 
-    {
-      day: 4,
-      title: "Transfer To Port Blair & City Tour",
-      image: "/images/packageReview/wow-andaman/4.jpg",
-      description:
-        "Return to Port Blair and enjoy the city tour covering major attractions and local sightseeing places.",
-    },
+  {
+    day: 4,
+    title: "Transfer To Port Blair & City Tour",
+    image: "/images/packageReview/wow-andaman/itinerary/4.jpg",
+    description:
+      "Return to Port Blair and enjoy the city tour covering major attractions and local sightseeing places.",
+  },
 
-    {
-      day: 5,
-      title: "Departure From Port Blair",
-      image: "/images/packageReview/wow-andaman/5.jpg",
-      description:
-        "Check out from the hotel and transfer to Port Blair airport for your onward journey with beautiful memories.",
-    },
-  ],
+  {
+    day: 5,
+    title: "Departure From Port Blair",
+    image: "/images/packageReview/wow-andaman/itinerary/5.jpg",
+    description:
+      "Check out from the hotel and transfer to Port Blair airport for your onward journey with beautiful memories.",
+  },
+],
 
 
   // ===========================

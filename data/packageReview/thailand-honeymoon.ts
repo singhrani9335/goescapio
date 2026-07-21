@@ -8,32 +8,26 @@ const thailandHoneymoon: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/thailand-honeymoon/1.jpg",
-    "/images/packageReview/thailand-honeymoon/2.jpg",
-    "/images/packageReview/thailand-honeymoon/3.jpg",
-    "/images/packageReview/thailand-honeymoon/4.jpg",
-    "/images/packageReview/thailand-honeymoon/5.jpg",
-    "/images/packageReview/thailand-honeymoon/6.jpg",
-    "/images/packageReview/thailand-honeymoon/7.jpg",
-    "/images/packageReview/thailand-honeymoon/8.jpg",
-    "/images/packageReview/thailand-honeymoon/9.jpg",
-    "/images/packageReview/thailand-honeymoon/10.jpg",
+    "/images/packageReview/thailand-honeymoon/gallery/1.jpg",
+    "/images/packageReview/thailand-honeymoon/gallery/2.jpg",
+    "/images/packageReview/thailand-honeymoon/gallery/3.jpg",
+    "/images/packageReview/thailand-honeymoon/gallery/4.jpg",
+    "/images/packageReview/thailand-honeymoon/gallery/5.jpg",
   ],
-
 
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
 
-  title: "5 Nights & 6 Days Thailand Honeymoon Package",
+  title: "5 nights & 6 days thailand honeymoon special – krabi & phuket",
 
-  price: "49,990",
+  price: "33,990",
 
   priceType: "Per Person | Twin Sharing Price",
 
   duration: "5 Nights",
 
-  location: "Phuket - Krabi Thailand",
+  location: "Phuket - Thailand",
 
   features: {
     hotel: true,
@@ -42,17 +36,13 @@ const thailandHoneymoon: PackageReview = {
     meal: true,
   },
 
-
-  // ===========================
+    // ===========================
   // PACKAGE OVERVIEW
   // ===========================
 
   overview: `
-    Celebrate your special moments with a romantic Thailand honeymoon package.
-    Enjoy beautiful beaches, island tours, luxury stays and unforgettable
-    experiences in Phuket and Krabi.
+    Celebrate your honeymoon with the perfect blend of sun, sand, and adventure in Thailand. This 5 Nights & 6 Days honeymoon package takes you from the idyllic beaches of Krabi to the vibrant island of Phuket, offering romantic moments, scenic island tours, and unforgettable experiences. Enjoy the famous 7 Island Sunset Tour, Phi Phi Island excursion, Tiger Kingdom visit, and relaxing beach escapes while staying in comfortable 4-star hotels with private transfers. Perfect for couples seeking both relaxation and adventure.
   `,
-
 
   // ===========================
   // PACKAGE ITINERARY
@@ -61,98 +51,100 @@ const thailandHoneymoon: PackageReview = {
   itinerary: [
     {
       day: 1,
-      title: "Arrival In Phuket",
-      image: "/images/packageReview/thailand-honeymoon/1.jpg",
+      title: "Arrival in Phuket – Transfer to Krabi",
+      image: "/images/packageReview/thailand-honeymoon/itinerary/1.jpg",
       description:
-        "Arrive at Phuket airport and transfer to your hotel. Enjoy a romantic evening by the beach.",
+        "Arrive at Phuket International Airport where our representative will welcome you. Transfer privately to your hotel in Krabi. Check in and relax after your journey. Spend the evening at leisure enjoying Ao Nang Beach or your resort facilities. Overnight stay in Krabi.",
     },
 
     {
       day: 2,
-      title: "Phuket Sightseeing",
-      image: "/images/packageReview/thailand-honeymoon/2.jpg",
+      title: "Krabi – 7 Island Sunset Tour",
+      image: "/images/packageReview/thailand-honeymoon/itinerary/2.jpg",
       description:
-        "Explore beautiful beaches, viewpoints and famous attractions of Phuket.",
+        "After breakfast, enjoy the famous 7 Island Sunset Tour by Long Tail Boat on SIC basis. Visit beautiful islands, swim in crystal-clear waters, snorkel among colorful marine life, and enjoy a delicious Thai picnic dinner while watching the spectacular sunset. Overnight stay in Krabi.",
     },
 
     {
       day: 3,
-      title: "Phi Phi Island Tour",
-      image: "/images/packageReview/thailand-honeymoon/3.jpg",
+      title: "Krabi - Phuket",
+      image: "/images/packageReview/thailand-honeymoon/itinerary/3.jpg",
       description:
-        "Enjoy a romantic island excursion with crystal clear waters and beautiful views.",
+        "After breakfast, check out from the hotel and transfer to Phuket. Upon arrival, check in to your hotel and spend the remaining day relaxing at the beach, exploring local markets, or enjoying optional nightlife. Overnight stay in Phuket.",
     },
 
     {
       day: 4,
-      title: "Transfer To Krabi",
-      image: "/images/packageReview/thailand-honeymoon/4.jpg",
+      title: "Phuket – Phi Phi Island Tour",
+      image: "/images/packageReview/thailand-honeymoon/itinerary/4.jpg",
       description:
-        "Travel to Krabi and relax at the beautiful beaches and surroundings.",
+        "After breakfast, proceed for the famous Phi Phi Island Tour by Speedboat on SIC basis with lunch included. Visit breathtaking beaches, turquoise lagoons, limestone cliffs, and enjoy swimming and snorkeling before returning to Phuket. Overnight stay in Phuket.",
     },
 
     {
       day: 5,
-      title: "Krabi Island Experience",
-      image: "/images/packageReview/thailand-honeymoon/5.jpg",
+      title: "Phuket – Tiger Kingdom & Leisure",
+      image: "/images/packageReview/thailand-honeymoon/itinerary/5.jpg",
       description:
-        "Enjoy island activities and spend quality time together in the tropical paradise.",
+        "After breakfast, visit the famous Tiger Kingdom with a walk-around experience and private transfers. Spend the rest of the day relaxing at your resort, shopping, enjoying beach activities, or exploring Phuket at your own pace. Overnight stay in Phuket.",
     },
 
     {
       day: 6,
-      title: "Departure From Thailand",
-      image: "/images/packageReview/thailand-honeymoon/6.jpg",
+      title: "Departure from Phuket",
+      image: "/images/packageReview/thailand-honeymoon/itinerary/6.jpg",
       description:
-        "Check out from the hotel and transfer to the airport for your onward journey.",
+        "After breakfast, check out from the hotel and transfer to Phuket International Airport for your onward journey with unforgettable honeymoon memories.",
     },
   ],
-
-
-  // ===========================
+    // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
 
   inclusions: [
-    "Hotel accommodation",
+    "Accommodation in 4-star hotels for 5 nights",
     "Daily breakfast",
-    "Airport transfers",
-    "Private transportation",
-    "Island sightseeing tours",
-    "Local assistance",
-    "All applicable taxes",
+    "Private transfers: Phuket Airport – Krabi – Phuket Hotel – Phuket Airport",
+    "Krabi 7 Island Sunset Tour with picnic Thai dinner (Long Tail Boat, SIC)",
+    "Phi Phi Island Tour by Speedboat with lunch (SIC)",
+    "Tiger Kingdom walk-around ticket with private transfers",
   ],
-
 
   // ===========================
   // PACKAGE EXCLUSIONS
   // ===========================
 
   exclusions: [
-    "International airfare",
+    "Airfare / Flight tickets",
     "Visa charges",
+    "Taxes (GST, TCS or any applicable government taxes)",
     "Travel insurance",
-    "Personal expenses",
-    "Optional activities",
-    "Anything not mentioned in inclusions",
+    "Personal expenses such as shopping, laundry, telephone calls and tips",
+    "Meals other than those mentioned in the inclusions",
+    "Optional tours and adventure activities",
+    "Early check-in or late check-out at hotels",
+    "Anything not mentioned under inclusions",
   ],
-
 
   // ===========================
   // TERMS & CONDITIONS
   // ===========================
 
   terms: [
-    "All bookings are subject to availability.",
-    "Package rates may change depending on season.",
-    "Advance payment is required for confirmation.",
-    "Cancellation charges apply as per company policy.",
-    "Valid passport and travel documents are required.",
-    "Go Escapio is not responsible for flight delays.",
-    "Hotel policies will apply for check-in and check-out.",
-    "Personal expenses are not included.",
-    "Travel insurance is recommended.",
-    "All services are subject to availability.",
+    "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+    "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+    "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+    "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+    "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+    "Travellers are responsible for carrying valid travel documents. Go Escapio is not liable for documentation issues.",
+    "Go Escapio is not responsible for flight delays, baggage issues, or cancellations.",
+    "Hotel check-in is generally at 2:00 PM and check-out at 11:00 AM. Early check-in or late check-out is subject to availability and additional charges.",
+    "City taxes, personal expenses, and optional tours are not included unless specifically mentioned.",
+    "Visa approval is at the discretion of the concerned embassy or immigration authorities. Go Escapio is not liable for delays or rejections.",
+    "Travel insurance is recommended and is not included in the package.",
+    "Go Escapio acts only as an intermediary and is not liable for third-party service disruptions or losses.",
+    "Rates and hotel rooms are subject to availability at the time of booking.",
+    "Limited availability. Blackout dates may apply. Book now.",
   ],
 };
 

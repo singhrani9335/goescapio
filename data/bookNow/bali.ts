@@ -9,14 +9,12 @@ const bali: BookNow = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/bali/1.jpg",
-    "/images/packageReview/bali/2.jpg",
-    "/images/packageReview/bali/3.jpg",
-    "/images/packageReview/bali/4.jpg",
-    "/images/packageReview/bali/5.jpg",
-  ],
-
-
+  "/images/bookNow/bali/gallery/1.jpg",
+  "/images/bookNow/bali/gallery/2.jpg",
+  "/images/bookNow/bali/gallery/3.jpg",
+  "/images/bookNow/bali/gallery/4.jpg",
+  "/images/bookNow/bali/gallery/5.jpg",
+],
 
   // ===========================
   // PACKAGE SUMMARY
@@ -64,7 +62,8 @@ const bali: BookNow = {
     {
       day: 1,
       title: "Bali Arrival",
-      image: "/images/packageReview/bali/1.jpg",
+      image: "/images/bookNow/bali/itinerary/day-1.jpg",
+
       description:
         "Arrive at Bali Airport and get transferred to your hotel. Relax and enjoy your first evening in the beautiful island destination.",
     },
@@ -73,7 +72,8 @@ const bali: BookNow = {
     {
       day: 2,
       title: "Bali Sightseeing",
-      image: "/images/packageReview/bali/2.jpg",
+      image: "/images/bookNow/bali/itinerary/day-2.jpg",
+
       description:
         "Explore Bali attractions including temples, beautiful viewpoints and cultural places. Enjoy the scenic beauty of Bali.",
     },
@@ -82,7 +82,8 @@ const bali: BookNow = {
     {
       day: 3,
       title: "Ubud Exploration",
-      image: "/images/packageReview/bali/3.jpg",
+      image: "/images/bookNow/bali/itinerary/day-3.jpg",
+
       description:
         "Visit Ubud famous for rice terraces, waterfalls, art markets and traditional Balinese culture.",
     },
@@ -91,7 +92,8 @@ const bali: BookNow = {
     {
       day: 4,
       title: "Beach & Water Activities",
-      image: "/images/packageReview/bali/4.jpg",
+      image: "/images/bookNow/bali/itinerary/day-4.jpg",
+
       description:
         "Enjoy Bali beaches and exciting water activities. Spend a relaxing day surrounded by beautiful ocean views.",
     },
@@ -100,7 +102,8 @@ const bali: BookNow = {
     {
       day: 5,
       title: "Temple Visit & Leisure",
-      image: "/images/packageReview/bali/5.jpg",
+      image: "/images/bookNow/bali/itinerary/day-5.jpg",
+
       description:
         "Explore famous Bali temples and enjoy free time for shopping and local experiences.",
     },
@@ -109,55 +112,10 @@ const bali: BookNow = {
     {
       day: 6,
       title: "Bali Departure",
-      image: "/images/packageReview/bali/1.jpg",
+      image: "/images/bookNow/bali/itinerary/day-6.jpg",
+
       description:
         "After breakfast check out from hotel and transfer to Bali Airport for your onward journey.",
-    },
-
-  ],
-
-
-
-
-  // ===========================
-  // HOTELS
-  // ===========================
-
-  hotels: [
-
-    {
-      name: "Kuta Central Park Hotel",
-      image: "/images/packageReview/bali/hotel-1.jpg",
-      rating: 4,
-      location: "Kuta, Bali",
-      category: "4 Star Hotel",
-      nights: "2",
-      description:
-        "Kuta Central Park Hotel offers comfortable accommodation with modern facilities and easy access to Bali's popular attractions.",
-    },
-
-
-    {
-      name: "Ubud Valley Resort",
-      image: "/images/packageReview/bali/hotel-2.jpg",
-      rating: 4,
-      location: "Ubud, Bali",
-      category: "4 Star Hotel",
-      nights: "2",
-      description:
-        "Ubud Valley Resort provides a peaceful stay surrounded by beautiful nature and Balinese landscapes.",
-    },
-
-
-    {
-      name: "Grand Ixora Kuta Resort",
-      image: "/images/packageReview/bali/hotel-3.jpg",
-      rating: 4,
-      location: "Kuta, Bali",
-      category: "4 Star Hotel",
-      nights: "1",
-      description:
-        "Grand Ixora Kuta Resort offers comfortable rooms and convenient access to beaches and shopping areas.",
     },
 
   ],

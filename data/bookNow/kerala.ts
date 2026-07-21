@@ -8,12 +8,12 @@ const kerala: BookNow = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/kerala/1.jpg",
-    "/images/packageReview/kerala/2.jpg",
-    "/images/packageReview/kerala/3.jpg",
-    "/images/packageReview/kerala/4.jpg",
-    "/images/packageReview/kerala/5.jpg",
-  ],
+  "/images/bookNow/kerala/gallery/1.jpg",
+  "/images/bookNow/kerala/gallery/2.jpg",
+  "/images/bookNow/kerala/gallery/3.jpg",
+  "/images/bookNow/kerala/gallery/4.jpg",
+  "/images/bookNow/kerala/gallery/5.jpg",
+],
 
 
   // ===========================
@@ -56,54 +56,54 @@ const kerala: BookNow = {
   // ===========================
 
   itinerary: [
-    {
-      day: 1,
-      title: "Cochin Arrival",
-      image: "/images/packageReview/kerala/1.jpg",
-      description:
-        "Our representative welcomes you at Cochin Airport and transfers you to the hotel.",
-    },
+  {
+    day: 1,
+    title: "Cochin Arrival",
+    image: "/images/bookNow/kerala/itinerary/day-1.jpg",
+    description:
+      "Our representative welcomes you at Cochin Airport and transfers you to the hotel.",
+  },
 
-    {
-      day: 2,
-      title: "Cochin To Munnar",
-      image: "/images/packageReview/kerala/2.jpg",
-      description:
-        "Proceed towards Munnar and enjoy waterfalls, tea plantations and scenic views.",
-    },
+  {
+    day: 2,
+    title: "Cochin To Munnar",
+    image: "/images/bookNow/kerala/itinerary/day-2.jpg",
+    description:
+      "Proceed towards Munnar and enjoy waterfalls, tea plantations and scenic views.",
+  },
 
-    {
-      day: 3,
-      title: "Munnar Sightseeing",
-      image: "/images/packageReview/kerala/3.jpg",
-      description:
-        "Explore Mattupetty Dam, Echo Point, Tea Museum and beautiful viewpoints.",
-    },
+  {
+    day: 3,
+    title: "Munnar Sightseeing",
+    image: "/images/bookNow/kerala/itinerary/day-3.jpg",
+    description:
+      "Explore Mattupetty Dam, Echo Point, Tea Museum and beautiful viewpoints.",
+  },
 
-    {
-      day: 4,
-      title: "Munnar To Thekkady",
-      image: "/images/packageReview/kerala/4.jpg",
-      description:
-        "Visit Periyar Wildlife Sanctuary and enjoy optional activities.",
-    },
+  {
+    day: 4,
+    title: "Munnar To Thekkady",
+    image: "/images/bookNow/kerala/itinerary/day-4.jpg",
+    description:
+      "Visit Periyar Wildlife Sanctuary and enjoy optional activities.",
+  },
 
-    {
-      day: 5,
-      title: "Thekkady To Alleppey",
-      image: "/images/packageReview/kerala/5.jpg",
-      description:
-        "Enjoy beautiful backwaters and peaceful surroundings of Alleppey.",
-    },
+  {
+    day: 5,
+    title: "Thekkady To Alleppey",
+    image: "/images/bookNow/kerala/itinerary/day-5.jpg",
+    description:
+      "Enjoy beautiful backwaters and peaceful surroundings of Alleppey.",
+  },
 
-    {
-      day: 6,
-      title: "Cochin Departure",
-      image: "/images/packageReview/kerala/1.jpg",
-      description:
-        "Transfer to Cochin Airport for your onward journey.",
-    },
-  ],
+  {
+    day: 6,
+    title: "Cochin Departure",
+    image: "/images/bookNow/kerala/itinerary/day-6.jpg",
+    description:
+      "Transfer to Cochin Airport for your onward journey.",
+  },
+],
 
 
 

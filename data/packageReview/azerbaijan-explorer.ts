@@ -8,32 +8,26 @@ const azerbaijanExplorer: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/azerbaijan-explorer/1.jpg",
-    "/images/packageReview/azerbaijan-explorer/2.jpg",
-    "/images/packageReview/azerbaijan-explorer/3.jpg",
-    "/images/packageReview/azerbaijan-explorer/4.jpg",
-    "/images/packageReview/azerbaijan-explorer/5.jpg",
-    "/images/packageReview/azerbaijan-explorer/6.jpg",
-    "/images/packageReview/azerbaijan-explorer/7.jpg",
-    "/images/packageReview/azerbaijan-explorer/8.jpg",
-    "/images/packageReview/azerbaijan-explorer/9.jpg",
-    "/images/packageReview/azerbaijan-explorer/10.jpg",
+    "/images/packageReview/azerbaijan-explorer/gallery/1.jpg",
+    "/images/packageReview/azerbaijan-explorer/gallery/2.jpg",
+    "/images/packageReview/azerbaijan-explorer/gallery/3.jpg",
+    "/images/packageReview/azerbaijan-explorer/gallery/4.jpg",
+    "/images/packageReview/azerbaijan-explorer/gallery/5.jpg",
   ],
-
 
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
 
-  title: "5 Nights & 6 Days Azerbaijan Explorer",
+  title: "5 nights & 6 days azerbaijan explorer",
 
-  price: "49,990",
+  price: "24,990",
 
   priceType: "Per Person | Twin Sharing Price",
 
   duration: "5 Nights",
 
-  location: "Baku - Gabala - Azerbaijan",
+  location: "Baku - Azerbaijan",
 
   features: {
     hotel: true,
@@ -42,18 +36,13 @@ const azerbaijanExplorer: PackageReview = {
     meal: true,
   },
 
-
   // ===========================
   // PACKAGE OVERVIEW
   // ===========================
 
   overview: `
-    Discover the beauty of Azerbaijan with this exciting tour package.
-    Explore the modern city of Baku, experience the natural beauty of Gabala,
-    visit historical attractions and enjoy a perfect combination of culture,
-    adventure and relaxation in the Land of Fire.
+    Experience the captivating charm of Azerbaijan with this immersive 5-night journey through culture, history and breathtaking landscapes. Explore the modern city of Baku, the UNESCO-listed Gobustan National Park, the ancient Fire Temple, the natural flames of Yanar Dag and the spectacular Shahdag Mountains. This itinerary perfectly combines sightseeing, heritage, nature and leisure for an unforgettable holiday in the Land of Fire.
   `,
-
 
   // ===========================
   // PACKAGE ITINERARY
@@ -62,98 +51,100 @@ const azerbaijanExplorer: PackageReview = {
   itinerary: [
     {
       day: 1,
-      title: "Arrival In Baku",
-      image: "/images/packageReview/azerbaijan-explorer/1.jpg",
+      title: "Arrival In Baku & Transfer To Hotel",
+      image: "/images/packageReview/azerbaijan-explorer/itinerary/1.jpg",
       description:
-        "Arrive at Baku airport and transfer to your hotel. Enjoy leisure time and explore the city surroundings.",
+        "Arrive at Heydar Aliyev International Airport where you will be warmly welcomed by our representative. Transfer to your hotel for check-in and relax after your journey. The remainder of the day is free to explore nearby cafés, shopping streets or enjoy a leisurely walk along the Caspian Sea Boulevard. Overnight stay in Baku.",
     },
 
     {
       day: 2,
       title: "Baku City Tour",
-      image: "/images/packageReview/azerbaijan-explorer/2.jpg",
+      image: "/images/packageReview/azerbaijan-explorer/itinerary/2.jpg",
       description:
-        "Explore major attractions of Baku including Old City, Flame Towers, Boulevard and famous landmarks.",
+        "After breakfast, enjoy a full-day guided city tour of Baku. Visit the historic Old City (Icherisheher), Maiden Tower, Shirvanshah's Palace (outside view), Highland Park, Flame Towers and Baku Boulevard. Admire the beautiful blend of ancient heritage and modern architecture before returning to the hotel. Overnight stay in Baku.",
     },
 
     {
       day: 3,
-      title: "Baku To Gabala",
-      image: "/images/packageReview/azerbaijan-explorer/3.jpg",
+      title: "Gobustan National Park Tour (Private Basis)",
+      image: "/images/packageReview/azerbaijan-explorer/itinerary/3.jpg",
       description:
-        "Travel to Gabala and enjoy beautiful mountain views, nature and scenic landscapes.",
+        "After breakfast, proceed on a private excursion to Gobustan National Park. Explore the UNESCO-listed ancient rock carvings, prehistoric petroglyphs and fascinating mud volcanoes. Learn about Azerbaijan's early civilizations while enjoying the unique semi-desert landscape. Return to Baku for an overnight stay.",
     },
-
-    {
+        {
       day: 4,
-      title: "Gabala Sightseeing",
-      image: "/images/packageReview/azerbaijan-explorer/4.jpg",
+      title: "Absheron Peninsula Tour: Fire Temple & Fire Mountain",
+      image: "/images/packageReview/azerbaijan-explorer/itinerary/4.jpg",
       description:
-        "Visit Gabala attractions including cable car, lakes and adventure activities.",
+        "After breakfast, proceed for a private tour of the Absheron Peninsula. Visit the famous Ateshgah Fire Temple, an important Zoroastrian pilgrimage site, followed by Yanar Dag (Fire Mountain), where natural flames have been burning continuously for centuries. Learn about Azerbaijan's rich fire-worship history before returning to Baku. Overnight stay in Baku.",
     },
 
     {
       day: 5,
-      title: "Return To Baku",
-      image: "/images/packageReview/azerbaijan-explorer/5.jpg",
+      title: "Shahdag Mountain Day Tour (Private Basis)",
+      image: "/images/packageReview/azerbaijan-explorer/itinerary/5.jpg",
       description:
-        "Return to Baku and enjoy shopping, local markets and free time.",
+        "After breakfast, enjoy a full-day private excursion to Shahdag Mountain Resort. Travel through scenic forests and picturesque villages while admiring the breathtaking Caucasus Mountains. Spend time exploring the resort, enjoying the fresh mountain air and optional adventure activities (at additional cost). Return to Baku in the evening. Overnight stay in Baku.",
     },
 
     {
       day: 6,
-      title: "Departure From Azerbaijan",
-      image: "/images/packageReview/azerbaijan-explorer/6.jpg",
+      title: "Departure From Baku",
+      image: "/images/packageReview/azerbaijan-explorer/itinerary/6.jpg",
       description:
-        "Check out from the hotel and transfer to the airport for your onward journey.",
+        "After breakfast, check out from the hotel and transfer to Heydar Aliyev International Airport for your departure flight. Leave Azerbaijan with unforgettable memories of its culture, landscapes and warm hospitality.",
     },
   ],
-
 
   // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
 
   inclusions: [
-    "Hotel accommodation",
-    "Daily breakfast",
-    "Airport transfers",
-    "Private sightseeing tours",
-    "Transportation as per itinerary",
-    "Local assistance",
-    "All applicable taxes",
+    "Meet & Greet service at arrival",
+    "Airport pick-up and drop-off",
+    "Accommodation with daily breakfast",
+    "Private airport transfers",
+    "Private sightseeing as per itinerary",
+    "Driver allowance, fuel charges, road tax, parking & toll taxes",
+    "Wi-Fi (subject to hotel availability)",
+    "Tea/Coffee kettle in the room",
   ],
-
 
   // ===========================
   // PACKAGE EXCLUSIONS
   // ===========================
 
   exclusions: [
-    "International airfare",
-    "Visa charges",
+    "Airfare / Train fare",
+    "5% GST",
     "Travel insurance",
-    "Personal expenses",
-    "Optional activities",
-    "Anything not mentioned in inclusions",
+    "Tips, laundry and telephone charges",
+    "Personal expenses of any nature",
+    "Expenses due to flight delays, roadblocks, vehicle breakdowns or political disturbances",
+    "Any service not mentioned under inclusions",
   ],
-
 
   // ===========================
   // TERMS & CONDITIONS
   // ===========================
 
   terms: [
-    "Bookings are subject to availability.",
-    "Prices may change depending on availability.",
-    "Advance payment is required for confirmation.",
-    "Cancellation charges apply as per policy.",
-    "Travellers must carry valid travel documents.",
-    "Go Escapio is not responsible for airline delays.",
-    "Hotel policies will apply for check-in and check-out.",
-    "Personal expenses are not included.",
-    "Travel insurance is recommended.",
-    "Services are subject to availability.",
+    "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+    "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+    "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+    "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+    "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+    "Travellers are responsible for valid travel documents; Go Escapio is not liable for any documentation issues.",
+    "Go Escapio is not responsible for flight delays, baggage issues, or cancellations.",
+    "Hotel check-in is generally at 2 PM and check-out at 11 AM; early check-in/late check-out is subject to availability and additional charges.",
+    "City taxes, personal expenses and optional tours are not included unless specifically mentioned.",
+    "Visa approval is at the discretion of the embassy; Go Escapio holds no liability for delays or rejections.",
+    "Travel insurance is recommended and not included; travellers are responsible for their safety during activities.",
+    "Go Escapio acts as an intermediary and is not liable for third-party service disruptions or losses.",
+    "Rates and rooms are subject to availability.",
+    "Limited availability. Blackout dates may apply. Book now.",
   ],
 };
 

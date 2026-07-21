@@ -24,7 +24,7 @@ export default function PackageHelpCard() {
         {/* SUPPORT IMAGE */}
 
         <Image
-          src="/images/support-help.png"
+          src="/images/packageReview/costumer_service.png"
           alt="Need Help"
           width={55}
           height={55}

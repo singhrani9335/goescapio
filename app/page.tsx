@@ -18,41 +18,30 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
+    <main className="overflow-x-hidden bg-white pt-[112px]">
+      <Hero />
 
-      <main className="overflow-x-hidden bg-white pt-[112px] ">
-        <Hero />
+      <HandpickedPackages />
 
-        <HandpickedPackages />
+      <LatestHotDeals />
 
-        <LatestHotDeals />
+      <PopularPackages />
 
-        <PopularPackages />
+      <LimitedTimeOffers />
 
-        <LimitedTimeOffers />
+      <HolidayThemes />
 
-        <HolidayThemes />
+      <PopularDestinations />
 
-        <PopularDestinations />
+      <DomesticPackages />
 
-        {/* Domestic Tour Packages */}
-        <DomesticPackages />
+      <InternationalPackages />
 
-        {/* International Tour Packages */}
-        <InternationalPackages />
+      <DiscoverSection />
 
-        {/* Discover Section */}
-        <DiscoverSection />
+      <AboutSection />
 
-        {/* About Section */}
-        <AboutSection />
-
-        {/* Testimonial Section */}
-        <TestimonialSection />
-
-        <Footer />
-      </main>
-    </>
+      <TestimonialSection />
+    </main>
   );
 }

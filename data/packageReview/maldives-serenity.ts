@@ -7,19 +7,13 @@ const maldivesSerenity: PackageReview = {
   // PACKAGE GALLERY
   // ===========================
 
-  gallery: [
-    "/images/packageReview/maldives-serenity/1.jpg",
-    "/images/packageReview/maldives-serenity/2.jpg",
-    "/images/packageReview/maldives-serenity/3.jpg",
-    "/images/packageReview/maldives-serenity/4.jpg",
-    "/images/packageReview/maldives-serenity/5.jpg",
-    "/images/packageReview/maldives-serenity/6.jpg",
-    "/images/packageReview/maldives-serenity/7.jpg",
-    "/images/packageReview/maldives-serenity/8.jpg",
-    "/images/packageReview/maldives-serenity/9.jpg",
-    "/images/packageReview/maldives-serenity/10.jpg",
-  ],
-
+ gallery: [
+  "/images/packageReview/maldives-serenity/gallery/1.jpg",
+  "/images/packageReview/maldives-serenity/gallery/2.jpg",
+  "/images/packageReview/maldives-serenity/gallery/3.jpg",
+  "/images/packageReview/maldives-serenity/gallery/4.jpg",
+  "/images/packageReview/maldives-serenity/gallery/5.jpg",
+],
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
@@ -54,54 +48,59 @@ const maldivesSerenity: PackageReview = {
     travellers looking for a serene tropical escape.
   `,
 
-  // ===========================
-  // PACKAGE ITINERARY
-  // ===========================
+// ===========================
+// PACKAGE ITINERARY
+// ===========================
 
-  itinerary: [
-    {
-      day: 1,
-      title: "Arrival in Maldives",
-      image: "/images/packageReview/maldives-serenity/1.jpg",
-      description:
-        "Arrive at Male International Airport and transfer to your luxury resort by speedboat or seaplane. Check in and relax by the beach.",
-    },
-    {
-      day: 2,
-      title: "Beach Leisure",
-      image: "/images/packageReview/maldives-serenity/2.jpg",
-      description:
-        "Enjoy a relaxing day at the resort with access to private beaches, infinity pools and wellness facilities.",
-    },
-    {
-      day: 3,
-      title: "Snorkeling & Island Excursion",
-      image: "/images/packageReview/maldives-serenity/3.jpg",
-      description:
-        "Explore vibrant coral reefs through snorkeling and enjoy an optional island hopping experience.",
-    },
-    {
-      day: 4,
-      title: "Water Villa Experience",
-      image: "/images/packageReview/maldives-serenity/4.jpg",
-      description:
-        "Upgrade your experience with a stay in a luxurious overwater villa and enjoy breathtaking ocean views.",
-    },
-    {
-      day: 5,
-      title: "Sunset Cruise & Romantic Dinner",
-      image: "/images/packageReview/maldives-serenity/5.jpg",
-      description:
-        "Spend the evening on a sunset cruise followed by a romantic candlelight dinner by the beach.",
-    },
-    {
-      day: 6,
-      title: "Departure",
-      image: "/images/packageReview/maldives-serenity/6.jpg",
-      description:
-        "After breakfast, check out from the resort and transfer to Male International Airport for your onward journey.",
-    },
-  ],
+itinerary: [
+  {
+    day: 1,
+    title: "Arrival In Srinagar & Dal Lake Shikara Ride",
+    image: "/images/packageReview/marvelous-kashmir/itinerary/1.jpg",
+    description:
+      "Arrive at Srinagar Airport where our representative will receive you and transfer you to your hotel. After check-in, visit the famous Mughal Gardens including Nishat Bagh, Shalimar Bagh and Chashme Shahi. In the evening, enjoy a relaxing Shikara ride on the beautiful Dal Lake. Overnight stay in Srinagar.",
+  },
+
+  {
+    day: 2,
+    title: "Srinagar To Sonmarg & Return",
+    image: "/images/packageReview/marvelous-kashmir/itinerary/2.jpg",
+    description:
+      "After breakfast, proceed for a full-day excursion to Sonmarg, popularly known as the 'Meadow of Gold'. Enjoy breathtaking mountain views, lush meadows and the scenic Sindh Valley. Optional pony rides to Thajiwas Glacier are available at an additional cost. Return to Srinagar by evening for an overnight stay.",
+  },
+
+  {
+    day: 3,
+    title: "Srinagar To Pahalgam",
+    image: "/images/packageReview/marvelous-kashmir/itinerary/3.jpg",
+    description:
+      "After breakfast, drive to Pahalgam via the famous Pampore saffron fields and the historic Avantipura ruins. Enjoy the picturesque Lidder River, pine forests and beautiful valleys before checking into your hotel. Evening at leisure. Overnight stay in Pahalgam.",
+  },
+
+  {
+    day: 4,
+    title: "Pahalgam – Leisure & Sightseeing",
+    image: "/images/packageReview/marvelous-kashmir/itinerary/4.jpg",
+    description:
+      "After breakfast, enjoy a leisurely day exploring the beauty of Pahalgam. Visit Aru Valley, Betaab Valley and Chandanwari (by local taxi at your own expense if applicable). Spend time amidst the stunning Himalayan landscapes before returning to the hotel. Overnight stay in Pahalgam.",
+  },
+
+  {
+    day: 5,
+    title: "Pahalgam To Gulmarg & Srinagar",
+    image: "/images/packageReview/marvelous-kashmir/itinerary/5.jpg",
+    description:
+      "After breakfast, drive to Gulmarg, one of India's most famous hill stations. Enjoy panoramic mountain views, explore the beautiful meadows and take an optional Gondola Cable Car ride (at additional cost). Later, drive back to Srinagar and check into a traditional houseboat or hotel for an overnight stay.",
+  },
+
+  {
+    day: 6,
+    title: "Departure From Srinagar",
+    image: "/images/packageReview/marvelous-kashmir/itinerary/6.jpg",
+    description:
+      "After breakfast, check out from the hotel or houseboat and transfer to Srinagar Airport for your onward journey with unforgettable memories of the breathtaking Kashmir Valley.",
+  },
+],
 
     // ===========================
   // PACKAGE INCLUSIONS

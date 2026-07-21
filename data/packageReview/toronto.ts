@@ -7,18 +7,13 @@ const toronto: PackageReview = {
   // PACKAGE GALLERY
   // ===========================
 
-  gallery: [
-    "/images/packageReview/toronto/1.jpg",
-    "/images/packageReview/toronto/2.jpg",
-    "/images/packageReview/toronto/3.jpg",
-    "/images/packageReview/toronto/4.jpg",
-    "/images/packageReview/toronto/5.jpg",
-    "/images/packageReview/toronto/6.jpg",
-    "/images/packageReview/toronto/7.jpg",
-    "/images/packageReview/toronto/8.jpg",
-    "/images/packageReview/toronto/9.jpg",
-    "/images/packageReview/toronto/10.jpg",
-  ],
+gallery: [
+  "/images/packageReview/toronto/gallery/1.jpg",
+  "/images/packageReview/toronto/gallery/2.jpg",
+  "/images/packageReview/toronto/gallery/3.jpg",
+  "/images/packageReview/toronto/gallery/4.jpg",
+  "/images/packageReview/toronto/gallery/5.jpg",
+],
 
 
   // ===========================
@@ -58,64 +53,31 @@ const toronto: PackageReview = {
   // PACKAGE ITINERARY
   // ===========================
 
-  itinerary: [
-    {
-      day: 1,
-      title: "Arrival In Toronto",
-      image: "/images/packageReview/toronto/1.jpg",
-      description:
-        "Arrive at Toronto airport and transfer to your hotel. Relax and enjoy your first evening in Canada.",
-    },
+itinerary: [
+  {
+    day: 1,
+    title: "Arrival in Toronto",
+    image: "/images/packageReview/toronto/itinerary/1.jpg",
+    description:
+      "Arrive at Toronto Pearson International Airport and transfer to your hotel. Complete the check-in formalities and spend the rest of the day at leisure exploring nearby attractions or relaxing after your journey.",
+  },
 
-    {
-      day: 2,
-      title: "Toronto City Tour",
-      image: "/images/packageReview/toronto/2.jpg",
-      description:
-        "Explore famous attractions including CN Tower, Harbourfront and downtown Toronto.",
-    },
+  {
+    day: 2,
+    title: "Toronto City Tour & Niagara Falls Excursion",
+    image: "/images/packageReview/toronto/itinerary/2.jpg",
+    description:
+      "After breakfast, enjoy a guided tour of Toronto covering famous attractions such as the CN Tower, Harbourfront, Nathan Phillips Square, and Casa Loma. Later, continue to the world-famous Niagara Falls to witness its breathtaking beauty before returning to Toronto in the evening.",
+  },
 
-    {
-      day: 3,
-      title: "Niagara Falls Excursion",
-      image: "/images/packageReview/toronto/3.jpg",
-      description:
-        "Visit the world-famous Niagara Falls and enjoy breathtaking views.",
-    },
-
-    {
-      day: 4,
-      title: "Explore Toronto",
-      image: "/images/packageReview/toronto/4.jpg",
-      description:
-        "Enjoy shopping, local attractions and beautiful city experiences.",
-    },
-
-    {
-      day: 5,
-      title: "Leisure Day",
-      image: "/images/packageReview/toronto/5.jpg",
-      description:
-        "Spend your day exploring Toronto at your own pace.",
-    },
-
-    {
-      day: 6,
-      title: "Local Sightseeing",
-      image: "/images/packageReview/toronto/6.jpg",
-      description:
-        "Discover more attractions and enjoy your final day in Toronto.",
-    },
-
-    {
-      day: 7,
-      title: "Departure From Toronto",
-      image: "/images/packageReview/toronto/7.jpg",
-      description:
-        "Check out from the hotel and transfer to the airport for your onward journey.",
-    },
-  ],
-
+  {
+    day: 3,
+    title: "Departure from Toronto",
+    image: "/images/packageReview/toronto/itinerary/3.jpg",
+    description:
+      "After breakfast, check out from the hotel and transfer to Toronto Pearson International Airport for your onward journey with unforgettable memories of your Canadian holiday.",
+  },
+],
 
   // ===========================
   // PACKAGE INCLUSIONS

@@ -5,17 +5,17 @@ import baku from "./baku";
 import baliVoyage from "./bali-voyage";
 import beautyOfAndaman from "./beauty-of-andaman";
 import blissfulKerala from "./blissful-kerala";
+import cambodiaTour from "./cambodia-tour";
 import chail from "./chail";
 import chardhamYatra from "./chardham-yatra";
 import classicCairo from "./classic-cairo";
 import classicGeorgia from "./classic-georgia";
-import discoverEgypt from "./discover-egypt";
 import dubaiExtravaganza from "./dubai-extravaganza";
 import dubaiVibes from "./dubai-vibes";
 import gloriousRajasthan from "./glorious-rajasthan";
 import gorgeousKashmir from "./gorgeous-kashmir";
 import haridwarRishikesh from "./haridwar-rishikesh";
-import hongKongExtravaganza from "./hong-kong-extravaganza";
+import disneyadventurecruise from "./disney-adventure-cruise";
 import hongKongFamily from "./hong-kong-family";
 import iceland from "./iceland";
 import jordan from "./jordan";
@@ -43,17 +43,17 @@ export const packageReviews = [
   baliVoyage,
   beautyOfAndaman,
   blissfulKerala,
+  cambodiaTour,
   chail,
   chardhamYatra,
   classicCairo,
   classicGeorgia,
-  discoverEgypt,
   dubaiExtravaganza,
   dubaiVibes,
   gloriousRajasthan,
   gorgeousKashmir,
   haridwarRishikesh,
-  hongKongExtravaganza,
+  disneyadventurecruise,
   hongKongFamily,
   iceland,
   jordan,

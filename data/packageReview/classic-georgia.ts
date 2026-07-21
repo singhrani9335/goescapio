@@ -8,16 +8,11 @@ const classicGeorgia: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/classic-georgia/1.jpg",
-    "/images/packageReview/classic-georgia/2.jpg",
-    "/images/packageReview/classic-georgia/3.jpg",
-    "/images/packageReview/classic-georgia/4.jpg",
-    "/images/packageReview/classic-georgia/5.jpg",
-    "/images/packageReview/classic-georgia/6.jpg",
-    "/images/packageReview/classic-georgia/7.jpg",
-    "/images/packageReview/classic-georgia/8.jpg",
-    "/images/packageReview/classic-georgia/9.jpg",
-    "/images/packageReview/classic-georgia/10.jpg",
+    "/images/packageReview/classic-georgia/gallery/1.jpg",
+    "/images/packageReview/classic-georgia/gallery/2.jpg",
+    "/images/packageReview/classic-georgia/gallery/3.jpg",
+    "/images/packageReview/classic-georgia/gallery/4.jpg",
+    "/images/packageReview/classic-georgia/gallery/5.jpg",
   ],
 
 
@@ -25,15 +20,15 @@ const classicGeorgia: PackageReview = {
   // PACKAGE SUMMARY
   // ===========================
 
-  title: "5 Nights & 6 Days Classic Georgia Tour",
+  title: "4 nights & 5 days classic georgia",
 
-  price: "44,990",
+  price: "39,290",
 
   priceType: "Per Person | Twin Sharing Price",
 
-  duration: "5 Nights",
+  duration: "4 Nights",
 
-  location: "Tbilisi - Gudauri - Georgia",
+  location: "Tbilisi - Georgia",
 
   features: {
     hotel: true,
@@ -48,10 +43,7 @@ const classicGeorgia: PackageReview = {
   // ===========================
 
   overview: `
-    Explore the breathtaking beauty of Georgia with this classic holiday
-    package. Discover the historic charm of Tbilisi, stunning mountain views
-    of Gudauri and the cultural treasures of this beautiful country.
-    Enjoy scenic landscapes, local experiences and unforgettable memories.
+  Discover the charm of Georgia with this perfectly curated 5-day journey covering historic Tbilisi, the romantic wine region of Kakheti, and the breathtaking Caucasus Mountains. Explore ancient churches, vibrant old towns, scenic mountain roads, and enjoy authentic Georgian wine tasting—all with private transfers and guided sightseeing for a comfortable and immersive experience.
   `,
 
 
@@ -60,68 +52,69 @@ const classicGeorgia: PackageReview = {
   // ===========================
 
   itinerary: [
+
     {
       day: 1,
-      title: "Arrival In Tbilisi",
-      image: "/images/packageReview/classic-georgia/1.jpg",
+      title: "Arrival in Tbilisi",
+      image: "/images/packageReview/classic-georgia/itinerary/1.jpg",
       description:
-        "Arrive at Tbilisi airport and transfer to your hotel. Relax and explore the city surroundings.",
+        "Welcome to Georgia! Upon arrival at Tbilisi International Airport, you will be met by our representative and transferred to your hotel on a private basis. Check in at the hotel (standard check-in time around 14:00 hrs). The rest of the day is free to relax after your journey or explore the surroundings at leisure. Overnight stay in Tbilisi.",
     },
+
 
     {
       day: 2,
-      title: "Tbilisi City Tour",
-      image: "/images/packageReview/classic-georgia/2.jpg",
+      title: "Tbilisi City Tour (Private Basis)",
+      image: "/images/packageReview/classic-georgia/itinerary/2.jpg",
       description:
-        "Explore Tbilisi old town, historic monuments, famous streets and cultural attractions.",
+        "After breakfast at the hotel, proceed for a guided Tbilisi City Tour. Visit the Holy Trinity Cathedral, one of the largest Orthodox churches in the world. Continue to Metekhi Church and the monument of Vakhtang Gorgasali, the legendary founder of Tbilisi. Walk through the Sulphur Bath district, passing the only mosque in the city. Explore the charming Sharden Street with its narrow lanes, cafés, wine bars, and souvenir shops. Visit Sioni Cathedral, Anchiskhati Basilica, and the famous Rezo Gabriadze Clock Tower. Cross the Bridge of Peace to Rike Park, from where you will take a cable car ride to Narikala Fortress for panoramic city views. Return to the hotel. Overnight stay in Tbilisi.",
     },
+
 
     {
       day: 3,
-      title: "Tbilisi To Gudauri",
-      image: "/images/packageReview/classic-georgia/3.jpg",
+      title: "Tbilisi – Sighnaghi – Kakheti – Tbilisi (Private Basis)",
+      image: "/images/packageReview/classic-georgia/itinerary/3.jpg",
       description:
-        "Travel towards Gudauri and enjoy beautiful mountain roads, viewpoints and scenic landscapes.",
+        "After breakfast, depart for the Kakheti region, famous for its wine culture and scenic landscapes. Visit Sighnaghi, also known as the “City of Love,” offering beautiful views over the Alazani Valley. Continue to Bodbe Monastery, an important religious site set amidst serene surroundings. Later, visit the KTW Wine Factory for a guided wine tasting experience. After a full day of exploration, return to Tbilisi. Overnight stay in Tbilisi.",
     },
+
 
     {
       day: 4,
-      title: "Gudauri & Kazbegi Sightseeing",
-      image: "/images/packageReview/classic-georgia/4.jpg",
+      title: "Tbilisi – Ananuri – Gudauri – Tbilisi (Private Basis)",
+      image: "/images/packageReview/classic-georgia/itinerary/4.jpg",
       description:
-        "Visit famous attractions including Kazbegi mountains and enjoy the natural beauty of Georgia.",
+        "Enjoy breakfast at the hotel and proceed towards the Caucasus Mountains via the Georgian Military Highway. En route, visit the historic Ananuri Fortress overlooking the Zhinvali Reservoir. Continue to Gudauri, a scenic mountain resort located at an altitude of around 3,000 meters. Stop at the Gudauri Panorama (Georgia–Russia Friendship Monument) to enjoy breathtaking views of the Caucasus range. Weather permitting, travel to Stepantsminda and visit the iconic Gergeti Trinity Church by 4x4 vehicle. Return to Tbilisi in the evening. Overnight stay in Tbilisi.",
     },
+
 
     {
       day: 5,
-      title: "Return To Tbilisi",
-      image: "/images/packageReview/classic-georgia/5.jpg",
+      title: "Departure",
+      image: "/images/packageReview/classic-georgia/itinerary/5.jpg",
       description:
-        "Return to Tbilisi and enjoy shopping, cafes and leisure activities.",
+        "After breakfast, check out from the hotel and transfer to Tbilisi International Airport on a private basis for your return flight back to India, carrying beautiful memories of Georgia.",
     },
 
-    {
-      day: 6,
-      title: "Departure From Georgia",
-      image: "/images/packageReview/classic-georgia/6.jpg",
-      description:
-        "Check out from the hotel and transfer to the airport for your onward journey.",
-    },
   ],
-
-
-  // ===========================
+    // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
 
   inclusions: [
-    "Hotel accommodation",
-    "Daily breakfast",
-    "Airport transfers",
-    "Private transportation",
-    "Sightseeing as per itinerary",
-    "Local guide assistance",
-    "All applicable taxes",
+    "04 nights accommodation in Tbilisi at selected hotel or similar",
+    "Daily breakfast (except Day 1)",
+    "Airport – Hotel – Airport transfers on Private basis",
+    "Private sightseeing tours as per itinerary:",
+    "Tbilisi City Tour",
+    "Tbilisi – Sighnaghi – Kakheti – Tbilisi",
+    "Tbilisi – Ananuri – Gudauri – Tbilisi",
+    "Entrance fees included:",
+    "Tbilisi Cable Car (two-way)",
+    "KTW Wine Factory – Wine Tasting",
+    "Gergeti Trinity Church visit by 4x4 vehicle",
+    "Travel Insurance (valid for passengers up to 60 years of age)",
   ],
 
 
@@ -132,10 +125,16 @@ const classicGeorgia: PackageReview = {
   exclusions: [
     "International airfare",
     "Visa charges",
-    "Travel insurance",
-    "Personal expenses",
-    "Optional activities",
-    "Anything not mentioned in inclusions",
+    "TCS & GST",
+    "Departure PCR test (if applicable)",
+    "Meals not mentioned in the itinerary",
+    "Tips for guide & driver (approx. SGD 05 per person per day)",
+    "Personal expenses such as minibar, laundry, telephone calls, camera fees, etc.",
+    "Drinks and beverages",
+    "Midnight surcharge, if applicable",
+    "Tourism tax (if applicable)",
+    "Any services not mentioned under inclusions",
+    "Hotel promotional rates not valid during Blackout / Surcharge / Stop Sale dates",
   ],
 
 
@@ -144,17 +143,22 @@ const classicGeorgia: PackageReview = {
   // ===========================
 
   terms: [
-    "Bookings are subject to availability.",
-    "Package cost may change based on availability.",
-    "Advance payment is required for confirmation.",
-    "Cancellation charges apply as per policy.",
-    "Valid travel documents are required.",
-    "Go Escapio is not responsible for airline delays.",
-    "Hotel policies will apply.",
-    "Personal expenses are not included.",
-    "Travel insurance is recommended.",
-    "All services are subject to availability.",
+    "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+    "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+    "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+    "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+    "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+    "Travellers are responsible for valid travel documents; Go Escapio is not liable for any documentation issues.",
+    "Go Escapio is not responsible for flight delays, baggage issues, or cancellations.",
+    "Hotel check-in is generally 2 PM and check-out at 11 AM; early check-in/late check-out is extra.",
+    "City taxes, personal expenses, and optional tours are not included in the package.",
+    "Visa approval is at the discretion of the embassy; Go Escapio holds no liability for delays or rejections.",
+    "Travel insurance is recommended and not included; the traveller is responsible for safety during activities.",
+    "Go Escapio acts as an intermediary and is not liable for third-party service disruptions or losses.",
+    "Rates and rooms are subject to availability.",
+    "Limited availability. Blackout dates may apply. Book now.",
   ],
+
 };
 
 export default classicGeorgia;

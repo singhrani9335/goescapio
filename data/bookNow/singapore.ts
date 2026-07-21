@@ -9,13 +9,13 @@ const singapore: BookNow = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/singapore/1.jpg",
-    "/images/packageReview/singapore/2.jpg",
-    "/images/packageReview/singapore/3.jpg",
-    "/images/packageReview/singapore/4.jpg",
-    "/images/packageReview/singapore/5.jpg",
-  ],
-
+  "/images/bookNow/singapore/gallery/1.jpg",
+  "/images/bookNow/singapore/gallery/2.jpg",
+  "/images/bookNow/singapore/gallery/3.jpg",
+  "/images/bookNow/singapore/gallery/4.jpg",
+  "/images/bookNow/singapore/gallery/5.jpg",
+  
+],
 
 
   // ===========================
@@ -60,107 +60,50 @@ const singapore: BookNow = {
   // ===========================
 
   itinerary: [
+  {
+    day: 1,
+    title: "Singapore Arrival",
+    image: "/images/bookNow/singapore/itinerary/day-1.jpg",
+    description:
+      "Arrive at Singapore Airport and transfer to your hotel. Relax and enjoy your first evening in this beautiful city.",
+  },
 
-    {
-      day: 1,
-      title: "Singapore Arrival",
-      image: "/images/packageReview/singapore/1.jpg",
-      description:
-        "Arrive at Singapore Airport and transfer to your hotel. Relax and enjoy your first evening in this beautiful city.",
-    },
+  {
+    day: 2,
+    title: "Singapore City Tour",
+    image: "/images/bookNow/singapore/itinerary/day-2.jpg",
+    description:
+      "Explore Singapore's famous attractions including Merlion Park, Marina Bay and other iconic landmarks.",
+  },
 
+  {
+    day: 3,
+    title: "Sentosa Island Tour",
+    image: "/images/bookNow/singapore/itinerary/day-3.jpg",
+    description:
+      "Enjoy Sentosa Island attractions with beautiful beaches, entertainment zones and exciting experiences.",
+  },
 
-    {
-      day: 2,
-      title: "Singapore City Tour",
-      image: "/images/packageReview/singapore/2.jpg",
-      description:
-        "Explore Singapore's famous attractions including Merlion Park, Marina Bay and other iconic landmarks.",
-    },
+  {
+    day: 4,
+    title: "Universal Studios Singapore",
+    image: "/images/bookNow/singapore/itinerary/day-4.jpg",
+    description:
+      "Spend a fun-filled day at Universal Studios Singapore with exciting rides and entertainment.",
+  },
 
-
-    {
-      day: 3,
-      title: "Sentosa Island Tour",
-      image: "/images/packageReview/singapore/3.jpg",
-      description:
-        "Enjoy Sentosa Island attractions with beautiful beaches, entertainment zones and exciting experiences.",
-    },
-
-
-    {
-      day: 4,
-      title: "Universal Studios Singapore",
-      image: "/images/packageReview/singapore/4.jpg",
-      description:
-        "Spend a fun-filled day at Universal Studios Singapore with exciting rides and entertainment.",
-    },
-
-
-    {
-      day: 5,
-      title: "Gardens & Shopping",
-      image: "/images/packageReview/singapore/5.jpg",
-      description:
-        "Visit Gardens by the Bay and enjoy free time for shopping at Singapore's famous malls.",
-    },
-
-
-    {
-      day: 6,
-      title: "Singapore Departure",
-      image: "/images/packageReview/singapore/1.jpg",
-      description:
-        "After breakfast check out from hotel and transfer to Singapore Airport for your onward journey.",
-    },
-
-  ],
+  {
+    day: 5,
+    title: "Singapore Departure",
+    image: "/images/bookNow/singapore/itinerary/day-5.jpg",
+    description:
+      "After breakfast check out from hotel and transfer to Singapore Airport for your onward journey.",
+  },
+],
 
 
 
-
-  // ===========================
-  // HOTELS
-  // ===========================
-
-  hotels: [
-
-    {
-      name: "Hotel Boss Singapore",
-      image: "/images/packageReview/singapore/hotel-1.jpg",
-      rating: 4,
-      location: "Singapore",
-      category: "4 Star Hotel",
-      nights: "3",
-      description:
-        "Hotel Boss Singapore offers comfortable rooms with modern facilities and convenient access to city attractions.",
-    },
-
-
-    {
-      name: "Village Hotel Bugis",
-      image: "/images/packageReview/singapore/hotel-2.jpg",
-      rating: 4,
-      location: "Bugis, Singapore",
-      category: "4 Star Hotel",
-      nights: "2",
-      description:
-        "Village Hotel Bugis provides a comfortable stay with excellent location and easy connectivity.",
-    },
-
-
-    {
-      name: "V Hotel Lavender",
-      image: "/images/packageReview/singapore/hotel-3.jpg",
-      rating: 4,
-      location: "Lavender, Singapore",
-      category: "4 Star Hotel",
-      nights: "1",
-      description:
-        "V Hotel Lavender offers modern accommodation with convenient transport access.",
-    },
-
-  ],
+  
 
 
 

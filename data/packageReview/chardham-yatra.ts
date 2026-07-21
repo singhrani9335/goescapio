@@ -7,19 +7,13 @@ const chardhamYatra: PackageReview = {
   // PACKAGE GALLERY
   // ===========================
 
-  gallery: [
-    "/images/packageReview/chardham-yatra/1.jpg",
-    "/images/packageReview/chardham-yatra/2.jpg",
-    "/images/packageReview/chardham-yatra/3.jpg",
-    "/images/packageReview/chardham-yatra/4.jpg",
-    "/images/packageReview/chardham-yatra/5.jpg",
-    "/images/packageReview/chardham-yatra/6.jpg",
-    "/images/packageReview/chardham-yatra/7.jpg",
-    "/images/packageReview/chardham-yatra/8.jpg",
-    "/images/packageReview/chardham-yatra/9.jpg",
-    "/images/packageReview/chardham-yatra/10.jpg",
-  ],
-
+gallery: [
+  "/images/packageReview/chardham-yatra/gallery/1.jpg",
+  "/images/packageReview/chardham-yatra/gallery/2.jpg",
+  "/images/packageReview/chardham-yatra/gallery/3.jpg",
+  "/images/packageReview/chardham-yatra/gallery/4.jpg",
+  "/images/packageReview/chardham-yatra/gallery/5.jpg",
+],
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
@@ -46,13 +40,9 @@ const chardhamYatra: PackageReview = {
   // ===========================
 
   overview: `
-    Experience the sacred Chardham Yatra covering Yamunotri,
-    Gangotri, Kedarnath and Badrinath. This spiritual journey
-    takes you through the beautiful Himalayan landscapes,
-    ancient temples, holy rivers and peaceful mountain towns.
-    The package includes comfortable accommodation, transfers,
-    sightseeing and assistance throughout the pilgrimage,
-    making it ideal for families and devotees.
+    The Chardham Yatra is a sacred pilgrimage to four holy sites in Uttarakhand, India, considered highly significant by Hindus. The four sites are Badrinath (dedicated to Lord Vishnu), Kedarnath (dedicated to Lord Shiva), Gangotri (dedicated to Goddess Ganga), and Yamunotri (dedicated to Goddess Yamuna). This journey is believed to bring spiritual enlightenment and liberation. Our Chardham Yatra package is designed to provide a memorable and deeply spiritual experience, helping you complete this important pilgrimage with comfort and devotion. Book your Yatra with us and let us ensure a fulfilling and unforgettable journey.
+
+
   `,
 
   // ===========================
@@ -60,78 +50,91 @@ const chardhamYatra: PackageReview = {
   // ===========================
 
   itinerary: [
-    {
-      day: 1,
-      title: "Arrival at Haridwar",
-      image: "/images/packageReview/chardham-yatra/1.jpg",
-      description:
-        "Arrive at Haridwar, meet our representative and transfer to your hotel. Evening Ganga Aarti at Har Ki Pauri.",
-    },
-    {
-      day: 2,
-      title: "Haridwar to Barkot",
-      image: "/images/packageReview/chardham-yatra/2.jpg",
-      description:
-        "Drive through the scenic Himalayan roads to Barkot and check in at the hotel for an overnight stay.",
-    },
-    {
-      day: 3,
-      title: "Yamunotri Excursion",
-      image: "/images/packageReview/chardham-yatra/3.jpg",
-      description:
-        "Begin the trek to Yamunotri Temple, seek blessings and return to Barkot for an overnight stay.",
-    },
-    {
-      day: 4,
-      title: "Barkot to Uttarkashi",
-      image: "/images/packageReview/chardham-yatra/4.jpg",
-      description:
-        "Drive to Uttarkashi and visit the famous Kashi Vishwanath Temple before checking into the hotel.",
-    },
-    {
-      day: 5,
-      title: "Gangotri Darshan",
-      image: "/images/packageReview/chardham-yatra/5.jpg",
-      description:
-        "Visit the sacred Gangotri Temple and enjoy the breathtaking Himalayan scenery before returning to Uttarkashi.",
-    },
-        {
-      day: 6,
-      title: "Uttarkashi to Guptkashi",
-      image: "/images/packageReview/chardham-yatra/6.jpg",
-      description:
-        "Drive to Guptkashi while enjoying spectacular mountain views. Rest and prepare for the Kedarnath pilgrimage.",
-    },
-    {
-      day: 7,
-      title: "Kedarnath Darshan",
-      image: "/images/packageReview/chardham-yatra/7.jpg",
-      description:
-        "Proceed towards Kedarnath by trek or helicopter (optional). Visit the holy Kedarnath Temple and stay overnight nearby.",
-    },
-    {
-      day: 8,
-      title: "Guptkashi to Badrinath",
-      image: "/images/packageReview/chardham-yatra/8.jpg",
-      description:
-        "Travel to Badrinath and visit the sacred Badrinath Temple. Attend the evening aarti if time permits.",
-    },
-    {
-      day: 9,
-      title: "Mana Village & Return to Rudraprayag",
-      image: "/images/packageReview/chardham-yatra/9.jpg",
-      description:
-        "Visit Mana Village, Vyas Gufa and Bhim Pul before driving towards Rudraprayag for an overnight stay.",
-    },
-    {
-      day: 10,
-      title: "Departure to Haridwar",
-      image: "/images/packageReview/chardham-yatra/10.jpg",
-      description:
-        "After breakfast, drive back to Haridwar with unforgettable memories of the sacred Chardham Yatra.",
-    },
-  ],
-
+  {
+    day: 1,
+    title: "Arrival at Haridwar",
+    image: "/images/packageReview/chardham-yatra/itinerary/1.jpg",
+    description:
+      "Arrive at Haridwar, meet our representative and transfer to your hotel. In the evening, attend the sacred Ganga Aarti at Har Ki Pauri before an overnight stay.",
+  },
+  {
+    day: 2,
+    title: "Haridwar to Barkot",
+    image: "/images/packageReview/chardham-yatra/itinerary/2.jpg",
+    description:
+      "After breakfast, drive through the scenic Himalayan roads to Barkot via Mussoorie and Kempty Falls. Check in to the hotel and relax for the night.",
+  },
+  {
+    day: 3,
+    title: "Yamunotri Darshan",
+    image: "/images/packageReview/chardham-yatra/itinerary/3.jpg",
+    description:
+      "Drive to Janki Chatti and begin the trek to Yamunotri Temple. Seek blessings at the sacred shrine before returning to Barkot for an overnight stay.",
+  },
+  {
+    day: 4,
+    title: "Barkot to Uttarkashi",
+    image: "/images/packageReview/chardham-yatra/itinerary/4.jpg",
+    description:
+      "Drive to Uttarkashi and visit the famous Kashi Vishwanath Temple. Spend the evening at leisure before an overnight stay.",
+  },
+  {
+    day: 5,
+    title: "Gangotri Darshan",
+    image: "/images/packageReview/chardham-yatra/itinerary/5.jpg",
+    description:
+      "Visit the holy Gangotri Temple, perform prayers on the banks of the Bhagirathi River, and return to Uttarkashi while enjoying the beautiful Himalayan scenery.",
+  },
+  {
+    day: 6,
+    title: "Uttarkashi to Guptkashi",
+    image: "/images/packageReview/chardham-yatra/itinerary/6.jpg",
+    description:
+      "Drive to Guptkashi via Tehri Dam and Rudraprayag. Check in to your hotel and prepare for the Kedarnath pilgrimage.",
+  },
+  {
+    day: 7,
+    title: "Kedarnath Darshan",
+    image: "/images/packageReview/chardham-yatra/itinerary/7.jpg",
+    description:
+      "Proceed to Kedarnath by trek or optional helicopter service. Visit the sacred Kedarnath Temple and enjoy the peaceful surroundings before an overnight stay.",
+  },
+  {
+    day: 8,
+    title: "Return to Guptkashi",
+    image: "/images/packageReview/chardham-yatra/itinerary/8.jpg",
+    description:
+      "After the morning darshan, trek back to Gaurikund and drive to Guptkashi. Spend the evening relaxing after the pilgrimage.",
+  },
+  {
+    day: 9,
+    title: "Guptkashi to Badrinath",
+    image: "/images/packageReview/chardham-yatra/itinerary/9.jpg",
+    description:
+      "Drive to Badrinath through scenic mountain routes. Visit Badrinath Temple and attend the evening Aarti if time permits.",
+  },
+  {
+    day: 10,
+    title: "Mana Village Excursion",
+    image: "/images/packageReview/chardham-yatra/itinerary/10.jpg",
+    description:
+      "Visit Mana Village, India's last village near the Indo-Tibet border, along with Vyas Gufa, Ganesh Gufa, Bhim Pul, and the origin of the Saraswati River.",
+  },
+  {
+    day: 11,
+    title: "Badrinath to Rudraprayag",
+    image: "/images/packageReview/chardham-yatra/itinerary/11.jpg",
+    description:
+      "After breakfast, drive to Rudraprayag via Joshimath and Devprayag while enjoying breathtaking Himalayan landscapes. Check in to your hotel for an overnight stay.",
+  },
+  {
+    day: 12,
+    title: "Departure to Haridwar",
+    image: "/images/packageReview/chardham-yatra/itinerary/12.jpg",
+    description:
+      "After breakfast, drive back to Haridwar for your onward journey with unforgettable memories of the sacred Chardham Yatra and the divine Himalayan pilgrimage.",
+  },
+],
   // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
@@ -169,17 +172,21 @@ const chardhamYatra: PackageReview = {
   // ===========================
 
   terms: [
-    "Package is subject to availability.",
-    "Hotel check-in/check-out timings apply.",
-    "Weather and road conditions may affect the itinerary.",
-    "Helicopter services operate subject to weather conditions.",
-    "Pilgrims must carry valid government-issued ID proof.",
-    "Cancellation charges apply as per company policy.",
-    "Rates are subject to change before confirmation.",
-    "Travel insurance is highly recommended.",
-    "Go Escapio is not responsible for delays due to natural calamities.",
-    "All disputes are subject to Delhi jurisdiction.",
-  ],
+  "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+  "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+  "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+  "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+  "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+  "Travellers are responsible for carrying valid travel documents; Go Escapio is not liable for any documentation issues.",
+  "Go Escapio is not responsible for flight delays, baggage issues, or cancellations.",
+  "Hotel check-in is generally at 2:00 PM and check-out at 11:00 AM; early check-in or late check-out may incur additional charges.",
+  "City taxes, personal expenses, and optional tours are not included in the package unless specifically mentioned.",
+  "Visa approval is at the sole discretion of the respective embassy or immigration authorities; Go Escapio holds no liability for delays or rejections.",
+  "Travel insurance is recommended and not included; travellers are responsible for their safety during all activities.",
+  "Go Escapio acts as an intermediary and is not liable for any third-party service disruptions, delays, or losses.",
+  "Rates and room availability are subject to confirmation at the time of booking.",
+  "Limited availability. Blackout dates may apply. Book now.",
+],
 };
 
 export default chardhamYatra;

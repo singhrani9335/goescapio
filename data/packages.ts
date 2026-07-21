@@ -119,7 +119,7 @@ export const packages: PackageCard[] = [
   },
     {
     id: 8,
-    slug: "hong-kong-extravaganza",
+    slug: "disney-adventure-cruise",
 
     image: "/images/handpicked-holidays/singapore-cruise.jpg",
     title: "Disney Adventure Cruise with 1 Free Night at Singapore",
@@ -313,7 +313,7 @@ export const packages: PackageCard[] = [
 
   {
     id: 21,
-    slug: "discover-egypt",
+    slug: "cambodia-tour",
 
     image: "/images/handpicked-holidays/cambodia-5d.png",
     title: "Cambodia Tour: Phnom Penh – Battambang – Siem Reap",

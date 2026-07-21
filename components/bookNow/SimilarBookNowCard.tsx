@@ -25,7 +25,6 @@ export default function SimilarBookNowCard({
         bg-white
       "
     >
-
       {/* IMAGE */}
 
       <div
@@ -42,7 +41,6 @@ export default function SimilarBookNowCard({
           sizes="(max-width:768px) 100vw,25vw"
           className="object-cover"
         />
-
 
         {/* NIGHT TAG */}
 
@@ -62,10 +60,7 @@ export default function SimilarBookNowCard({
         >
           {packageData.nights}
         </div>
-
       </div>
-
-
 
       {/* CONTENT */}
 
@@ -77,7 +72,6 @@ export default function SimilarBookNowCard({
           p-3
         "
       >
-
         <h3
           className="
             line-clamp-2
@@ -90,8 +84,6 @@ export default function SimilarBookNowCard({
         >
           {packageData.title}
         </h3>
-
-
 
         {/* LOCATION BOX */}
 
@@ -107,7 +99,6 @@ export default function SimilarBookNowCard({
             py-2
           "
         >
-
           <div
             className="
               flex
@@ -123,16 +114,11 @@ export default function SimilarBookNowCard({
               className="rotate-[-45deg]"
             />
 
-            <span>
-              {packageData.location}
-            </span>
-
+            <span>{packageData.location}</span>
           </div>
 
-
-
           <Link
-            href={`/book-now/${packageData.slug}`}
+            href={`/package/${packageData.slug}`}
             className="
               rounded-md
               bg-purple-600
@@ -141,18 +127,14 @@ export default function SimilarBookNowCard({
               text-xs
               font-bold
               text-white
+              transition
               hover:bg-purple-700
             "
           >
             VIEW
           </Link>
-
-
         </div>
-
       </div>
-
-
     </div>
   );
 }

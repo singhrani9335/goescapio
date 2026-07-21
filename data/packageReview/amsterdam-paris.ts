@@ -8,17 +8,12 @@ const amsterdamParis: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/amsterdam-paris/1.jpg",
-    "/images/packageReview/amsterdam-paris/2.jpg",
-    "/images/packageReview/amsterdam-paris/3.jpg",
-    "/images/packageReview/amsterdam-paris/4.jpg",
-    "/images/packageReview/amsterdam-paris/5.jpg",
-    "/images/packageReview/amsterdam-paris/6.jpg",
-    "/images/packageReview/amsterdam-paris/7.jpg",
-    "/images/packageReview/amsterdam-paris/8.jpg",
-    "/images/packageReview/amsterdam-paris/9.jpg",
-    "/images/packageReview/amsterdam-paris/10.jpg",
-  ],
+  "/images/packageReview/amsterdam-paris/gallery/1.jpg",
+  "/images/packageReview/amsterdam-paris/gallery/2.jpg",
+  "/images/packageReview/amsterdam-paris/gallery/3.jpg",
+  "/images/packageReview/amsterdam-paris/gallery/4.jpg",
+  "/images/packageReview/amsterdam-paris/gallery/5.jpg",
+],
 
 
   // ===========================
@@ -61,62 +56,70 @@ const amsterdamParis: PackageReview = {
   // ===========================
 
   itinerary: [
-    {
-      day: 1,
-      title: "Arrival In Amsterdam",
-      image: "/images/packageReview/amsterdam-paris/1.jpg",
-      description:
-        "Arrive in Amsterdam and transfer to your hotel. Spend the day relaxing and exploring the beautiful surroundings.",
-    },
-
-    {
-      day: 2,
-      title: "Amsterdam City Tour",
-      image: "/images/packageReview/amsterdam-paris/2.jpg",
-      description:
-        "Explore Amsterdam's famous attractions including canals, museums and historic landmarks.",
-    },
-
-    {
-      day: 3,
-      title: "Amsterdam Leisure Day",
-      image: "/images/packageReview/amsterdam-paris/3.jpg",
-      description:
-        "Enjoy a free day to explore local markets, shopping streets and hidden gems of Amsterdam.",
-    },
-
-    {
-      day: 4,
-      title: "Amsterdam To Paris Transfer",
-      image: "/images/packageReview/amsterdam-paris/4.jpg",
-      description:
-        "Travel from Amsterdam to Paris and check into your hotel. Enjoy the evening at leisure.",
-    },
-
-    {
-      day: 5,
-      title: "Paris City Tour",
-      image: "/images/packageReview/amsterdam-paris/5.jpg",
-      description:
-        "Visit famous Paris attractions including Eiffel Tower, Champs Elysees and other iconic places.",
-    },
-
-    {
-      day: 6,
-      title: "Paris Sightseeing & Leisure",
-      image: "/images/packageReview/amsterdam-paris/6.jpg",
-      description:
-        "Explore Paris at your own pace and enjoy shopping, cafes and local experiences.",
-    },
-
-    {
-      day: 7,
-      title: "Departure From Paris",
-      image: "/images/packageReview/amsterdam-paris/7.jpg",
-      description:
-        "Check out from the hotel and transfer to the airport for your onward journey.",
-    },
-  ],
+  {
+    day: 1,
+    title: "Arrival in Amsterdam",
+    image: "/images/packageReview/amsterdam-paris/itinerary/1.jpg",
+    description:
+      "Arrive at Amsterdam Schiphol Airport and transfer to your hotel. Check in and spend the rest of the day at leisure exploring the nearby canals, cafés, and charming streets.",
+  },
+  {
+    day: 2,
+    title: "Amsterdam City Tour",
+    image: "/images/packageReview/amsterdam-paris/itinerary/2.jpg",
+    description:
+      "After breakfast, enjoy a guided city tour covering Dam Square, the Royal Palace, the Anne Frank House (outside), Museum Square, and a scenic Amsterdam canal cruise.",
+  },
+  {
+    day: 3,
+    title: "Zaanse Schans & Volendam Excursion",
+    image: "/images/packageReview/amsterdam-paris/itinerary/3.jpg",
+    description:
+      "Visit the picturesque Dutch countryside including Zaanse Schans windmills, a traditional cheese factory, wooden shoe workshop, and the charming fishing village of Volendam.",
+  },
+  {
+    day: 4,
+    title: "Amsterdam to Paris",
+    image: "/images/packageReview/amsterdam-paris/itinerary/4.jpg",
+    description:
+      "Travel from Amsterdam to Paris by high-speed train or coach. Upon arrival, transfer to your hotel and enjoy the evening exploring the beautiful streets of Paris.",
+  },
+  {
+    day: 5,
+    title: "Paris City Tour",
+    image: "/images/packageReview/amsterdam-paris/itinerary/5.jpg",
+    description:
+      "Discover the highlights of Paris including the Eiffel Tower (2nd Level if included), Arc de Triomphe, Champs-Élysées, Place de la Concorde, and a panoramic city tour.",
+  },
+  {
+    day: 6,
+    title: "Disneyland Paris Excursion",
+    image: "/images/packageReview/amsterdam-paris/itinerary/6.jpg",
+    description:
+      "Spend an exciting day at Disneyland Paris enjoying thrilling rides, spectacular parades, themed attractions, shopping, and entertainment for all ages.",
+  },
+  {
+    day: 7,
+    title: "Seine River Cruise & Leisure",
+    image: "/images/packageReview/amsterdam-paris/itinerary/7.jpg",
+    description:
+      "Enjoy a relaxing cruise along the Seine River while admiring Paris' iconic landmarks. Spend the remaining day shopping or exploring the city's famous cafés and boutiques.",
+  },
+  {
+    day: 8,
+    title: "Free Day in Paris",
+    image: "/images/packageReview/amsterdam-paris/itinerary/8.jpg",
+    description:
+      "Enjoy the day at leisure or choose optional excursions such as the Louvre Museum, Palace of Versailles, Montmartre, or Galeries Lafayette for shopping.",
+  },
+  {
+    day: 9,
+    title: "Departure from Paris",
+    image: "/images/packageReview/amsterdam-paris/itinerary/9.jpg",
+    description:
+      "After breakfast, check out from the hotel and transfer to Paris Airport for your onward journey with unforgettable memories of Amsterdam and Paris.",
+  },
+],
 
 
   // ===========================

@@ -428,7 +428,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 26,
-    slug: "hong-kong-extravaganza",
+    slug: "disney-adventure-cruise",
     image: "/images/handpicked-holidays/dazsin.jpg",
     title: "5 Nights & 6 Days Hong Kong Extravaganza",
     nights: "5 Nights",
@@ -496,7 +496,7 @@ export const limitedTimeOffers: LimitedTimeOffer[] = [
 
   {
     id: 30,
-    slug: "discover-egypt",
+    slug: "cambodia-tour",
     image: "/images/handpicked-holidays/classic-cairo.png",
     title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
     nights: "6 Nights",

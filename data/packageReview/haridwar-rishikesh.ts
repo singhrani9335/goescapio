@@ -8,16 +8,16 @@ const haridwarRishikesh: PackageReview = {
   // ===========================
 
   gallery: [
-  "/images/packageReview/haridwar-rishikesh/1.jpg",
-  "/images/packageReview/haridwar-rishikesh/2.jpg",
-  "/images/packageReview/haridwar-rishikesh/3.jpg",
-  "/images/packageReview/haridwar-rishikesh/4.jpg",
-  "/images/packageReview/haridwar-rishikesh/5.jpg",
-  "/images/packageReview/haridwar-rishikesh/6.jpg",
-  "/images/packageReview/haridwar-rishikesh/7.jpg",
-  "/images/packageReview/haridwar-rishikesh/8.jpg",
-  "/images/packageReview/haridwar-rishikesh/9.jpg",
-  "/images/packageReview/haridwar-rishikesh/10.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/1.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/2.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/3.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/4.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/5.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/6.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/7.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/8.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/9.jpg",
+  "/images/packageReview/haridwar-rishikesh/gallery/10.jpg",
 ],
 
 
@@ -59,40 +59,39 @@ const haridwarRishikesh: PackageReview = {
   // PACKAGE ITINERARY
   // ===========================
 
-  itinerary: [
-    {
-      day: 1,
-      title: "Arrival At Haridwar",
-      image: "/images/packageReview/haridwar-rishikesh/1.jpg",
-      description:
-        "Arrive at Haridwar and transfer to your hotel. Visit Har Ki Pauri and attend the famous Ganga Aarti.",
-    },
+itinerary: [
+  {
+    day: 1,
+    title: "Arrival At Haridwar",
+    image: "/images/packageReview/haridwar-rishikesh/itinerary/1.jpg",
+    description:
+      "Arrive at Haridwar and transfer to your hotel. Visit Har Ki Pauri and attend the famous Ganga Aarti.",
+  },
 
-    {
-      day: 2,
-      title: "Haridwar Sightseeing & Transfer To Rishikesh",
-      image: "/images/packageReview/haridwar-rishikesh/2.jpg",
-      description:
-        "Explore Haridwar attractions and proceed towards Rishikesh. Enjoy the beautiful riverside views.",
-    },
+  {
+    day: 2,
+    title: "Haridwar Sightseeing & Transfer To Rishikesh",
+    image: "/images/packageReview/haridwar-rishikesh/itinerary/2.jpg",
+    description:
+      "Explore Haridwar attractions and proceed towards Rishikesh. Enjoy the beautiful riverside views.",
+  },
 
-    {
-      day: 3,
-      title: "Rishikesh Sightseeing & Adventure",
-      image: "/images/packageReview/haridwar-rishikesh/3.jpg",
-      description:
-        "Visit Laxman Jhula, Ram Jhula, temples and enjoy optional adventure activities.",
-    },
+  {
+    day: 3,
+    title: "Rishikesh Sightseeing & Adventure",
+    image: "/images/packageReview/haridwar-rishikesh/itinerary/3.jpg",
+    description:
+      "Visit Laxman Jhula, Ram Jhula, temples and enjoy optional adventure activities.",
+  },
 
-    {
-      day: 4,
-      title: "Departure From Rishikesh",
-      image: "/images/packageReview/haridwar-rishikesh/4.jpg",
-      description:
-        "Check out from the hotel and proceed for your onward journey with beautiful memories.",
-    },
-  ],
-
+  {
+    day: 4,
+    title: "Departure From Rishikesh",
+    image: "/images/packageReview/haridwar-rishikesh/itinerary/4.jpg",
+    description:
+      "Check out from the hotel and proceed for your onward journey with beautiful memories.",
+  },
+],
 
   // ===========================
   // PACKAGE INCLUSIONS

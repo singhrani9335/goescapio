@@ -23,8 +23,9 @@ export default function BookNowHelpCard() {
       >
         {/* SUPPORT IMAGE */}
 
+        {/* SUPPORT IMAGE */}
         <Image
-          src="/images/support-help.png"
+          src="/images/bookNow/costumer_service.png"
           alt="Need Help"
           width={55}
           height={55}

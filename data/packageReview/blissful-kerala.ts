@@ -8,32 +8,26 @@ const blissfulKerala: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/blissful-kerala/1.jpg",
-    "/images/packageReview/blissful-kerala/2.jpg",
-    "/images/packageReview/blissful-kerala/3.jpg",
-    "/images/packageReview/blissful-kerala/4.jpg",
-    "/images/packageReview/blissful-kerala/5.jpg",
-    "/images/packageReview/blissful-kerala/6.jpg",
-    "/images/packageReview/blissful-kerala/7.jpg",
-    "/images/packageReview/blissful-kerala/8.jpg",
-    "/images/packageReview/blissful-kerala/9.jpg",
-    "/images/packageReview/blissful-kerala/10.jpg",
+    "/images/packageReview/blissful-kerala/gallery/1.jpg",
+    "/images/packageReview/blissful-kerala/gallery/2.jpg",
+    "/images/packageReview/blissful-kerala/gallery/3.jpg",
+    "/images/packageReview/blissful-kerala/gallery/4.jpg",
+    "/images/packageReview/blissful-kerala/gallery/5.jpg",
   ],
-
 
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
 
-  title: "5 Nights & 6 Days Blissful Kerala Tour",
+  title: "4 nights & 5 days blissful kerala",
 
-  price: "34,990",
+  price: "16,500",
 
   priceType: "Per Person | Twin Sharing Price",
 
-  duration: "5 Nights",
+  duration: "4 Nights",
 
-  location: "Munnar - Thekkady - Alleppey Kerala",
+  location: "Thekkady - India",
 
   features: {
     hotel: true,
@@ -42,18 +36,13 @@ const blissfulKerala: PackageReview = {
     meal: true,
   },
 
-
   // ===========================
   // PACKAGE OVERVIEW
   // ===========================
 
   overview: `
-    Experience the natural beauty of Kerala with this wonderful holiday package.
-    Explore the lush green hills of Munnar, wildlife of Thekkady and peaceful
-    backwaters of Alleppey. This journey offers a perfect mix of nature,
-    relaxation, sightseeing and memorable experiences.
+    Discover the breathtaking beauty of Kerala with this perfectly crafted 4 Nights / 5 Days itinerary covering the lush green hills of Munnar, the wildlife and spice plantations of Thekkady, and the tranquil backwaters of Alleppey aboard a deluxe houseboat. Ideal for honeymooners, families, and nature lovers, this journey blends scenic landscapes, cultural experiences, wildlife adventures, and peaceful cruising for an unforgettable Kerala holiday.
   `,
-
 
   // ===========================
   // PACKAGE ITINERARY
@@ -62,98 +51,89 @@ const blissfulKerala: PackageReview = {
   itinerary: [
     {
       day: 1,
-      title: "Arrival At Kochi & Transfer To Munnar",
-      image: "/images/packageReview/blissful-kerala/1.jpg",
+      title: "Arrival in Cochin – Transfer to Munnar",
+      image: "/images/packageReview/blissful-kerala/itinerary/1.jpg",
       description:
-        "Arrive at Kochi and drive towards Munnar. Enjoy scenic views of waterfalls, tea plantations and beautiful landscapes.",
+        "Arrive at Cochin Airport / Railway Station where our representative will greet you. Drive to Munnar through picturesque valleys and waterfalls including Cheeyappara & Valara Falls. Upon arrival, check in to the hotel and relax. The evening is free to explore local markets and cafés. Overnight stay in Munnar.",
     },
 
     {
       day: 2,
-      title: "Munnar Sightseeing",
-      image: "/images/packageReview/blissful-kerala/2.jpg",
+      title: "Full-Day Munnar Sightseeing",
+      image: "/images/packageReview/blissful-kerala/itinerary/2.jpg",
       description:
-        "Visit famous attractions of Munnar including tea gardens, viewpoints and natural attractions.",
+        "After breakfast, enjoy a full-day sightseeing tour covering Eravikulam National Park, home to the endangered Nilgiri Tahr, the Tea Museum & Tea Plantations to learn about tea production, Eco Point, and Blossom Park. Spend the evening at leisure enjoying your resort facilities. Overnight stay in Munnar.",
     },
 
     {
       day: 3,
-      title: "Munnar To Thekkady",
-      image: "/images/packageReview/blissful-kerala/3.jpg",
+      title: "Munnar - Thekkady | Periyar Wildlife & Shows",
+      image: "/images/packageReview/blissful-kerala/itinerary/3.jpg",
       description:
-        "Travel to Thekkady and explore the beautiful wildlife surroundings of Periyar.",
+        "After breakfast, proceed to Thekkady (approx. 4 hours). Check in to your hotel and later visit Periyar Wildlife Sanctuary (optional boat safari at your own cost). Enjoy a traditional Kathakali Dance performance and witness the famous Kalaripayattu Martial Arts Show. Spend the evening exploring local spice markets and Ayurveda centres. Overnight stay in Thekkady.",
     },
 
     {
       day: 4,
-      title: "Thekkady To Alleppey Houseboat Stay",
-      image: "/images/packageReview/blissful-kerala/4.jpg",
+      title: "Thekkady - Alleppey | Deluxe Houseboat",
+      image: "/images/packageReview/blissful-kerala/itinerary/4.jpg",
       description:
-        "Proceed to Alleppey and enjoy a relaxing stay on the famous Kerala houseboat.",
+        "After breakfast, drive to Alleppey and check in to your 1 Bedroom Deluxe Houseboat with a welcome drink. Cruise through serene backwaters, canals, lagoons and paddy fields while enjoying lunch, evening tea & snacks, and dinner onboard. Witness a beautiful sunset from the deck before enjoying an overnight stay on the houseboat.",
     },
 
     {
       day: 5,
-      title: "Alleppey To Kochi",
-      image: "/images/packageReview/blissful-kerala/5.jpg",
+      title: "Alleppey - Cochin Departure",
+      image: "/images/packageReview/blissful-kerala/itinerary/5.jpg",
       description:
-        "Return to Kochi and explore local sightseeing places and shopping areas.",
-    },
-
-    {
-      day: 6,
-      title: "Departure From Kochi",
-      image: "/images/packageReview/blissful-kerala/6.jpg",
-      description:
-        "Transfer to Kochi airport or railway station for your onward journey.",
+        "Enjoy breakfast on the houseboat and check out at 9:00 AM. Transfer to Cochin Airport / Railway Station for your onward journey with unforgettable memories of Kerala.",
     },
   ],
-
-
-  // ===========================
+    // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
 
   inclusions: [
-    "Accommodation in selected hotels",
-    "Daily breakfast",
-    "Private AC vehicle for sightseeing",
-    "Airport and hotel transfers",
-    "Houseboat stay in Alleppey",
-    "All sightseeing as per itinerary",
-    "All applicable taxes",
+    "Accommodation in deluxe hotels/resorts for 4 nights",
+    "Daily breakfast at hotels",
+    "1 Bedroom Deluxe Houseboat with all meals",
+    "Private cab for all transfers and sightseeing",
+    "Driver allowance, fuel charges, toll, parking and taxes",
+    "Pick-up from Cochin Airport / Railway Station",
+    "Drop at Cochin Airport / Railway Station",
   ],
-
 
   // ===========================
   // PACKAGE EXCLUSIONS
   // ===========================
 
   exclusions: [
-    "Airfare or train tickets",
-    "Personal expenses",
-    "Adventure activities",
-    "Travel insurance",
-    "Camera charges",
-    "Anything not mentioned in inclusions",
+    "Airfare or train fare",
+    "Lunch and dinner (except breakfast at hotels and all meals on the houseboat)",
+    "Entry tickets, safaris, adventure activities and cultural shows",
+    "Personal expenses such as shopping, laundry, telephone calls and tips",
+    "Anything not mentioned under inclusions",
   ],
-
 
   // ===========================
   // TERMS & CONDITIONS
   // ===========================
 
   terms: [
-    "Bookings are subject to hotel and transport availability.",
-    "Package price may vary during peak season.",
-    "Advance payment is required for confirmation.",
-    "Cancellation charges apply as per policy.",
-    "Travellers must carry valid documents.",
-    "Go Escapio is not responsible for delays caused by third parties.",
-    "Hotel check-in and check-out timings follow hotel policies.",
-    "Personal expenses are not included.",
-    "Travel insurance is recommended.",
-    "All services are subject to availability.",
+    "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+    "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+    "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+    "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+    "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+    "Travellers are responsible for valid travel documents; Go Escapio is not liable for any documentation issues.",
+    "Go Escapio is not responsible for flight delays, baggage issues, or cancellations.",
+    "Hotel check-in is generally at 2:00 PM and check-out at 11:00 AM; early check-in or late check-out may incur additional charges.",
+    "City taxes, personal expenses and optional tours are not included in the package.",
+    "Visa approval is at the discretion of the concerned embassy; Go Escapio holds no liability for delays or rejections.",
+    "Travel insurance is recommended and not included; travellers are responsible for their safety during activities.",
+    "Go Escapio acts as an intermediary and is not liable for third-party service disruptions or losses.",
+    "Rates and rooms are subject to availability.",
+    "Limited availability. Blackout dates may apply. Book now.",
   ],
 };
 

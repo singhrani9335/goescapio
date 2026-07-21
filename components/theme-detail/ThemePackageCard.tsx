@@ -10,9 +10,7 @@ interface ThemePackageCardProps {
   pkg: ThemePackage;
 }
 
-export default function ThemePackageCard({
-  pkg,
-}: ThemePackageCardProps) {
+export default function ThemePackageCard({ pkg }: ThemePackageCardProps) {
   return (
     <div
       className="
@@ -29,11 +27,9 @@ export default function ThemePackageCard({
         hover:shadow-xl
       "
     >
-
       {/* Image */}
 
       <div className="relative h-[280px] w-full">
-
         <Image
           src={pkg.image}
           alt={pkg.title}
@@ -59,14 +55,11 @@ export default function ThemePackageCard({
         >
           Nights: {pkg.nights}
         </div>
-
       </div>
-
 
       {/* Content */}
 
       <div className="p-6">
-
         <h3
           className="
             min-h-[58px]
@@ -79,16 +72,11 @@ export default function ThemePackageCard({
           {pkg.title}
         </h3>
 
-
-        <p className="mt-2 text-sm text-gray-500">
-          {pkg.location}
-        </p>
-
+        <p className="mt-2 text-sm text-gray-500">{pkg.location}</p>
 
         <div className="mt-5">
           <ThemeIcons features={pkg.features} />
         </div>
-
 
         <div
           className="
@@ -98,11 +86,8 @@ export default function ThemePackageCard({
             justify-between
           "
         >
-
           <div>
-            <p className="text-sm text-gray-500">
-              Starting From
-            </p>
+            <p className="text-sm text-gray-500">Starting From</p>
 
             <h4
               className="
@@ -115,9 +100,8 @@ export default function ThemePackageCard({
             </h4>
           </div>
 
-
           <Link
-            href={`/packages/${pkg.slug}`}
+            href={`/package/${pkg.slug}`}
             className="
               rounded-lg
               bg-blue-600
@@ -132,11 +116,8 @@ export default function ThemePackageCard({
           >
             VIEW DETAILS
           </Link>
-
         </div>
-
       </div>
-
     </div>
   );
 }

@@ -8,32 +8,26 @@ const kenyaSafari: PackageReview = {
   // ===========================
 
   gallery: [
-    "/images/packageReview/kenya-safari/1.jpg",
-    "/images/packageReview/kenya-safari/2.jpg",
-    "/images/packageReview/kenya-safari/3.jpg",
-    "/images/packageReview/kenya-safari/4.jpg",
-    "/images/packageReview/kenya-safari/5.jpg",
-    "/images/packageReview/kenya-safari/6.jpg",
-    "/images/packageReview/kenya-safari/7.jpg",
-    "/images/packageReview/kenya-safari/8.jpg",
-    "/images/packageReview/kenya-safari/9.jpg",
-    "/images/packageReview/kenya-safari/10.jpg",
+    "/images/packageReview/kenya-safari/gallery/1.jpg",
+    "/images/packageReview/kenya-safari/gallery/2.jpg",
+    "/images/packageReview/kenya-safari/gallery/3.jpg",
+    "/images/packageReview/kenya-safari/gallery/4.jpg",
+    "/images/packageReview/kenya-safari/gallery/5.jpg",
   ],
-
 
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
 
-  title: "6 Nights & 7 Days Kenya Safari Adventure",
+  title: "4 Nights & 5 Days Kenyan Safari Adventure",
 
-  price: "99,990",
+  price: "1,62,790",
 
   priceType: "Per Person | Twin Sharing Price",
 
-  duration: "6 Nights",
+  duration: "4 Nights",
 
-  location: "Nairobi - Maasai Mara Kenya",
+  location: "Masai Mara National Reserve, Kenya",
 
   features: {
     hotel: true,
@@ -42,17 +36,20 @@ const kenyaSafari: PackageReview = {
     meal: true,
   },
 
-
   // ===========================
   // PACKAGE OVERVIEW
   // ===========================
 
   overview: `
-    Experience the thrill of African wildlife with this exciting Kenya Safari
-    package. Explore famous national parks, witness amazing wildlife, enjoy
-    beautiful landscapes and create unforgettable memories in the heart of Africa.
+    Step into the heart of Africa on an unforgettable Kenyan safari
+    adventure where vast savannahs, dramatic landscapes, and extraordinary
+    wildlife come together. From the legendary plains of the Masai Mara
+    to the bird-filled shores of Lake Nakuru and the scenic Rift Valley,
+    every day reveals a new story of nature and culture. Witness majestic
+    wildlife on thrilling game drives, interact with the vibrant Maasai
+    community, and relax in carefully selected safari lodges that blend
+    comfort with wilderness charm.
   `,
-
 
   // ===========================
   // PACKAGE ITINERARY
@@ -61,106 +58,101 @@ const kenyaSafari: PackageReview = {
   itinerary: [
     {
       day: 1,
-      title: "Arrival In Nairobi",
-      image: "/images/packageReview/kenya-safari/1.jpg",
+      title: "Arrival in Nairobi",
+      image: "/images/packageReview/kenya-safari/itinerary/1.jpg",
       description:
-        "Arrive at Nairobi airport and transfer to your hotel. Relax and prepare for your safari adventure.",
+        "Arrive at Jomo Kenyatta International Airport, Nairobi, where you will be welcomed by our representative. Transfer to your hotel via the complimentary shuttle service and complete the check-in formalities. Spend the rest of the day relaxing or exploring the hotel surroundings. Overnight stay in Nairobi.",
     },
 
     {
       day: 2,
-      title: "Nairobi To Maasai Mara",
-      image: "/images/packageReview/kenya-safari/2.jpg",
+      title: "Nairobi to Masai Mara National Reserve",
+      image: "/images/packageReview/kenya-safari/itinerary/2.jpg",
       description:
-        "Travel to Maasai Mara National Reserve and enjoy your first wildlife safari experience.",
+        "After breakfast, depart Nairobi and travel through the scenic Great Rift Valley towards the world-famous Masai Mara National Reserve. Pass picturesque landscapes, fertile farmlands, and the town of Narok before arriving at your safari camp in time for lunch. Later in the afternoon, enjoy your first exciting game drive across the vast savannah in search of lions, elephants, giraffes, zebras, and other wildlife. Dinner and overnight stay at the safari camp.",
     },
 
     {
       day: 3,
-      title: "Maasai Mara Safari",
-      image: "/images/packageReview/kenya-safari/3.jpg",
+      title: "Masai Mara National Reserve",
+      image: "/images/packageReview/kenya-safari/itinerary/3.jpg",
       description:
-        "Enjoy morning and evening game drives to spot lions, elephants and other wildlife.",
+        "Begin the day with an early morning game drive when wildlife is most active. Return to the lodge for breakfast and leisure time. In the afternoon, head out for another thrilling game drive and visit a traditional Maasai Village to experience the local culture and traditions. Optional hot air balloon safari is available at an additional cost. Dinner and overnight stay in Masai Mara.",
     },
 
     {
       day: 4,
-      title: "Lake Nakuru Visit",
-      image: "/images/packageReview/kenya-safari/4.jpg",
+      title: "Masai Mara to Lake Nakuru National Park via Lake Elementaita",
+      image: "/images/packageReview/kenya-safari/itinerary/4.jpg",
       description:
-        "Explore Lake Nakuru National Park famous for birds and wildlife.",
+        "After breakfast, depart Masai Mara and drive towards Lake Elementaita. Enjoy lunch at your lodge before continuing to Lake Nakuru National Park for an afternoon game drive. The park is famous for its flamingos, black and white rhinos, Rothschild giraffes, and abundant birdlife. Return to your lodge in the evening for dinner and an overnight stay.",
     },
 
     {
       day: 5,
-      title: "Amboseli National Park",
-      image: "/images/packageReview/kenya-safari/5.jpg",
+      title: "Departure",
+      image: "/images/packageReview/kenya-safari/itinerary/5.jpg",
       description:
-        "Visit Amboseli and enjoy breathtaking views with Mount Kilimanjaro in the background.",
-    },
-
-    {
-      day: 6,
-      title: "Return To Nairobi",
-      image: "/images/packageReview/kenya-safari/6.jpg",
-      description:
-        "Return to Nairobi and enjoy leisure time exploring the city.",
-    },
-
-    {
-      day: 7,
-      title: "Departure From Kenya",
-      image: "/images/packageReview/kenya-safari/7.jpg",
-      description:
-        "Transfer to the airport for your onward journey with unforgettable safari memories.",
+        "After breakfast, travel to Lake Naivasha for a scenic boat ride where you may spot hippos and a variety of bird species. Continue your journey back to Nairobi and enjoy lunch before being transferred to Jomo Kenyatta International Airport for your onward flight. We recommend booking flights departing after 4:30 PM.",
     },
   ],
 
-
-  // ===========================
+    // ===========================
   // PACKAGE INCLUSIONS
   // ===========================
 
   inclusions: [
-    "Hotel and lodge accommodation",
-    "Daily breakfast",
-    "Safari transportation",
-    "Wildlife game drives",
-    "Airport transfers",
-    "Sightseeing as per itinerary",
-    "All applicable taxes",
+    "1 Night Accommodation in Nairobi (Hilton Garden Inn or Similar) on Bed & Breakfast Basis",
+    "2 Nights Accommodation in Masai Mara (Sentrim Mara Camp or Similar) on Full Board Basis",
+    "1 Night Accommodation at Lake Elementaita (Sentrim Elementaita Lodge or Similar) on Full Board Basis",
+    "Shared 4x4 Safari Vehicle with Guaranteed Window Seat",
+    "Services of an Experienced English-Speaking Driver Guide",
+    "Game Drives as per the Itinerary",
+    "Visit to a Traditional Maasai Village",
+    "Lake Naivasha Boat Ride",
+    "Lake Nakuru National Park Game Drive",
+    "All National Park Entrance Fees",
+    "Filtered Drinking Water During Safari",
+    "All Government Taxes",
   ],
-
 
   // ===========================
   // PACKAGE EXCLUSIONS
   // ===========================
 
   exclusions: [
-    "International airfare",
-    "Visa charges",
-    "Travel insurance",
-    "Personal expenses",
-    "Optional activities",
-    "Anything not mentioned in inclusions",
+    "International Airfare",
+    "Kenya Visa Fees",
+    "Travel Insurance",
+    "Optional Hot Air Balloon Safari",
+    "Personal Expenses (Laundry, Telephone, Mini Bar, etc.)",
+    "Alcoholic & Non-Alcoholic Beverages",
+    "Tips for Driver Guide & Hotel Staff",
+    "Early Check-in & Late Check-out Charges",
+    "Meals Not Mentioned in the Itinerary",
+    "GST & TCS as Applicable",
+    "Anything Not Specifically Mentioned Under 'Package Inclusions'",
   ],
-
 
   // ===========================
   // TERMS & CONDITIONS
   // ===========================
 
   terms: [
-    "All bookings are subject to availability.",
-    "Package prices may change depending on season.",
-    "Advance payment is required for confirmation.",
-    "Cancellation charges apply as per company policy.",
-    "Valid passport and travel documents are required.",
-    "Go Escapio is not responsible for weather conditions.",
-    "Hotel and safari lodge policies will apply.",
-    "Personal expenses are not included.",
-    "Travel insurance is recommended.",
-    "All services are subject to availability.",
+    "All bookings are confirmed only after receipt of the required advance payment and are subject to availability.",
+    "Package prices are subject to change without prior notice depending on hotel availability, park fees, and exchange rates.",
+    "A valid passport with at least six months validity is mandatory for travel.",
+    "Visa approval is solely at the discretion of the Kenyan immigration authorities.",
+    "Hotel check-in and check-out timings are as per hotel policy.",
+    "Early check-in and late check-out are subject to availability and additional charges.",
+    "Unused services included in the package are non-refundable.",
+    "Cancellation charges will apply as per Go Escapio cancellation policy.",
+    "Travel insurance is highly recommended for all travellers.",
+    "Go Escapio is not responsible for airline delays, baggage loss, weather conditions, wildlife sightings, or third-party service disruptions.",
+    "The itinerary may be modified due to operational requirements, weather conditions, or park regulations.",
+    "Guests are responsible for all personal expenses incurred during the trip.",
+    "Rates are subject to availability until the booking is confirmed.",
+    "Limited availability. Blackout dates and peak season surcharges may apply.",
   ],
 };
 

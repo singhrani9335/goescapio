@@ -7,18 +7,13 @@ const singapore: PackageReview = {
   // PACKAGE GALLERY
   // ===========================
 
-  gallery: [
-    "/images/packageReview/singapore/1.jpg",
-    "/images/packageReview/singapore/2.jpg",
-    "/images/packageReview/singapore/3.jpg",
-    "/images/packageReview/singapore/4.jpg",
-    "/images/packageReview/singapore/5.jpg",
-    "/images/packageReview/singapore/6.jpg",
-    "/images/packageReview/singapore/7.jpg",
-    "/images/packageReview/singapore/8.jpg",
-    "/images/packageReview/singapore/9.jpg",
-    "/images/packageReview/singapore/10.jpg",
-  ],
+gallery: [
+  "/images/packageReview/singapore/gallery/1.jpg",
+  "/images/packageReview/singapore/gallery/2.jpg",
+  "/images/packageReview/singapore/gallery/3.jpg",
+  "/images/packageReview/singapore/gallery/4.jpg",
+  "/images/packageReview/singapore/gallery/5.jpg",
+],
 
   // ===========================
   // PACKAGE SUMMARY
@@ -57,45 +52,39 @@ const singapore: PackageReview = {
   // PACKAGE ITINERARY
   // ===========================
 
-  itinerary: [
-    {
-      day: 1,
-      title: "Arrival in Singapore",
-      image: "/images/packageReview/singapore/1.jpg",
-      description:
-        "Arrive at Singapore Airport, transfer to the hotel and enjoy a relaxing evening with the famous Night Safari.",
-    },
-    {
-      day: 2,
-      title: "Singapore City Tour",
-      image: "/images/packageReview/singapore/2.jpg",
-      description:
-        "Visit Merlion Park, Marina Bay Sands, Gardens by the Bay, Chinatown and Little India.",
-    },
-    {
-      day: 3,
-      title: "Sentosa Island",
-      image: "/images/packageReview/singapore/3.jpg",
-      description:
-        "Enjoy a full-day excursion to Sentosa Island including Cable Car, Wings of Time and other attractions.",
-    },
-    {
-      day: 4,
-      title: "Universal Studios Singapore",
-      image: "/images/packageReview/singapore/4.jpg",
-      description:
-        "Spend an exciting day at Universal Studios Singapore with thrilling rides, live shows and entertainment.",
-    },
-    {
-      day: 5,
-      title: "Departure",
-      image: "/images/packageReview/singapore/5.jpg",
-      description:
-        "After breakfast, check out from the hotel and transfer to Singapore Airport for your onward journey.",
-    },
+itinerary: [
+  {
+    day: 1,
+    title: "Arrival in Singapore & Night Safari",
+    image: "/images/packageReview/singapore/itinerary/1.jpg",
+    description:
+      "Arrive at Singapore Changi Airport and transfer to your hotel. After check-in, spend the evening visiting the famous Night Safari, where you can experience a unique wildlife adventure in a natural nocturnal environment.",
+  },
 
-        
-  ],
+  {
+    day: 2,
+    title: "Singapore City Tour",
+    image: "/images/packageReview/singapore/itinerary/2.jpg",
+    description:
+      "After breakfast, enjoy a guided city tour covering Merlion Park, Marina Bay Sands, Gardens by the Bay, Chinatown, Little India, and other iconic landmarks while experiencing Singapore's modern skyline and multicultural heritage.",
+  },
+
+  {
+    day: 3,
+    title: "Sentosa Island & Universal Studios",
+    image: "/images/packageReview/singapore/itinerary/3.jpg",
+    description:
+      "Spend the day exploring Sentosa Island and enjoy exciting attractions including Universal Studios Singapore, Cable Car rides (if included), beautiful beaches, live entertainment, and unforgettable experiences for all ages.",
+  },
+
+  {
+    day: 4,
+    title: "Departure from Singapore",
+    image: "/images/packageReview/singapore/itinerary/4.jpg",
+    description:
+      "After breakfast, check out from the hotel and transfer to Singapore Changi Airport for your onward journey with unforgettable memories of your Singapore holiday.",
+  },
+],
 
   // ===========================
   // PACKAGE INCLUSIONS
@@ -134,17 +123,21 @@ const singapore: PackageReview = {
   // ===========================
 
   terms: [
-    "Package confirmation is subject to availability.",
-    "Passport must be valid for at least 6 months from the date of travel.",
-    "Visa approval is subject to the Singapore Immigration Authorities.",
-    "Hotel check-in and check-out timings are as per hotel policy.",
-    "Unused services are non-refundable.",
-    "Itinerary may change due to operational reasons.",
-    "Cancellation charges apply as per company policy.",
-    "Travel insurance is strongly recommended.",
-    "Go Escapio is not responsible for flight delays or cancellations.",
-    "All disputes are subject to Delhi jurisdiction.",
-  ],
+  "All bookings are confirmed only upon receipt of the specified deposit amount and are subject to availability.",
+  "Package quotes are tentative and may change based on real-time availability and exchange rates at the time of advance payment.",
+  "Payments must strictly follow the defined payment policy; non-compliance may lead to service cancellations.",
+  "All cancellations must be submitted in writing; cancellation charges apply as per policy.",
+  "Go Escapio reserves the right to modify itineraries or services due to unforeseen circumstances.",
+  "Travellers are responsible for carrying valid travel documents. Go Escapio is not liable for any documentation issues.",
+  "Go Escapio is not responsible for flight delays, baggage issues, missed connections, or cancellations.",
+  "Hotel check-in is generally at 2:00 PM and check-out at 11:00 AM. Early check-in or late check-out is subject to availability and may incur additional charges.",
+  "City taxes, personal expenses, optional tours, and services not specifically mentioned in the inclusions are not included in the package.",
+  "Visa approval is solely at the discretion of the respective embassy or immigration authorities. Go Escapio is not liable for visa delays or rejections.",
+  "Travel insurance is highly recommended and is not included in the package. Travellers are responsible for their own safety during all activities.",
+  "Go Escapio acts only as an intermediary for airlines, hotels, transport providers, and other service providers, and is not liable for third-party service disruptions or losses.",
+  "Hotel rates, room categories, and all services are subject to availability at the time of booking.",
+  "Limited availability. Blackout dates may apply. Book your package in advance to avoid disappointment.",
+],
 };
 
 export default singapore;
