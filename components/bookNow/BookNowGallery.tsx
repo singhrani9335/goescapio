@@ -1,20 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { Images } from "lucide-react";
+import { Images as ImageIcon } from "lucide-react";
 
 type BookNowGalleryProps = {
   images: string[];
 };
 
-export default function BookNowGallery({
-  images,
-}: BookNowGalleryProps) {
-  const hasImages = images.length > 0;
+export default function BookNowGallery({ images }: BookNowGalleryProps) {
+  const mainImage = images?.[0] || null;
 
-  const mainImage = hasImages ? images[0] : null;
-
-  const galleryImages = hasImages
+  const galleryImages = images?.length
     ? images.slice(1, 5)
     : Array.from({ length: 4 }, () => "");
 
@@ -24,15 +20,14 @@ export default function BookNowGallery({
         <div
           className="
             grid
-            h-[470px]
+            h-[420px]
             grid-cols-1
             gap-[2px]
+            md:h-[470px]
             lg:grid-cols-2
           "
         >
-          {/* ===========================
-              LEFT BIG IMAGE
-          =========================== */}
+          {/* LEFT MAIN IMAGE */}
 
           <div
             className="
@@ -45,43 +40,23 @@ export default function BookNowGallery({
             {mainImage ? (
               <Image
                 src={mainImage}
-                alt="Book Now Image"
+                alt="Book Now package main image"
                 fill
                 priority
-                className="object-cover"
+                sizes="
+                  (max-width:768px) 100vw,
+                  50vw
+                "
+                className="
+                  object-cover
+                "
               />
             ) : (
-              <div
-                className="
-                  flex
-                  h-full
-                  items-center
-                  justify-center
-                  text-center
-                  text-gray-400
-                "
-              >
-                <div>
-                  <Images
-                    size={70}
-                    className="mx-auto mb-4"
-                  />
-
-                  <p className="text-xl font-semibold">
-                    Main Image
-                  </p>
-
-                  <p className="mt-2 text-sm">
-                    Image Coming Soon
-                  </p>
-                </div>
-              </div>
+              <PlaceholderImage title="Main Image" />
             )}
           </div>
 
-          {/* ===========================
-              RIGHT 4 IMAGES
-          =========================== */}
+          {/* RIGHT FOUR IMAGES */}
 
           <div
             className="
@@ -97,7 +72,6 @@ export default function BookNowGallery({
                 key={index}
                 className="
                   relative
-                  h-full
                   overflow-hidden
                   bg-gray-100
                 "
@@ -105,36 +79,18 @@ export default function BookNowGallery({
                 {image ? (
                   <Image
                     src={image}
-                    alt={`Book Now Image ${index + 2}`}
+                    alt={`Book Now gallery image ${index + 2}`}
                     fill
-                    className="object-cover"
+                    sizes="
+                      (max-width:768px) 50vw,
+                      25vw
+                    "
+                    className="
+                      object-cover
+                    "
                   />
                 ) : (
-                  <div
-                    className="
-                      flex
-                      h-full
-                      items-center
-                      justify-center
-                      text-center
-                      text-gray-400
-                    "
-                  >
-                    <div>
-                      <Images
-                        size={40}
-                        className="mx-auto mb-3"
-                      />
-
-                      <p className="text-sm font-medium">
-                        Image {index + 2}
-                      </p>
-
-                      <p className="mt-2 text-xs">
-                        Coming Soon
-                      </p>
-                    </div>
-                  </div>
+                  <PlaceholderImage title={`Image ${index + 2}`} small />
                 )}
               </div>
             ))}
@@ -142,5 +98,42 @@ export default function BookNowGallery({
         </div>
       </div>
     </section>
+  );
+}
+
+/* ===========================
+   EMPTY IMAGE PLACEHOLDER
+=========================== */
+
+function PlaceholderImage({
+  title,
+  small = false,
+}: {
+  title: string;
+  small?: boolean;
+}) {
+  return (
+    <div
+      className="
+        flex
+        h-full
+        items-center
+        justify-center
+        text-center
+        text-gray-400
+      "
+    >
+      <div>
+        <ImageIcon size={small ? 35 : 65} className="mx-auto mb-3" />
+
+        <p className={small ? "text-sm font-medium" : "text-xl font-semibold"}>
+          {title}
+        </p>
+
+        <p className={small ? "mt-1 text-xs" : "mt-2 text-sm"}>
+          Image Coming Soon
+        </p>
+      </div>
+    </div>
   );
 }

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Images as ImageIcon } from "lucide-react";
 
 import type { PackageReview } from "@/types/packageReview";
 
@@ -11,7 +11,7 @@ interface PackageItineraryProps {
 }
 
 export default function PackageItinerary({ itinerary }: PackageItineraryProps) {
-  const [openDay, setOpenDay] = useState<number>(1);
+  const [openDay, setOpenDay] = useState<number>(itinerary?.[0]?.day ?? 1);
 
   if (!itinerary || itinerary.length === 0) {
     return null;
@@ -88,8 +88,6 @@ export default function PackageItinerary({ itinerary }: PackageItineraryProps) {
                   <span>{item.title}</span>
                 </h3>
 
-                {/* Arrow */}
-
                 {isOpen ? (
                   <ChevronUp size={21} className="text-gray-700" />
                 ) : (
@@ -109,28 +107,52 @@ export default function PackageItinerary({ itinerary }: PackageItineraryProps) {
                     md:grid-cols-[280px_1fr]
                   "
                 >
+                  {/* IMAGE */}
+
                   <div
                     className="
                       relative
                       h-[190px]
                       overflow-hidden
-                      rounded-xl
+                      bg-gray-100
                     "
                   >
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      fill
-                      className="
-                        object-cover
-                        transition
-                        duration-300
-                        hover:scale-105
-                      "
-                    />
+                    {item.image ? (
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        sizes="
+                          (max-width:768px) 100vw,
+                          280px
+                        "
+                        className="
+                          object-cover
+                        "
+                      />
+                    ) : (
+                      <div
+                        className="
+                          flex
+                          h-full
+                          items-center
+                          justify-center
+                          text-gray-400
+                        "
+                      >
+                        <ImageIcon size={45} className="mb-2" />
+                      </div>
+                    )}
                   </div>
 
-                  <div className="flex items-center">
+                  {/* DESCRIPTION */}
+
+                  <div
+                    className="
+                      flex
+                      items-center
+                    "
+                  >
                     <p
                       className="
                         text-[15px]

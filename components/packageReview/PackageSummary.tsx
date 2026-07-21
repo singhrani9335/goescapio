@@ -34,75 +34,155 @@ export default function PackageSummary({
   features,
 }: PackageSummaryProps) {
   return (
-    <section className="bg-[#fbf7f1] px-12 py-4 md:px-24">
+    <section
+      className="
+        bg-[#fbf7f1]
+        px-8
+        py-5
+        md:px-16
+        lg:px-24
+      "
+    >
       {/* TITLE */}
-      <h1 className="text-[24px] font-bold tracking-tight text-[#263238]">
+
+      <h1
+        className="
+          text-[26px]
+          font-bold
+          tracking-tight
+          text-[#263238]
+        "
+      >
         {title}
       </h1>
 
-      <div className="mt-4 flex items-center justify-between">
-        {/* PRICE AREA */}
+      <div
+        className="
+          mt-5
+          flex
+          flex-col
+          gap-8
+          xl:flex-row
+          xl:items-center
+          xl:justify-between
+        "
+      >
+        {/* PRICE */}
+
         <div className="flex items-center gap-5">
-          <h2 className="text-[38px] font-extrabold leading-none text-[#6419d6]">
+          <h2
+            className="
+              text-[40px]
+              font-extrabold
+              leading-none
+              text-[#6419d6]
+            "
+          >
             ₹{price}
           </h2>
-          <div className="text-[15px] font-medium leading-5 text-[#111827]">
+
+          <div
+            className="
+              text-[15px]
+              font-medium
+              leading-5
+              text-[#111827]
+            "
+          >
             {priceType.split("|").map((item, index) => (
               <p key={index}>{item.trim()}</p>
             ))}
           </div>
         </div>
 
-        {/* DETAILS AREA */}
-        <div className="translate-x-3 flex items-center gap-6">
+        {/* DETAILS */}
+
+        <div
+          className="
+            flex
+            flex-wrap
+            items-center
+            gap-10
+          "
+        >
           {/* DURATION */}
+
           <div className="flex items-center gap-3">
-            <Clock3 size={32} strokeWidth={2.6} className="text-[#6419d6]" />
+            <Clock3
+              size={32}
+              strokeWidth={3}
+              className="
+                shrink-0
+                text-[#6419d6]
+              "
+            />
 
             <div>
-              <p className="text-[14px] font-medium text-gray-700">Duration</p>
+              <p className="text-[13px] font-medium text-gray-600">Duration</p>
 
-              <p className="text-[17px] font-semibold text-[#111827]">
-                {duration}
-              </p>
+              <p className="text-[17px] font-bold text-[#111827]">{duration}</p>
             </div>
           </div>
 
           {/* INCLUDES */}
+
           <div className="flex items-center gap-3">
             <BadgeCheck
               size={34}
-              strokeWidth={2.6}
-              className="text-[#6419d6]"
+              strokeWidth={3}
+              className="
+                shrink-0
+                text-[#6419d6]
+              "
             />
 
             <div>
-              <p className="text-[14px] font-medium text-gray-700">Includes</p>
+              <p className="text-[13px] font-medium text-gray-600">Includes</p>
 
-              <div className="mt-1 flex gap-1 text-[#374151]">
-                {features.transport && <Car size={21} strokeWidth={2.4} />}
+              <div
+                className="
+                  mt-1
+                  flex
+                  items-center
+                  gap-2
+                  text-[#333]
+                "
+              >
+                {features.transport && <Car size={22} strokeWidth={2.5} />}
 
-                {features.activity && <Camera size={21} strokeWidth={2.4} />}
+                {features.activity && <Camera size={22} strokeWidth={2.5} />}
 
-                {features.hotel && <BedDouble size={21} strokeWidth={2.4} />}
+                {features.hotel && <BedDouble size={22} strokeWidth={2.5} />}
 
-                {features.meal && <Utensils size={21} strokeWidth={2.4} />}
+                {features.meal && <Utensils size={22} strokeWidth={2.5} />}
               </div>
             </div>
           </div>
 
           {/* LOCATION */}
+
           <div className="flex items-center gap-3">
             <MapPin
-              size={34}
-              strokeWidth={2.6}
-              className="fill-[#6419d6] text-[#6419d6]"
+              size={36}
+              strokeWidth={3}
+              className="
+                shrink-0
+                text-[#6419d6]
+              "
             />
 
             <div>
-              <p className="text-[14px] font-medium text-gray-700">Location</p>
+              <p className="text-[13px] font-medium text-gray-600">Location</p>
 
-              <p className="max-w-[180px] text-[17px] font-semibold leading-5 text-[#111827]">
+              <p
+                className="
+                  max-w-[200px]
+                  text-[17px]
+                  font-bold
+                  leading-5
+                  text-[#111827]
+                "
+              >
                 {location}
               </p>
             </div>

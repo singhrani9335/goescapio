@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Images as ImageIcon } from "lucide-react";
 
 import type { PackageReview } from "@/types/packageReview";
 
@@ -10,10 +10,8 @@ interface BookNowItineraryProps {
   itinerary?: PackageReview["itinerary"];
 }
 
-export default function BookNowItinerary({
-  itinerary,
-}: BookNowItineraryProps) {
-  const [openDay, setOpenDay] = useState<number>(1);
+export default function BookNowItinerary({ itinerary }: BookNowItineraryProps) {
+  const [openDay, setOpenDay] = useState<number>(itinerary?.[0]?.day ?? 1);
 
   if (!itinerary || itinerary.length === 0) {
     return null;
@@ -27,8 +25,9 @@ export default function BookNowItinerary({
         border
         border-gray-200
         bg-white
-        p-7
+        p-6
         shadow-sm
+        md:p-7
       "
     >
       <h2
@@ -58,54 +57,43 @@ export default function BookNowItinerary({
             >
               <button
                 type="button"
-                onClick={() =>
-                  setOpenDay(isOpen ? 0 : item.day)
-                }
+                onClick={() => setOpenDay(isOpen ? 0 : item.day)}
                 className={`
                   flex
                   w-full
-                  cursor-pointer
                   items-center
                   justify-between
-                  px-6
+                  gap-4
+                  px-5
                   py-5
                   text-left
-                  ${isOpen ? "bg-white" : "bg-gray-50"}
+                  transition
+                  ${isOpen ? "bg-white" : "bg-gray-50 hover:bg-gray-100"}
                 `}
               >
                 <h3
                   className="
                     flex
+                    flex-wrap
                     items-center
-                    gap-3
-                    text-[17px]
+                    gap-2
+                    text-[16px]
                     font-semibold
                     text-gray-900
+                    md:text-[17px]
                   "
                 >
-                  <span className="font-bold text-gray-800">
-                    Day {item.day}
-                  </span>
+                  <span className="font-bold">Day {item.day}</span>
 
-                  <span className="text-gray-400">
-                    —
-                  </span>
+                  <span className="text-gray-400">—</span>
 
-                  <span>
-                    {item.title}
-                  </span>
+                  <span>{item.title}</span>
                 </h3>
 
                 {isOpen ? (
-                  <ChevronUp
-                    size={21}
-                    className="text-gray-700"
-                  />
+                  <ChevronUp size={22} className="shrink-0 text-gray-700" />
                 ) : (
-                  <ChevronDown
-                    size={21}
-                    className="text-gray-700"
-                  />
+                  <ChevronDown size={22} className="shrink-0 text-gray-700" />
                 )}
               </button>
 
@@ -115,34 +103,64 @@ export default function BookNowItinerary({
                     grid
                     gap-6
                     bg-white
-                    px-6
+                    px-5
                     pb-6
-                    pt-2
+                    pt-3
                     md:grid-cols-[280px_1fr]
+                    md:px-6
                   "
                 >
+                  {/* IMAGE */}
+
                   <div
                     className="
                       relative
-                      h-[190px]
+                      h-[200px]
                       overflow-hidden
-                      rounded-xl
+                      bg-gray-100
                     "
                   >
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      fill
-                      className="
-                        object-cover
-                        transition
-                        duration-300
-                        hover:scale-105
-                      "
-                    />
+                    {item.image ? (
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        sizes="
+                          (max-width:768px) 100vw,
+                          280px
+                        "
+                        className="
+                          object-cover
+                        "
+                      />
+                    ) : (
+                      <div
+                        className="
+                          flex
+                          h-full
+                          items-center
+                          justify-center
+                          text-center
+                          text-gray-400
+                        "
+                      >
+                        <div>
+                          <ImageIcon size={45} className="mx-auto mb-3" />
+
+                          <p className="text-sm">Image Coming Soon</p>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
-                  <div className="flex items-center">
+                  {/* DESCRIPTION */}
+
+                  <div
+                    className="
+                      flex
+                      items-center
+                    "
+                  >
                     <p
                       className="
                         text-[15px]

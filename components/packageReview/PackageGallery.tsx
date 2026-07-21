@@ -1,20 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { Images } from "lucide-react";
+import { Images as ImageIcon } from "lucide-react";
 
 type PackageGalleryProps = {
   images: string[];
 };
 
-export default function PackageGallery({
-  images,
-}: PackageGalleryProps) {
-  const hasImages = images.length > 0;
+export default function PackageGallery({ images }: PackageGalleryProps) {
+  const mainImage = images?.[0] || null;
 
-  const mainImage = hasImages ? images[0] : null;
-
-  const galleryImages = hasImages
+  const galleryImages = images?.length
     ? images.slice(1, 5)
     : Array.from({ length: 4 }, () => "");
 
@@ -45,45 +41,24 @@ export default function PackageGallery({
             {mainImage ? (
               <Image
                 src={mainImage}
-                alt="Package Image"
+                alt="Package main image"
                 fill
                 priority
+                sizes="
+                  (max-width:1024px) 100vw,
+                  50vw
+                "
                 className="
                   object-cover
                 "
               />
             ) : (
-              <div
-                className="
-                  flex
-                  h-full
-                  items-center
-                  justify-center
-                  text-center
-                  text-gray-400
-                "
-              >
-                <div>
-                  <Images
-                    size={70}
-                    className="mx-auto mb-4"
-                  />
-
-                  <p className="text-xl font-semibold">
-                    Main Image
-                  </p>
-
-                  <p className="mt-2 text-sm">
-                    Image Coming Soon
-                  </p>
-                </div>
-              </div>
+              <PlaceholderImage title="Main Image" />
             )}
           </div>
 
-
           {/* ===========================
-              RIGHT 4 IMAGES
+              RIGHT FOUR IMAGES
           =========================== */}
 
           <div
@@ -108,45 +83,61 @@ export default function PackageGallery({
                 {image ? (
                   <Image
                     src={image}
-                    alt={`Package Image ${index + 2}`}
+                    alt={`Package gallery image ${index + 2}`}
                     fill
+                    sizes="
+                      (max-width:1024px) 50vw,
+                      25vw
+                    "
                     className="
                       object-cover
                     "
                   />
                 ) : (
-                  <div
-                    className="
-                      flex
-                      h-full
-                      items-center
-                      justify-center
-                      text-center
-                      text-gray-400
-                    "
-                  >
-                    <div>
-                      <Images
-                        size={40}
-                        className="mx-auto mb-3"
-                      />
-
-                      <p className="text-sm font-medium">
-                        Image {index + 2}
-                      </p>
-
-                      <p className="mt-2 text-xs">
-                        Coming Soon
-                      </p>
-                    </div>
-                  </div>
+                  <PlaceholderImage title={`Image ${index + 2}`} small />
                 )}
               </div>
             ))}
           </div>
-
         </div>
       </div>
     </section>
+  );
+}
+
+/* ===========================
+   IMAGE PLACEHOLDER
+=========================== */
+
+function PlaceholderImage({
+  title,
+  small = false,
+}: {
+  title: string;
+  small?: boolean;
+}) {
+  return (
+    <div
+      className="
+        flex
+        h-full
+        items-center
+        justify-center
+        text-center
+        text-gray-400
+      "
+    >
+      <div>
+        <ImageIcon size={small ? 40 : 70} className="mx-auto mb-3" />
+
+        <p className={small ? "text-sm font-medium" : "text-xl font-semibold"}>
+          {title}
+        </p>
+
+        <p className={small ? "mt-1 text-xs" : "mt-2 text-sm"}>
+          Image Coming Soon
+        </p>
+      </div>
+    </div>
   );
 }

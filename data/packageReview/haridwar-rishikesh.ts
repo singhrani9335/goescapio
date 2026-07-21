@@ -13,11 +13,7 @@ const haridwarRishikesh: PackageReview = {
   "/images/packageReview/haridwar-rishikesh/gallery/3.jpg",
   "/images/packageReview/haridwar-rishikesh/gallery/4.jpg",
   "/images/packageReview/haridwar-rishikesh/gallery/5.jpg",
-  "/images/packageReview/haridwar-rishikesh/gallery/6.jpg",
-  "/images/packageReview/haridwar-rishikesh/gallery/7.jpg",
-  "/images/packageReview/haridwar-rishikesh/gallery/8.jpg",
-  "/images/packageReview/haridwar-rishikesh/gallery/9.jpg",
-  "/images/packageReview/haridwar-rishikesh/gallery/10.jpg",
+  
 ],
 
 

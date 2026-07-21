@@ -1,10 +1,10 @@
+import Link from "next/link";
+
 type BookNowBreadcrumbProps = {
   title: string;
 };
 
-export default function BookNowBreadcrumb({
-  title,
-}: BookNowBreadcrumbProps) {
+export default function BookNowBreadcrumb({ title }: BookNowBreadcrumbProps) {
   return (
     <div
       className="
@@ -19,21 +19,40 @@ export default function BookNowBreadcrumb({
         text-gray-500
       "
     >
-      <span>Home</span>
+      <Link href="/" className="hover:text-[#2856D7] transition-colors">
+        Home
+      </Link>
+
       <span>/</span>
 
-      <span>Destinations</span>
+      <Link
+        href="/destination"
+        className="hover:text-[#2856D7] transition-colors"
+      >
+        Destinations
+      </Link>
+
       <span>/</span>
 
-      <span>Asia</span>
+      <Link
+        href="/destination/asia"
+        className="hover:text-[#2856D7] transition-colors"
+      >
+        Asia
+      </Link>
+
       <span>/</span>
 
-      <span>India</span>
+      <Link
+        href="/destination/india"
+        className="hover:text-[#2856D7] transition-colors"
+      >
+        India
+      </Link>
+
       <span>/</span>
 
-      <span className="text-gray-900">
-        {title}
-      </span>
+      <span className="text-gray-900">{title}</span>
     </div>
   );
 }
