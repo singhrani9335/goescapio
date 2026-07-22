@@ -18,6 +18,8 @@ export default function HolidayThemes() {
 
   useEffect(() => {
     if (swiperRef.current) {
+      swiperRef.current.navigation.init();
+      swiperRef.current.navigation.update();
       swiperRef.current.autoplay.start();
     }
   }, []);
@@ -26,82 +28,71 @@ export default function HolidayThemes() {
     <section className="bg-white py-20 lg:py-24">
       <div className="mx-auto max-w-[1400px] px-5 lg:px-10">
         {/* Heading */}
-
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <h2 className="mt-4 text-4xl font-bold text-gray-900 md:text-5xl">
             Explore Holidays By Theme
           </h2>
 
-          <p
-            className="
-    mx-auto
-    mt-6
-    max-w-2xl
-    text-[15px]
-    leading-7
-    text-gray-900
-    md:text-[16px]
-  "
-          >
+          <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-7 text-gray-900 md:text-[16px]">
             Find your perfect getaway, tailored to your interests.
           </p>
         </div>
 
         {/* Slider */}
 
-        <div className="relative overflow-hidden px-2">
+        <div className="relative overflow-visible px-2">
           {/* Left Arrow */}
 
           <button
             className="
-            holiday-prev
-            absolute
-            left-[14px]
-            top-[42%]
-            z-20
-            flex
-            h-7
-            w-7
-            -translate-y-1/2
-            items-center
-            justify-center
-            rounded-full
-            bg-blue-600
-            text-white
-            shadow-md
-            transition
-            hover:bg-blue-700
+              holiday-prev
+              absolute
+              -left-5
+              top-[50%]
+              z-20
+              flex
+              h-7
+              w-7
+              -translate-y-1/2
+              items-center
+              justify-center
+              rounded-full
+              bg-blue-600
+              text-white
+              shadow-md
+              transition
+              hover:bg-blue-700
             "
             aria-label="Previous Slide"
           >
-            <ChevronLeft size={16} />
+            <ChevronLeft size={14} />
           </button>
 
           {/* Right Arrow */}
 
           <button
             className="
-            holiday-next
-            absolute
-            right-[14px]
-            top-[42%]
-            z-20
-            flex
-            h-7
-            w-7
-            -translate-y-1/2
-            items-center
-            justify-center
-            rounded-full
-            bg-blue-600
-            text-white
-            shadow-md
-            transition
-            hover:bg-blue-700
+              holiday-next
+              absolute
+              -right-5
+              top-[50%]
+              z-20
+              flex
+              h-7
+              w-7
+              -translate-y-1/2
+              items-center
+              justify-center
+              rounded-full
+              bg-blue-600
+              text-white
+              shadow-md
+              transition
+              hover:bg-blue-700
             "
             aria-label="Next Slide"
           >
-            <ChevronRight size={16} />
+            <ChevronRight size={14} />
           </button>
 
           <Swiper
@@ -138,23 +129,24 @@ export default function HolidayThemes() {
                 slidesPerView: 5,
               },
             }}
-            className="overflow-hidden"
+            className="overflow-visible"
           >
             {holidayThemes.map((theme) => (
               <SwiperSlide key={theme.id} className="!h-auto">
                 <div className="flex justify-center">
                   <div
                     className="
-                    group
-                    relative
-                    h-56
-                    w-56
-                    overflow-hidden
-                    rounded-full
-                    shadow-lg
-                    transition
-                    duration-300
-                    hover:shadow-2xl
+                      group
+                      relative
+                      h-56
+                      w-56
+                      overflow-hidden
+                      rounded-full
+                      shadow-lg
+                      transition-all
+                      duration-300
+                      hover:scale-95
+                      hover:shadow-xl
                     "
                   >
                     <Image
@@ -162,46 +154,38 @@ export default function HolidayThemes() {
                       alt={theme.title}
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1200px) 25vw, 20vw"
-                      className="
-    object-cover
-    transition
-    duration-500
-    group-hover:scale-110
-  "
+                      className="object-cover"
                     />
 
-                    <div className="absolute inset-0 bg-black/40 transition group-hover:bg-black/55" />
+                    <div className="absolute inset-0 bg-black/45" />
 
-                    <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center text-white">
-                      <h3 className="text-xl font-bold leading-7">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white">
+                      <h3 className="text-lg font-semibold leading-6">
                         {theme.title}
                       </h3>
 
                       <Link
                         href={`/themes/${theme.slug}`}
-
-
                         className="
-                        mt-4
-                        inline-flex
-                        items-center
-                        gap-2
-                        rounded-full
-                        border
-                        border-white/70
-                        px-5
-                        py-2
-                        text-sm
-                        font-medium
-                        text-white
-                        transition
-                        duration-300
-                        hover:bg-white
-                        hover:text-gray-900
+                          mt-3
+                          inline-flex
+                          items-center
+                          gap-1.5
+                          rounded-full
+                          border
+                          border-white/70
+                          px-4
+                          py-1.5
+                          text-xs
+                          font-medium
+                          text-white
+                          transition
+                          duration-300
+                          hover:bg-transparent
                         "
                       >
                         Explore Now
-                        <ArrowRight size={15} />
+                        <ArrowRight size={13} />
                       </Link>
                     </div>
                   </div>

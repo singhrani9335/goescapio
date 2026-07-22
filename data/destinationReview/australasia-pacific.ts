@@ -3,8 +3,7 @@ const australasiaPacific = {
 
   title: "Australasia & Pacific",
 
-  banner: "/images/destination/australasia-pacific.jpg",
-
+  banner: "/images/destinationReview/Australasia & Pacific.jpg",
   description:
     "Discover the breathtaking beauty of Australasia & the Pacific, where crystal-clear waters, lush rainforests, and vibrant cities create unforgettable travel experiences. From Australia's iconic landmarks and New Zealand's spectacular landscapes to the tropical islands of Fiji and beyond, this region offers the perfect mix of adventure, relaxation, and natural beauty. Whether you're exploring world-famous beaches, enjoying thrilling outdoor activities, or immersing yourself in local culture, every journey promises lasting memories.",
 

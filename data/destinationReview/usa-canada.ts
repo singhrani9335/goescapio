@@ -3,8 +3,7 @@ const usaCanada = {
 
   title: "USA & Canada",
 
-  banner: "/images/destination/usa-canada.jpg",
-
+  banner: "/images/destinationReview/USA & Canada.jpg",
   description:
     "Explore the best of North America with unforgettable journeys through the USA and Canada. From vibrant cities and iconic landmarks to breathtaking national parks and scenic coastlines, this region offers something for every traveler. Whether you're looking for exciting urban adventures, stunning natural landscapes, or memorable road trips, the USA & Canada deliver experiences that last a lifetime.",
 

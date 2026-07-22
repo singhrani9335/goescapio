@@ -24,12 +24,25 @@ export default function DestinationHero({
           className="object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/45" />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/35" />
 
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
-          <h1 className="px-4 text-center text-4xl font-bold text-white drop-shadow-2xl md:text-6xl">
-            {destination.title}
-          </h1>
+        {/* Left Heading */}
+        <div className="absolute inset-0 z-10 flex items-center">
+          <div className="mx-auto w-full max-w-[1400px] px-6 lg:px-16">
+            <h1
+              className="
+                text-left
+                text-4xl
+                font-bold
+                text-white
+                drop-shadow-2xl
+                md:text-6xl
+              "
+            >
+              {destination.title}
+            </h1>
+          </div>
         </div>
       </div>
     </section>

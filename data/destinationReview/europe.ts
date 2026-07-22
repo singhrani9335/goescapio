@@ -3,7 +3,7 @@ const europe = {
 
   title: "Europe",
 
-  banner: "/images/destination/europe.jpg",
+  banner: "/images/destinationReview/europe.jpg",
 
   description:
     "Europe is a timeless destination where history, culture, and natural beauty come together. Wander through charming medieval towns, admire iconic landmarks, experience world-class cuisine, and explore breathtaking landscapes ranging from the Alps to the Mediterranean coast. Whether you're looking for romantic escapes, cultural discoveries, or unforgettable adventures, Europe offers something for every traveler.",
