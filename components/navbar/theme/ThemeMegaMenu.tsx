@@ -15,49 +15,40 @@ export default function ThemeMegaMenu({
   return (
     <div
       className="
-      absolute
-      left-1/2
-      top-full
-      z-50
-      mt-0
-      w-[1200px]
-      -translate-x-1/2
-      rounded-[20px]
-      border
-      border-gray-200
-      bg-white
-      shadow-[0_25px_70px_rgba(0,0,0,0.15)]
+        absolute
+        left-1/2
+        top-full
+        z-50
+        mt-0
+        w-[1120px]
+        -translate-x-1/2
+        border
+        border-gray-200
+        bg-white
+        shadow-[0_20px_60px_rgba(0,0,0,0.15)]
       "
     >
-
-      {/* Scroll Area */}
       <div
         className="
-        max-h-[600px]
-        overflow-y-auto
-        p-5
+          max-h-[560px]
+          overflow-y-auto
+          p-3
+          overscroll-auto
+          scroll-smooth
+          [&::-webkit-scrollbar]:hidden
+          [-ms-overflow-style:none]
+          [scrollbar-width:none]
         "
       >
-
-        <div
-          className="
-          grid
-          grid-cols-3
-          gap-5
-          "
-        >
-
+        <div className="grid grid-cols-3 gap-2">
           {themeMenu.map((theme) => (
             <ThemeCard
               key={theme.id}
               theme={theme}
             />
           ))}
-
         </div>
-
       </div>
-
     </div>
   );
 }

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+
 import { ThemeItem } from "@/types/navbar";
 
 interface ThemeCardProps {
@@ -12,36 +13,37 @@ export default function ThemeCard({ theme }: ThemeCardProps) {
   return (
     <div
       className="
-      group
-      relative
-      h-[290px]
-      overflow-hidden
-      rounded-xl
+        group
+        relative
+        h-[250px]
+        overflow-hidden
+        shadow-md
       "
     >
       <Image
         src={theme.image}
         alt={theme.title}
         fill
-        className="
-        object-cover
-        transition
-        duration-500
-        group-hover:scale-105
-        "
+        priority
+        sizes="260px"
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
       />
 
-      {/* Bottom Dark Overlay */}
+      {/* Default Bottom Gradient */}
 
       <div
         className="
-        absolute
-        inset-x-0
-        bottom-0
-        h-24
-        bg-gradient-to-t
-        from-black/80
-        to-transparent
+          absolute
+          inset-x-0
+          bottom-0
+          h-24
+          bg-gradient-to-t
+          from-black/80
+          via-black/20
+          to-transparent
+          transition-opacity
+          duration-300
+          group-hover:opacity-0
         "
       />
 
@@ -49,56 +51,50 @@ export default function ThemeCard({ theme }: ThemeCardProps) {
 
       <div
         className="
-        absolute
-        bottom-5
-        left-5
+          absolute
+          bottom-5
+          left-5
+          z-10
+          transition-opacity
+          duration-300
+          group-hover:opacity-0
         "
       >
-        <h3
-          className="
-          text-xl
-          font-bold
-          text-white
-          "
-        >
+        <h3 className="text-lg font-semibold text-white">
           {theme.title}
         </h3>
       </div>
 
-      {/* Hover Content */}
+      {/* Hover Overlay */}
 
       <div
         className="
-        absolute
-        inset-0
-        flex
-        flex-col
-        justify-end
-        bg-black/70
-        p-6
-        opacity-0
-        transition
-        duration-300
-        group-hover:opacity-100
+          absolute
+          inset-0
+          flex
+          flex-col
+          justify-end
+          bg-black/60
+          p-5
+          opacity-0
+          translate-y-3
+          transition-all
+          duration-300
+          group-hover:translate-y-0
+          group-hover:opacity-100
         "
       >
-        <h3
-          className="
-          text-2xl
-          font-bold
-          text-white
-          "
-        >
+        <h3 className="text-lg font-semibold text-white">
           {theme.title}
         </h3>
 
         <p
           className="
-          mt-3
-          line-clamp-5
-          text-sm
-          leading-6
-          text-white/90
+            mt-2
+            line-clamp-4
+            text-sm
+            leading-5
+            text-white/90
           "
         >
           {theme.description}
@@ -107,17 +103,20 @@ export default function ThemeCard({ theme }: ThemeCardProps) {
         <Link
           href={theme.href}
           className="
-          mt-5
-          flex
-          h-12
-          items-center
-          justify-center
-          border
-          border-white/60
-          text-white
-          transition
-          hover:bg-white
-          hover:text-black
+            mt-4
+            inline-flex
+            h-10
+            items-center
+            justify-center
+            border
+            border-white/70
+            text-sm
+            font-medium
+            text-white
+            transition
+            duration-300
+            hover:bg-white
+            hover:text-black
           "
         >
           Explore →

@@ -41,11 +41,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-white shadow-md">
+    <header className="fixed inset-x-0 top-0 z-50 bg-white shadow-sm">
       {/* TOP BAR */}
 
       <div className="hidden bg-[#081B2A] text-white md:block">
-        <div className="mx-auto flex h-11 max-w-7xl items-center justify-between px-6">
+        <div className="mx-auto flex h-10 max-w-7xl items-center justify-between px-6">
           <div className="flex items-center gap-8">
             <a
               href="tel:+917744848000"
@@ -98,11 +98,11 @@ export default function Navbar() {
       {/* MAIN NAV */}
 
       <div className="relative mx-auto max-w-7xl">
-        <div className="flex h-[78px] items-center justify-between px-6">
+        <div className="flex h-[74px] items-center justify-between px-6">
           {/* MOBILE */}
 
           <button
-            onClick={() => setOpen(!open)}
+            onClick={() => setOpen((prev) => !prev)}
             className="cursor-pointer md:hidden"
           >
             {open ? <X size={28} /> : <Menu size={28} />}
@@ -114,7 +114,8 @@ export default function Navbar() {
             href="/"
             className="
             relative h-16 w-44
-            transition hover:scale-105
+            transition duration-300
+            hover:scale-[1.02]
             "
           >
             <Image
@@ -131,7 +132,7 @@ export default function Navbar() {
 
           <nav
             className="
-            hidden items-center gap-11
+            hidden items-center gap-9
             text-[15px] font-bold
             text-gray-800 md:flex
             "
@@ -152,15 +153,21 @@ export default function Navbar() {
               ref={destinationRef}
               className="relative py-6 -my-6"
               onMouseEnter={() => {
-                if (destinationTimer.current)
+                if (destinationTimer.current) {
                   clearTimeout(destinationTimer.current);
+                }
 
+                if (themeTimer.current) {
+                  clearTimeout(themeTimer.current);
+                }
+
+                setThemeOpen(false);
                 setDestinationOpen(true);
               }}
               onMouseLeave={() => {
                 destinationTimer.current = setTimeout(() => {
                   setDestinationOpen(false);
-                }, 200);
+                }, 120);
               }}
             >
               <button
@@ -188,14 +195,21 @@ export default function Navbar() {
               ref={themeRef}
               className="relative py-6 -my-6"
               onMouseEnter={() => {
-                if (themeTimer.current) clearTimeout(themeTimer.current);
+                if (themeTimer.current) {
+                  clearTimeout(themeTimer.current);
+                }
 
+                if (destinationTimer.current) {
+                  clearTimeout(destinationTimer.current);
+                }
+
+                setDestinationOpen(false);
                 setThemeOpen(true);
               }}
               onMouseLeave={() => {
                 themeTimer.current = setTimeout(() => {
                   setThemeOpen(false);
-                }, 200);
+                }, 120);
               }}
             >
               <button
@@ -221,13 +235,12 @@ export default function Navbar() {
               href="/contact"
               className="
               cursor-pointer transition
-              hover:text-blue-600
+              hover:text-blue-700
               "
             >
               Contact Us
             </Link>
           </nav>
-
           {/* RIGHT CONTACT */}
 
           <div
@@ -237,12 +250,12 @@ export default function Navbar() {
           >
             <div
               className="
-              flex h-11 w-11 items-center
+              flex h-10 w-10 items-center
               justify-center rounded-full
               bg-blue-100 text-blue-600
               "
             >
-              <Phone size={22} />
+              <Phone size={20} />
             </div>
 
             <div>
@@ -251,7 +264,8 @@ export default function Navbar() {
                 className="
                 cursor-pointer text-lg
                 font-extrabold text-gray-900
-                hover:text-blue-600
+                transition-colors
+                hover:text-blue-700
                 "
               >
                 07744848000
