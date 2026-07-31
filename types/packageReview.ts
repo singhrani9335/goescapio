@@ -17,7 +17,7 @@ export interface PackageReview {
 
   duration?: string;
 
-  price?: string;
+  price?: number;
 
   priceType?: string;
 
