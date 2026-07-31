@@ -1,29 +1,19 @@
-import { PackageReview } from "@/types/packageReview";
+import { BookNow } from "@/types/bookNow";
 
 import BookNowPriceCard from "./BookNowPriceCard";
 import BookNowInfoCard from "./BookNowInfoCard";
 import BookNowHelpCard from "./BookNowHelpCard";
 
 type Props = {
-  packageData: PackageReview;
+  packageData: BookNow;
 };
 
 export default function BookNowSidebar({
   packageData,
 }: Props) {
   return (
-    <aside
-      className="
-        w-full
-      "
-    >
-      <div
-        className="
-          flex
-          flex-col
-          gap-4
-        "
-      >
+    <aside className="w-full">
+      <div className="flex flex-col gap-4">
         {/* Price Card */}
 
         <BookNowPriceCard
@@ -40,7 +30,6 @@ export default function BookNowSidebar({
         {/* Help Card */}
 
         <BookNowHelpCard />
-
       </div>
     </aside>
   );

@@ -1,7 +1,7 @@
-import { PackageReview } from "@/types/packageReview";
+import type { BookNow } from "@/types/bookNow";
 
 type BookNowOverviewProps = {
-  packageData: PackageReview;
+  packageData: BookNow;
 };
 
 export default function BookNowOverview({

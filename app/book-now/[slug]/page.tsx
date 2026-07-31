@@ -22,7 +22,9 @@ type Props = {
 export default async function BookNowPage({ params }: Props) {
   const { slug } = await params;
 
-  const packageData = bookNowPackages.find((item) => item.slug === slug);
+  const packageData = bookNowPackages.find(
+    (item) => item.slug === slug
+  );
 
   if (!packageData) {
     notFound();
@@ -38,7 +40,7 @@ export default async function BookNowPage({ params }: Props) {
 
       <BookNowSummary
         title={packageData.title || ""}
-        price={Number(packageData.price)}
+        price={packageData.price || 0}
         priceType={packageData.priceType || ""}
         duration={packageData.duration || ""}
         location={packageData.location || ""}
