@@ -24,7 +24,7 @@ const singapore: BookNow = {
 
   title: "5 Nights & 6 Days Singapore Explorer",
 
-  price: "45,999",
+  price: 45999,
 
   priceType: "Per Person | Twin Sharing Price",
 

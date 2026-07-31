@@ -1,7 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
+import { useCurrency } from "@/context/CurrencyContext";
+import { formatPrice } from "@/lib/formatPrice";
 
 import type { ThemePackage } from "@/types/themePackage";
 import ThemeIcons from "./ThemeIcons";
@@ -11,6 +15,14 @@ interface ThemePackageCardProps {
 }
 
 export default function ThemePackageCard({ pkg }: ThemePackageCardProps) {
+  const { currency, rates } = useCurrency();
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <div
       className="
@@ -27,14 +39,18 @@ export default function ThemePackageCard({ pkg }: ThemePackageCardProps) {
         hover:shadow-xl
       "
     >
-      {/* Image */}
+      {/* IMAGE */}
 
       <div className="relative h-[280px] w-full">
         <Image
           src={pkg.image}
           alt={pkg.title}
           fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          sizes="
+            (max-width:640px) 100vw,
+            (max-width:1024px) 50vw,
+            33vw
+          "
           className="object-cover"
         />
 
@@ -57,7 +73,7 @@ export default function ThemePackageCard({ pkg }: ThemePackageCardProps) {
         </div>
       </div>
 
-      {/* Content */}
+      {/* CONTENT */}
 
       <div className="p-6">
         <h3
@@ -86,6 +102,8 @@ export default function ThemePackageCard({ pkg }: ThemePackageCardProps) {
             justify-between
           "
         >
+          {/* PRICE */}
+
           <div>
             <p className="text-sm text-gray-500">Starting From</p>
 
@@ -96,9 +114,11 @@ export default function ThemePackageCard({ pkg }: ThemePackageCardProps) {
                 text-blue-600
               "
             >
-              ₹{pkg.price}
+              {mounted ? formatPrice(Number(pkg.price), currency, rates) : "₹0"}
             </h4>
           </div>
+
+          {/* BUTTON */}
 
           <Link
             href={`/package/${pkg.slug}`}

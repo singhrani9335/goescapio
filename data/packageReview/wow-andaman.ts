@@ -21,7 +21,7 @@ const wowAndaman: PackageReview = {
 
   title: "4 Nights & 5 Days Wow Andaman",
 
-  price: "29,990",
+  price: 29990,
 
   priceType: "Per Person | Twin Sharing Price",
 

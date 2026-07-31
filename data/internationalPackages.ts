@@ -8,7 +8,7 @@ export const internationalPackages: Package[] = [
     title: "3 Nights & 4 Days Jordan Timeless Treasures",
     nights: 3,
     location: "Amman, Jordan",
-    price: "₹47,690",
+    price: 47690,
 
     duration: "3 Nights 4 Days",
     hotel: "Hotel Included",
@@ -31,7 +31,7 @@ export const internationalPackages: Package[] = [
     title: "3 Nights & 4 Days Vietnam Timeless Charm",
     nights: 3,
     location: "Hanoi, Vietnam",
-    price: "₹19,999",
+    price: 19999,
 
     duration: "3 Nights 4 Days",
     hotel: "Hotel Included",
@@ -54,7 +54,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Baku Tour",
     nights: 4,
     location: "Baku, Azerbaijan",
-    price: "₹27,490",
+    price: 27490,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -77,7 +77,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Classic Cairo with Alexandria Excursion",
     nights: 4,
     location: "Cairo, Egypt",
-    price: "₹54,990",
+    price: 54990,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -100,7 +100,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Classic Georgia",
     nights: 4,
     location: "Tbilisi, Georgia",
-    price: "₹39,290",
+    price: 39290,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -123,7 +123,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Dubai Vibes",
     nights: 4,
     location: "Dubai, United Arab Emirates",
-    price: "₹29,999",
+    price: 29999,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -146,7 +146,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Hong Kong Family Special",
     nights: 4,
     location: "Hong Kong, Hongkong",
-    price: "₹81,690",
+    price: 81690,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -169,7 +169,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Kenyan Safari Adventure",
     nights: 4,
     location: "Nairobi, Kenya",
-    price: "₹1,62,790",
+    price: 162790,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -192,7 +192,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Luxurious Mauritius",
     nights: 4,
     location: "Mauritius, Mauritius",
-    price: "₹51,990",
+    price: 51990,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -214,7 +214,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Phu Quoc Escape",
     nights: 4,
     location: "Phu Quoc, Vietnam",
-    price: "₹70,990",
+    price: 70990,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -237,7 +237,7 @@ export const internationalPackages: Package[] = [
     title: "4 Nights & 5 Days Thailand Bachelor’s Trip – Pattaya & Bangkok",
     nights: 4,
     location: "Bangkok, Thailand",
-    price: "₹25,290",
+    price: 25290,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -260,7 +260,7 @@ export const internationalPackages: Package[] = [
     title: "5 Nights & 6 Days Amsterdam & Paris Classic",
     nights: 5,
     location: "Amsterdam, Netherlands",
-    price: "₹1,90,990",
+    price: 190990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -283,7 +283,7 @@ export const internationalPackages: Package[] = [
     title: "5 Nights & 6 Days Azerbaijan Explorer",
     nights: 5,
     location: "Baku, Azerbaijan",
-    price: "₹24,990",
+    price: 24990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -306,7 +306,7 @@ export const internationalPackages: Package[] = [
     title: "5 Nights & 6 Days Dubai Extravaganza",
     nights: 5,
     location: "Dubai, United Arab Emirates",
-    price: "₹57,690",
+    price: 57690,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -329,7 +329,7 @@ export const internationalPackages: Package[] = [
     title: "5 Nights & 6 Days Hong Kong Extravaganza",
     nights: 5,
     location: "Hong Kong, Hongkong",
-    price: "₹96,790",
+    price: 96790,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -352,7 +352,7 @@ export const internationalPackages: Package[] = [
     title: "5 Nights & 6 Days Iceland Holiday",
     nights: 5,
     location: "Reykjavik, Iceland",
-    price: "₹1,09,990",
+    price: 109990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -375,7 +375,7 @@ export const internationalPackages: Package[] = [
     title: "5 Nights & 6 Days Thailand Honeymoon Special – Krabi & Phuket",
     nights: 5,
     location: "Krabi, Thailand",
-    price: "₹33,990",
+    price: 33990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -398,7 +398,7 @@ export const internationalPackages: Package[] = [
     title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
     nights: 6,
     location: "Cairo, Egypt",
-    price: "₹1,10,990",
+    price: 110990,
 
     duration: "6 Nights 7 Days",
     hotel: "Hotel Included",

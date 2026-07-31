@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, MessageCircle } from "lucide-react";
 
 const faqs = [
   {
@@ -50,47 +50,61 @@ export default function ContactFaq() {
   };
 
   return (
-    <section className="bg-gray-50 py-20">
-      <div className="mx-auto max-w-5xl px-5 lg:px-8">
+    <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-24">
+      {/* Background Blur */}
+      <div className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl" />
+      <div className="absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-cyan-100/60 blur-3xl" />
+
+      <div className="relative mx-auto max-w-5xl px-5 lg:px-8">
         {/* Heading */}
 
-        <div className="mb-14 text-center">
-          <span className="rounded-full bg-blue-100 px-5 py-2 text-sm font-semibold text-blue-600">
+        <div className="mb-16 text-center">
+          <span className="inline-flex items-center gap-2 rounded-full bg-blue-100 px-5 py-2 text-sm font-semibold text-blue-600">
+            <MessageCircle size={16} />
             Frequently Asked Questions
           </span>
 
-          <h2 className="mt-5 text-3xl font-bold text-gray-900 md:text-5xl">
-            Have Any Questions?
+          <h2 className="mt-6 text-4xl font-bold text-gray-900 md:text-5xl">
+            Everything You Need To Know
           </h2>
 
-          <p className="mx-auto mt-5 max-w-2xl text-gray-600">
-            Find answers to the most common questions about our travel
-            packages, bookings, cancellations, and support services.
+          <p className="mx-auto mt-6 max-w-3xl leading-8 text-gray-600">
+            Find answers to the most common questions about bookings,
+            cancellations, travel packages, visa assistance, payments,
+            and customer support.
           </p>
         </div>
 
         {/* FAQ List */}
 
-        <div className="space-y-5">
-          {faqs.map((faq, index) => (
+        <div className="space-y-6">
+                    {faqs.map((faq, index) => (
             <div
               key={faq.id}
-              className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-lg"
+              className={`overflow-hidden rounded-3xl border transition-all duration-300 ${
+                active === index
+                  ? "border-blue-500 bg-white shadow-xl"
+                  : "border-gray-200 bg-white shadow-sm hover:border-blue-300 hover:shadow-lg"
+              }`}
             >
               <button
+                type="button"
                 onClick={() => toggle(index)}
                 className="flex w-full items-center justify-between px-7 py-6 text-left"
               >
-                <span className="text-lg font-semibold text-gray-900">
+                <h3 className="pr-6 text-lg font-semibold text-gray-900 md:text-xl">
                   {faq.question}
-                </span>
+                </h3>
 
-                <ChevronDown
-                  size={22}
-                  className={`transition-transform duration-300 ${
-                    active === index ? "rotate-180 text-blue-600" : ""
+                <div
+                  className={`flex h-11 w-11 items-center justify-center rounded-full transition-all duration-300 ${
+                    active === index
+                      ? "bg-blue-600 text-white rotate-180"
+                      : "bg-gray-100 text-gray-600"
                   }`}
-                />
+                >
+                  <ChevronDown size={22} />
+                </div>
               </button>
 
               <div
@@ -101,9 +115,11 @@ export default function ContactFaq() {
                 }`}
               >
                 <div className="overflow-hidden">
-                  <p className="border-t border-gray-100 px-7 py-6 leading-8 text-gray-600">
-                    {faq.answer}
-                  </p>
+                  <div className="border-t border-gray-100 px-7 py-6">
+                    <p className="leading-8 text-gray-600">
+                      {faq.answer}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -113,3 +129,4 @@ export default function ContactFaq() {
     </section>
   );
 }
+        

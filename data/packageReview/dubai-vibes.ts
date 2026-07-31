@@ -21,7 +21,7 @@ const dubaiVibes: PackageReview = {
 
   title: "4 nights & 5 days dubai vibes",
 
-  price: "29,999",
+  price: 29999,
 
   priceType: "Per Person | Twin Sharing Price",
 

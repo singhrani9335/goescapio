@@ -22,7 +22,7 @@ const classicCairo: PackageReview = {
 
   title: "4 nights & 5 days classic cairo with alexandria excursion",
 
-  price: "54,990",
+  price: 54990,
 
   priceType: "Per Person | Twin Sharing Price",
 

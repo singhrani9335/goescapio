@@ -1,12 +1,29 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { Users } from "lucide-react";
 
+import { useCurrency } from "@/context/CurrencyContext";
+import { formatPrice } from "@/lib/formatPrice";
+
 type PackagePriceCardProps = {
-  price: string;
+  price: number;
 };
 
 export default function PackagePriceCard({
   price,
 }: PackagePriceCardProps) {
+
+  const { currency, rates } = useCurrency();
+
+  const [mounted, setMounted] = useState(false);
+
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+
   return (
     <div
       className="
@@ -18,9 +35,8 @@ export default function PackagePriceCard({
         shadow-sm
       "
     >
-      {/* ===========================
-          PRICE HEADER
-      =========================== */}
+
+      {/* PRICE HEADER */}
 
       <div
         className="
@@ -33,6 +49,7 @@ export default function PackagePriceCard({
           pb-5
         "
       >
+
         <p
           className="
             text-[15px]
@@ -43,6 +60,7 @@ export default function PackagePriceCard({
           Starting from
         </p>
 
+
         <div
           className="
             mt-2
@@ -50,6 +68,7 @@ export default function PackagePriceCard({
             items-end
           "
         >
+
           <h2
             className="
               text-[42px]
@@ -59,8 +78,13 @@ export default function PackagePriceCard({
               text-black
             "
           >
-            ₹{price}
+
+            {mounted
+              ? formatPrice(price, currency, rates)
+              : "₹0"}
+
           </h2>
+
 
           <span
             className="
@@ -73,7 +97,11 @@ export default function PackagePriceCard({
           >
             Per Person
           </span>
+
+
         </div>
+
+
 
         <div
           className="
@@ -83,11 +111,13 @@ export default function PackagePriceCard({
             gap-2
           "
         >
+
           <Users
             size={19}
             strokeWidth={2.4}
             className="text-black"
           />
+
 
           <span
             className="
@@ -98,14 +128,20 @@ export default function PackagePriceCard({
           >
             Twin Sharing Price
           </span>
+
+
         </div>
+
+
       </div>
 
-      {/* ===========================
-          BUTTON
-      =========================== */}
+
+
+      {/* BUTTON */}
+
 
       <div className="bg-white px-5 py-5">
+
         <button
           className="
             w-full
@@ -123,7 +159,10 @@ export default function PackagePriceCard({
         >
           ENQUIRE NOW
         </button>
+
       </div>
+
+
     </div>
   );
 }

@@ -22,7 +22,6 @@ export default function SimilarBookNow() {
     }
   }, []);
 
-
   return (
     <section
       className="
@@ -31,7 +30,6 @@ export default function SimilarBookNow() {
         py-16
       "
     >
-
       <div
         className="
           mx-auto
@@ -40,11 +38,9 @@ export default function SimilarBookNow() {
           lg:px-10
         "
       >
-
         {/* Heading */}
 
         <div className="mb-10">
-
           <h2
             className="
               text-3xl
@@ -54,10 +50,7 @@ export default function SimilarBookNow() {
           >
             Similar Packages
           </h2>
-
         </div>
-
-
 
         {/* Slider */}
 
@@ -68,8 +61,6 @@ export default function SimilarBookNow() {
             px-2
           "
         >
-
-
           {/* Left Arrow */}
 
           <button
@@ -95,8 +86,6 @@ export default function SimilarBookNow() {
           >
             <ChevronLeft size={16} />
           </button>
-
-
 
           {/* Right Arrow */}
 
@@ -124,86 +113,52 @@ export default function SimilarBookNow() {
             <ChevronRight size={16} />
           </button>
 
-
-
-
           <Swiper
-
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
             }}
-
             modules={[Navigation, Autoplay]}
-
             observer={true}
-
             observeParents={true}
-
             loop={true}
-
             speed={900}
-
             spaceBetween={5}
-
             navigation={{
               prevEl: ".similar-book-prev",
               nextEl: ".similar-book-next",
             }}
-
             autoplay={{
               delay: 4500,
               disableOnInteraction: false,
               pauseOnMouseEnter: false,
             }}
-
             breakpoints={{
-
-              0:{
-                slidesPerView:1,
+              0: {
+                slidesPerView: 1,
               },
 
-              640:{
-                slidesPerView:1,
+              640: {
+                slidesPerView: 1,
               },
 
-              768:{
-                slidesPerView:2,
+              768: {
+                slidesPerView: 2,
               },
 
-              1200:{
-                slidesPerView:4,
+              1200: {
+                slidesPerView: 4,
               },
-
             }}
-
             className="overflow-hidden"
-
           >
-
-
-            {similarBookNow.map((item)=>(
-
-              <SwiperSlide
-                key={item.id}
-                className="!h-[390px]"
-              >
-
-                <SimilarBookNowCard
-                  packageData={item}
-                />
-
+            {similarBookNow.map((item) => (
+              <SwiperSlide key={item.id} className="!h-[390px]">
+                <SimilarBookNowCard packageData={item} />
               </SwiperSlide>
-
             ))}
-
-
           </Swiper>
-
-
         </div>
-
       </div>
-
     </section>
   );
 }

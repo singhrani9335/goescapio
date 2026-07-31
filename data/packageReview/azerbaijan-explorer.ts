@@ -21,7 +21,7 @@ const azerbaijanExplorer: PackageReview = {
 
   title: "5 nights & 6 days azerbaijan explorer",
 
-  price: "24,990",
+  price: 24990,
 
   priceType: "Per Person | Twin Sharing Price",
 

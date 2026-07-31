@@ -21,7 +21,7 @@ const hongKongFamily: PackageReview = {
 
   title: "4 Nights & 5 Days Hong Kong Family Special",
 
-  price: "81,690",
+  price: 81690,
 
   priceType: "Per Person | Twin Sharing Price",
 

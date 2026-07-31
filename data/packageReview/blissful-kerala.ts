@@ -21,7 +21,7 @@ const blissfulKerala: PackageReview = {
 
   title: "4 nights & 5 days blissful kerala",
 
-  price: "16,500",
+  price: 16500,
 
   priceType: "Per Person | Twin Sharing Price",
 

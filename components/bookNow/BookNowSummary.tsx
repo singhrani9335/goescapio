@@ -10,9 +10,12 @@ import {
   MapPin,
 } from "lucide-react";
 
+import { useCurrency } from "@/context/CurrencyContext";
+import { formatPrice } from "@/lib/formatPrice";
+
 type BookNowSummaryProps = {
   title: string;
-  price: string;
+  price: number;
   priceType: string;
   duration: string;
   location: string;
@@ -33,6 +36,8 @@ export default function BookNowSummary({
   location,
   features,
 }: BookNowSummaryProps) {
+  const { currency, rates } = useCurrency();
+
   return (
     <section
       className="
@@ -75,7 +80,7 @@ export default function BookNowSummary({
               text-[#6419d6]
             "
           >
-            ₹{price}
+            {formatPrice(price, currency, rates)}
           </h2>
 
           <div
@@ -112,9 +117,13 @@ export default function BookNowSummary({
             />
 
             <div>
-              <p className="text-[13px] font-medium text-gray-600">Duration</p>
+              <p className="text-[13px] font-medium text-gray-600">
+                Duration
+              </p>
 
-              <p className="text-[17px] font-bold text-[#111827]">{duration}</p>
+              <p className="text-[17px] font-bold text-[#111827]">
+                {duration}
+              </p>
             </div>
           </div>
 
@@ -128,7 +137,9 @@ export default function BookNowSummary({
             />
 
             <div>
-              <p className="text-[13px] font-medium text-gray-600">Includes</p>
+              <p className="text-[13px] font-medium text-gray-600">
+                Includes
+              </p>
 
               <div
                 className="
@@ -138,13 +149,21 @@ export default function BookNowSummary({
                   text-[#333]
                 "
               >
-                {features.transport && <Car size={22} strokeWidth={2.5} />}
+                {features.transport && (
+                  <Car size={22} strokeWidth={2.5} />
+                )}
 
-                {features.activity && <Camera size={22} strokeWidth={2.5} />}
+                {features.activity && (
+                  <Camera size={22} strokeWidth={2.5} />
+                )}
 
-                {features.hotel && <BedDouble size={22} strokeWidth={2.5} />}
+                {features.hotel && (
+                  <BedDouble size={22} strokeWidth={2.5} />
+                )}
 
-                {features.meal && <Utensils size={22} strokeWidth={2.5} />}
+                {features.meal && (
+                  <Utensils size={22} strokeWidth={2.5} />
+                )}
               </div>
             </div>
           </div>
@@ -159,7 +178,9 @@ export default function BookNowSummary({
             />
 
             <div>
-              <p className="text-[13px] font-medium text-gray-600">Location</p>
+              <p className="text-[13px] font-medium text-gray-600">
+                Location
+              </p>
 
               <p
                 className="

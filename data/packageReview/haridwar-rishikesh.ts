@@ -23,7 +23,7 @@ const haridwarRishikesh: PackageReview = {
 
   title: "3 Nights & 4 Days Haridwar Rishikesh Tour",
 
-  price: "14,990",
+  price: 14990,
 
   priceType: "Per Person | Twin Sharing Price",
 

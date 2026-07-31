@@ -21,7 +21,7 @@ const iceland: PackageReview = {
 
   title: "5 Nights & 6 Days Iceland Holiday",
 
-  price: "1,09,990",
+  price: 109990,
 
   priceType: "Per Person | Twin Sharing Price",
 

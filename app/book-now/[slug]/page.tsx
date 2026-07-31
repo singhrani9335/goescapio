@@ -38,7 +38,7 @@ export default async function BookNowPage({ params }: Props) {
 
       <BookNowSummary
         title={packageData.title || ""}
-        price={packageData.price || ""}
+        price={Number(packageData.price)}
         priceType={packageData.priceType || ""}
         duration={packageData.duration || ""}
         location={packageData.location || ""}

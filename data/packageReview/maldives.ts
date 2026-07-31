@@ -21,7 +21,7 @@ gallery: [
 
   title: "4 Nights & 5 Days Maldives Escape",
 
-  price: "69,990",
+  price: 69990,
 
   priceType: "Per Person | Twin Sharing Price",
 

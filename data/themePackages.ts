@@ -11,7 +11,7 @@ export const themePackages: ThemePackage[] = [
     title: "05 Nights & 06 Days Beauty of Andaman",
     nights: "5 Nights",
     location: "Havelock - Andaman, India",
-    price: "25,990",
+    price: 25990,
     features: {
       hotel: true,
       activity: true,
@@ -29,7 +29,7 @@ export const themePackages: ThemePackage[] = [
     title: "04 Nights & 05 Days Blissful Kerala",
     nights: "4 Nights",
     location: "Munnar, India",
-    price: "16,500",
+    price: 16500,
     features: {
       hotel: true,
       activity: true,
@@ -47,7 +47,7 @@ export const themePackages: ThemePackage[] = [
     title: "04 Nights & 05 Days Hong Kong Family Special",
     nights: "4 Nights",
     location: "Hong Kong",
-    price: "81,690",
+    price: 81690,
     features: {
       hotel: true,
       activity: true,
@@ -65,7 +65,7 @@ export const themePackages: ThemePackage[] = [
     title: "Family Time in Dubai",
     nights: "4 Nights",
     location: "Dubai",
-    price: "43,990",
+    price: 43990,
     features: {
       hotel: true,
       activity: true,
@@ -87,7 +87,7 @@ export const themePackages: ThemePackage[] = [
     title: "Kenyan Safari Adventure",
     nights: "4 Nights",
     location: "Nairobi",
-    price: "1,62,790",
+    price: 162790,
     features: {
       hotel: true,
       activity: true,
@@ -105,7 +105,7 @@ export const themePackages: ThemePackage[] = [
     title: "Incredible South India",
     nights: "4 Nights",
     location: "Bangalore",
-    price: "20,990",
+    price: 20990,
     features: {
       hotel: true,
       activity: true,
@@ -127,7 +127,7 @@ export const themePackages: ThemePackage[] = [
     title: "Luxurious Mauritius",
     nights: "4 Nights",
     location: "Mauritius",
-    price: "51,990",
+    price: 51990,
     features: {
       hotel: true,
       activity: true,
@@ -145,7 +145,7 @@ export const themePackages: ThemePackage[] = [
     title: "Phu Quoc Escape",
     nights: "4 Nights",
     location: "Vietnam",
-    price: "70,990",
+    price: 70990,
     features: {
       hotel: true,
       activity: true,
@@ -167,7 +167,7 @@ export const themePackages: ThemePackage[] = [
     title: "Classic Cairo",
     nights: "4 Nights",
     location: "Egypt",
-    price: "54,990",
+    price: 54990,
     features: {
       hotel: true,
       activity: true,
@@ -185,7 +185,7 @@ export const themePackages: ThemePackage[] = [
     title: "Jordan Timeless Treasures",
     nights: "3 Nights",
     location: "Jordan",
-    price: "47,690",
+    price: 47690,
     features: {
       hotel: true,
       activity: true,
@@ -206,7 +206,7 @@ export const themePackages: ThemePackage[] = [
     title: "Ooty Hill Station Getaway",
     nights: "2 Nights",
     location: "Ooty, India",
-    price: "11,390",
+    price: 11390,
     features: {
       hotel: true,
       activity: true,
@@ -224,7 +224,7 @@ export const themePackages: ThemePackage[] = [
     title: "Baku Tour",
     nights: "4 Nights",
     location: "Baku, Azerbaijan",
-    price: "27,490",
+    price: 27490,
     features: {
       hotel: true,
       activity: true,
@@ -242,7 +242,7 @@ export const themePackages: ThemePackage[] = [
     title: "Vietnam Timeless Charm",
     nights: "3 Nights",
     location: "Hanoi, Vietnam",
-    price: "19,999",
+    price: 19999,
     features: {
       hotel: true,
       activity: true,
@@ -260,7 +260,7 @@ export const themePackages: ThemePackage[] = [
     title: "Gorgeous Kashmir",
     nights: "4 Nights",
     location: "Srinagar, India",
-    price: "16,990",
+    price: 16990,
     features: {
       hotel: true,
       activity: true,
@@ -278,7 +278,7 @@ export const themePackages: ThemePackage[] = [
     title: "Dubai Extravaganza",
     nights: "5 Nights",
     location: "Dubai, UAE",
-    price: "57,690",
+    price: 57690,
     features: {
       hotel: true,
       activity: true,
@@ -296,7 +296,7 @@ export const themePackages: ThemePackage[] = [
     title: "Amsterdam & Paris Classic",
     nights: "5 Nights",
     location: "Europe",
-    price: "1,90,990",
+    price: 190990,
     features: {
       hotel: true,
       activity: true,
@@ -314,7 +314,7 @@ export const themePackages: ThemePackage[] = [
     title: "Azerbaijan Explorer",
     nights: "5 Nights",
     location: "Baku, Azerbaijan",
-    price: "24,990",
+    price: 24990,
     features: {
       hotel: true,
       activity: true,

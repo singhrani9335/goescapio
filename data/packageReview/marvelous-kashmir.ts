@@ -21,7 +21,7 @@ const marvelousKashmir: PackageReview = {
 
   title: "5 nights & 6 days marvelous kashmir",
 
-  price: "18,990",
+  price: 18990,
 
   priceType: "Per Person | Twin Sharing Price",
 

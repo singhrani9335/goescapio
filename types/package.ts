@@ -7,7 +7,7 @@ export type Package = {
 
   nights: number;
   location: string;
-  price: string;
+  price: number;
 
   duration: string;
 

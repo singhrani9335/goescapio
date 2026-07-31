@@ -27,7 +27,7 @@ export default function BookNowSidebar({
         {/* Price Card */}
 
         <BookNowPriceCard
-          price={packageData.price || ""}
+          price={Number(packageData.price)}
         />
 
         {/* Package Info */}

@@ -21,7 +21,7 @@ const thailandBachelor: PackageReview = {
 
   title: "4 Nights & 5 Days Thailand Bachelor’s Trip – Pattaya & Bangkok",
 
-  price: "25,290",
+  price: 25290,
 
   priceType: "Per Person | Twin Sharing Price",
 

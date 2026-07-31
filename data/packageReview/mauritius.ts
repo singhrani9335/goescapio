@@ -21,7 +21,7 @@ const mauritius: PackageReview = {
 
   title: "4 Nights & 5 Days Luxurious Mauritius",
 
-  price: "51,990",
+  price: 51990,
 
   priceType: "Per Person | Twin Sharing Price",
 

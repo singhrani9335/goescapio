@@ -22,7 +22,7 @@ const bali: BookNow = {
 
   title: "5 Nights & 6 Days Bali Paradise",
 
-  price: "29,999",
+  price: 29999,
 
   priceType: "Per Person | Twin Sharing Price",
 

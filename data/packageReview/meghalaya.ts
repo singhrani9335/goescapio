@@ -22,7 +22,7 @@ gallery: [
 
   title: "5 Nights & 6 Days Magical Meghalaya Tour",
 
-  price: "32,990",
+  price: 32990,
 
   priceType: "Per Person | Twin Sharing Price",
 

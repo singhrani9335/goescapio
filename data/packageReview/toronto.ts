@@ -22,7 +22,7 @@ gallery: [
 
   title: "6 Nights & 7 Days Amazing Canada Toronto Tour",
 
-  price: "1,29,990",
+  price: 129990,
 
   priceType: "Per Person | Twin Sharing Price",
 

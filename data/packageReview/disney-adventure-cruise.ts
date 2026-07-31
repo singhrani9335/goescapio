@@ -21,7 +21,7 @@ const disneyAdventureCruise: PackageReview = {
 
   title: "4 nights & 5 days disney adventure cruise with 1 free night at singapore",
 
-  price: "88,890",
+  price: 88890,
 
   priceType: "Per Person | Twin Sharing Price",
 

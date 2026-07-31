@@ -21,7 +21,7 @@ const thailandHoneymoon: PackageReview = {
 
   title: "5 nights & 6 days thailand honeymoon special – krabi & phuket",
 
-  price: "33,990",
+  price: 33990,
 
   priceType: "Per Person | Twin Sharing Price",
 

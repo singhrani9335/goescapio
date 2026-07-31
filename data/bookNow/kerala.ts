@@ -22,7 +22,7 @@ const kerala: BookNow = {
 
   title: "5 Nights & 6 Days Kerala Bliss",
 
-  price: "15,999",
+  price: 15999,
 
   priceType: "Per Person | Twin Sharing Price",
 

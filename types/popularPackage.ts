@@ -11,7 +11,7 @@ export interface PopularPackage {
 
   location: string;
 
-  price: string;
+  price: number;
 
   duration?: string;
 

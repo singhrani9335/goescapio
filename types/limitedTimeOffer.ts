@@ -6,7 +6,7 @@ export interface LimitedTimeOffer {
   title: string;
   nights: string;
   location: string;
-  price: string;
+  price: number;
 
   features: {
     hotel: boolean;

@@ -23,7 +23,7 @@ const dubai: BookNow = {
 
   title: "5 Nights & 6 Days Dubai Delight",
 
-  price: "39,999",
+  price: 39999,
 
   priceType: "Per Person | Twin Sharing Price",
 

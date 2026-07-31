@@ -20,7 +20,7 @@ gallery: [
 
   title: "9 Nights & 10 Days Chardham Yatra",
 
-  price: "34,990",
+  price: 34990,
 
   priceType: "Per Person | Twin Sharing Price",
 

@@ -21,7 +21,7 @@ const phuQuoc: PackageReview = {
 
   title: "4 Nights & 5 Days Phu Quoc Escape",
 
-  price: "70,990",
+  price: 70990,
 
   priceType: "Per Person | Twin Sharing Price",
 

@@ -21,7 +21,7 @@ const cambodiaTour: PackageReview = {
 
   title: "5 Nights & 6 Days Cambodia Tour: Phnom Penh – Battambang – Siem Reap",
 
-  price: "51,990",
+  price: 51990,
 
   priceType: "Per Person | Twin Sharing Price",
 

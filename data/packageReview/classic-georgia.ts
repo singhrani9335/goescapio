@@ -22,7 +22,7 @@ const classicGeorgia: PackageReview = {
 
   title: "4 nights & 5 days classic georgia",
 
-  price: "39,290",
+  price: 39290,
 
   priceType: "Per Person | Twin Sharing Price",
 

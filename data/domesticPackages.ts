@@ -8,7 +8,7 @@ export const domesticPackages: Package[] = [
     title: "05 Nights & 06 Days Beauty of Andaman",
     nights: 5,
     location: "Havelock - Andaman, India",
-    price: "₹25,990",
+    price: 25990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -31,7 +31,7 @@ export const domesticPackages: Package[] = [
     title: "2 Nights & 3 Days Chail Weekend Package",
     nights: 2,
     location: "Chail, India",
-    price: "₹12,490",
+    price: 12490,
 
     duration: "2 Nights 3 Days",
     hotel: "Hotel Included",
@@ -54,7 +54,7 @@ export const domesticPackages: Package[] = [
     title: "2 Nights & 3 Days Ooty Hill Station Getaway",
     nights: 2,
     location: "Ooty, India",
-    price: "₹11,390",
+    price: 11390,
 
     duration: "2 Nights 3 Days",
     hotel: "Hotel Included",
@@ -77,7 +77,7 @@ export const domesticPackages: Package[] = [
     title: "3 Nights 4 Days Ultimate Haridwar & Rishikesh Tour",
     nights: 3,
     location: "Haridwar, India",
-    price: "₹12,599",
+    price: 12599,
 
     duration: "3 Nights 4 Days",
     hotel: "Hotel Included",
@@ -100,7 +100,7 @@ export const domesticPackages: Package[] = [
     title: "4 Nights & 5 Days Blissful Kerala",
     nights: 4,
     location: "Munnar, India",
-    price: "₹16,500",
+    price: 16500,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -123,7 +123,7 @@ export const domesticPackages: Package[] = [
     title: "4 Nights & 5 Days Gorgeous Kashmir",
     nights: 4,
     location: "Srinagar, India",
-    price: "₹16,990",
+    price: 16990,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -145,7 +145,7 @@ export const domesticPackages: Package[] = [
     title: "4 Nights & 5 Days Incredible South India",
     nights: 4,
     location: "Bangalore, India",
-    price: "₹20,990",
+    price: 20990,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -168,7 +168,7 @@ export const domesticPackages: Package[] = [
     title: "4 Nights & 5 Days The Allure of Shimla",
     nights: 4,
     location: "Shimla, India",
-    price: "₹8,390",
+    price: 8390,
 
     duration: "4 Nights 5 Days",
     hotel: "Hotel Included",
@@ -191,7 +191,7 @@ export const domesticPackages: Package[] = [
     title: "5 Nights & 6 Days Glorious Rajasthan",
     nights: 5,
     location: "Jaipur, India",
-    price: "₹23,500",
+    price: 23500,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -214,7 +214,7 @@ export const domesticPackages: Package[] = [
     title: "5 Nights & 6 Days Marvelous Kashmir",
     nights: 5,
     location: "Srinagar, India",
-    price: "₹18,990",
+    price: 18990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",
@@ -237,7 +237,7 @@ export const domesticPackages: Package[] = [
     title: "5 Nights & 6 Days Meghalaya Explorer",
     nights: 5,
     location: "Shillong, India",
-    price: "₹24,990",
+    price: 24990,
 
     duration: "5 Nights 6 Days",
     hotel: "Hotel Included",

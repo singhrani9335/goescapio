@@ -21,7 +21,7 @@ const baku: PackageReview = {
 
   title: "4 nights & 5 days baku tour",
 
-  price: "27,490",
+  price: 27490,
 
   priceType: "Per Person | Twin Sharing Price",
 

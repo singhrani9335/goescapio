@@ -20,7 +20,7 @@ const maldivesSerenity: PackageReview = {
 
   title: "5 Nights & 6 Days Maldives Serenity",
 
-  price: "89,990",
+  price: 89990,
 
   priceType: "Per Person | Twin Sharing Price",
 

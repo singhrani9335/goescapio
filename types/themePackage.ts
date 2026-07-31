@@ -13,7 +13,7 @@ export interface ThemePackage {
 
   location: string;
 
-  price: string;
+  price: number;
 
   duration?: string;
 

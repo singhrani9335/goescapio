@@ -22,7 +22,7 @@ gallery: [
 
   title: "3 Nights & 4 Days Chail Himachal Tour",
 
-  price: "19,990",
+  price: 19990,
 
   priceType: "Per Person | Twin Sharing Price",
 

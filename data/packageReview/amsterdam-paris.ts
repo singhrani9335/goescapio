@@ -22,7 +22,7 @@ const amsterdamParis: PackageReview = {
 
   title: "6 Nights & 7 Days Amsterdam Paris Tour",
 
-  price: "89,990",
+  price: 89990,
 
   priceType: "Per Person | Twin Sharing Price",
 

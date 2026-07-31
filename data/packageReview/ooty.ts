@@ -23,7 +23,7 @@ const ooty: PackageReview = {
 
   title: "2 nights & 3 days ooty hill station getaway",
 
-  price: "11,390",
+  price: 11390,
 
   priceType: "Per Person | Twin Sharing Price",
 

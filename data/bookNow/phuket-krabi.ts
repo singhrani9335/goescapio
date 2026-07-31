@@ -24,7 +24,7 @@ const phuketKrabi: BookNow = {
 
   title: "5 Nights & 6 Days Phuket Krabi Escape",
 
-  price: "34,999",
+  price: 34999,
 
   priceType: "Per Person | Twin Sharing Price",
 

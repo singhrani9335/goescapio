@@ -21,7 +21,7 @@ const southIndia: PackageReview = {
 
   title: "4 Nights & 5 Days Incredible South India",
 
-  price: "20,990",
+  price: 20990,
 
   priceType: "Per Person | Twin Sharing Price",
 

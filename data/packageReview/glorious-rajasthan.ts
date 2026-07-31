@@ -21,7 +21,7 @@ const gloriousRajasthan: PackageReview = {
 
   title: "5 nights & 6 days glorious rajasthan",
 
-  price: "23,500",
+  price: 23500,
 
   priceType: "Per Person | Twin Sharing Price",
 

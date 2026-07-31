@@ -21,7 +21,7 @@ gallery: [
 
   title: "4 Nights & 5 Days Bali Voyage",
 
-  price: "59,990",
+  price: 59990,
 
   priceType: "Per Person | Twin Sharing Price",
 

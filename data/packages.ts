@@ -9,7 +9,7 @@ export interface PackageCard {
   hotel: string;
   transport: string;
   sightseeing: string;
-  price: string;
+  price: number;
 }
 
 export const packages: PackageCard[] = [
@@ -21,7 +21,7 @@ export const packages: PackageCard[] = [
     title: "Ultimate Haridwar & Rishikesh Tour",
     description:
       "Experience the spiritual charm of Haridwar, Rishikesh, Ganga Aarti, sacred temples and peaceful Himalayan surroundings with a perfectly planned getaway.",
-    price: "₹27,490",
+    price: 27490,
     duration: "5 Days / 4 Nights",
     hotel: "4★ Hotel",
     transport: "Private Transfer",
@@ -36,7 +36,7 @@ export const packages: PackageCard[] = [
     title: "Baku Tour",
     description:
       "Discover Baku's modern skyline, charming Old City, Flame Towers and the beautiful Caspian Sea with an unforgettable holiday experience.",
-    price: "₹39,990",
+    price: 39990,
     duration: "6 Days / 5 Nights",
     hotel: "4★ Hotel",
     transport: "Airport Transfer",
@@ -51,7 +51,7 @@ export const packages: PackageCard[] = [
     title: "Beauty of Andaman",
     description:
       "Enjoy crystal-clear beaches, exciting water sports, coral reefs and breathtaking island landscapes in the beautiful Andaman Islands.",
-    price: "₹49,990",
+    price: 49990,
     duration: "6 Days / 5 Nights",
     hotel: "Beach Resort",
     transport: "Ferry Included",
@@ -66,7 +66,7 @@ export const packages: PackageCard[] = [
     title: "Blissful Kerala",
     description:
       "Relax amidst lush greenery, serene backwaters, tea plantations and peaceful beaches while exploring the natural beauty of Kerala.",
-    price: "₹29,990",
+    price: 29990,
     duration: "5 Days / 4 Nights",
     hotel: "4★ Resort",
     transport: "Private Cab",
@@ -81,7 +81,7 @@ export const packages: PackageCard[] = [
     title: "Classic Cairo with Alexandria Excursion",
     description:
       "Explore the iconic Pyramids of Giza, Egyptian Museum and the historic Mediterranean city of Alexandria in one unforgettable journey.",
-    price: "₹59,990",
+    price: 59990,
     duration: "7 Days / 6 Nights",
     hotel: "4★ Hotel",
     transport: "Airport Transfer",
@@ -96,7 +96,7 @@ export const packages: PackageCard[] = [
     title: "Classic Georgia",
     description:
       "Experience charming old towns, majestic mountains, delicious cuisine and warm hospitality while discovering the beauty of Georgia.",
-    price: "₹44,990",
+    price: 44990,
     duration: "6 Days / 5 Nights",
     hotel: "Boutique Hotel",
     transport: "Private Vehicle",
@@ -111,7 +111,7 @@ export const packages: PackageCard[] = [
     title: "Classic Jordan",
     description:
       "Visit the ancient city of Petra, float in the Dead Sea and explore the magnificent desert landscapes of Wadi Rum.",
-    price: "₹69,990",
+    price: 69990,
     duration: "6 Days / 5 Nights",
     hotel: "4★ Hotel",
     transport: "Airport Pickup",
@@ -125,7 +125,7 @@ export const packages: PackageCard[] = [
     title: "Disney Adventure Cruise with 1 Free Night at Singapore",
     description:
       "Create magical family memories with a Disney Cruise adventure along with a complimentary stay in vibrant Singapore.",
-    price: "₹79,990",
+    price: 79990,
     duration: "5 Days / 4 Nights",
     hotel: "Cruise + Hotel",
     transport: "Airport Transfer",
@@ -140,7 +140,7 @@ export const packages: PackageCard[] = [
     title: "Dubai Vibes",
     description:
       "Experience luxury shopping, iconic skyscrapers, thrilling desert safaris and world-famous attractions across Dubai.",
-    price: "₹49,990",
+    price: 49990,
     duration: "5 Days / 4 Nights",
     hotel: "4★ Hotel",
     transport: "Private Transfer",
@@ -155,7 +155,7 @@ export const packages: PackageCard[] = [
     title: "Enchanting Georgia Getaway",
     description:
       "Escape to Georgia's breathtaking mountains, picturesque towns and rich cultural heritage for a memorable vacation.",
-    price: "₹44,990",
+    price: 44990,
     duration: "6 Days / 5 Nights",
     hotel: "4★ Hotel",
     transport: "Private Cab",
@@ -170,7 +170,7 @@ export const packages: PackageCard[] = [
     title: "Family Time in Dubai with Free Miracle Garden",
     description:
       "Enjoy exciting family attractions, shopping, entertainment and complimentary entry to the spectacular Dubai Miracle Garden.",
-    price: "₹49,990",
+    price: 49990,
     duration: "5 Days / 4 Nights",
     hotel: "4★ Hotel",
     transport: "Private Transfer",
@@ -185,7 +185,7 @@ export const packages: PackageCard[] = [
     title: "7 Days Gorgeous Kashmir",
     description:
       "Explore the paradise of Kashmir with stunning valleys, snow-covered mountains, beautiful lakes and unforgettable sightseeing.",
-    price: "₹59,990",
+    price: 59990,
     duration: "7 Days / 6 Nights",
     hotel: "Deluxe Hotel",
     transport: "Private Cab",
@@ -200,7 +200,7 @@ export const packages: PackageCard[] = [
     title: "Hong Kong Family Special",
     description:
       "Enjoy Disneyland, Ocean Park, Victoria Peak, shopping districts and exciting family-friendly attractions across Hong Kong.",
-    price: "₹69,990",
+    price: 69990,
     duration: "5 Days / 4 Nights",
     hotel: "4★ Hotel",
     transport: "Airport Transfer",
@@ -215,7 +215,7 @@ export const packages: PackageCard[] = [
     title: "Incredible South India",
     description:
       "Discover magnificent temples, hill stations, beaches, wildlife and rich cultural traditions across South India's most beautiful destinations.",
-    price: "₹39,990",
+    price: 39990,
     duration: "6 Days / 5 Nights",
     hotel: "Premium Hotel",
     transport: "Private Cab",
@@ -229,7 +229,7 @@ export const packages: PackageCard[] = [
     title: "Kenyan Safari Adventure",
     description:
       "Witness Africa's incredible wildlife, scenic national parks and unforgettable safari adventures across Kenya.",
-    price: "₹89,990",
+    price: 89990,
     duration: "6 Days / 5 Nights",
     hotel: "Safari Lodge",
     transport: "Safari Vehicle",
@@ -244,7 +244,7 @@ export const packages: PackageCard[] = [
     title: "Luxurious Mauritius",
     description:
       "Relax on pristine beaches, luxury resorts and turquoise lagoons while enjoying a perfect island escape.",
-    price: "₹79,990",
+    price: 79990,
     duration: "5 Days / 4 Nights",
     hotel: "Beach Resort",
     transport: "Airport Transfer",
@@ -259,7 +259,7 @@ export const packages: PackageCard[] = [
     title: "Phu Quoc Escape",
     description:
       "Discover Vietnam's tropical paradise with white-sand beaches, crystal-clear waters and unforgettable island experiences.",
-    price: "₹59,990",
+    price: 59990,
     duration: "5 Days / 4 Nights",
     hotel: "Beach Resort",
     transport: "Private Transfer",
@@ -274,7 +274,7 @@ export const packages: PackageCard[] = [
     title: "Thailand Bachelor’s Trip – Pattaya & Bangkok",
     description:
       "Enjoy Thailand's exciting nightlife, beaches, entertainment, shopping and unforgettable experiences in Pattaya and Bangkok.",
-    price: "₹49,990",
+    price: 49990,
     duration: "6 Days / 5 Nights",
     hotel: "4★ Hotel",
     transport: "Airport Pickup",
@@ -289,7 +289,7 @@ export const packages: PackageCard[] = [
     title: "The Allure of Shimla",
     description:
       "Experience the beauty of Shimla with scenic mountain views, colonial charm and refreshing hill station adventures.",
-    price: "₹29,990",
+    price: 29990,
     duration: "5 Days / 4 Nights",
     hotel: "Hill Resort",
     transport: "Private Cab",
@@ -304,7 +304,7 @@ export const packages: PackageCard[] = [
     title: "Wow Andaman",
     description:
       "Explore stunning islands, turquoise waters, water sports and breathtaking beaches in the beautiful Andaman Islands.",
-    price: "₹59,990",
+    price: 59990,
     duration: "6 Days / 5 Nights",
     hotel: "Beach Resort",
     transport: "Ferry Included",
@@ -319,7 +319,7 @@ export const packages: PackageCard[] = [
     title: "Cambodia Tour: Phnom Penh – Battambang – Siem Reap",
     description:
       "Explore Cambodia's ancient temples, vibrant cities and rich cultural heritage through an unforgettable journey.",
-    price: "₹69,990",
+    price: 69990,
     duration: "7 Days / 6 Nights",
     hotel: "4★ Hotel",
     transport: "Private Transfer",
@@ -333,7 +333,7 @@ export const packages: PackageCard[] = [
     title: "Grand European Discovery",
     description:
       "Travel across Europe's most iconic destinations with breathtaking landscapes, historic cities and unforgettable experiences.",
-    price: "₹1,29,990",
+    price: 129990,
     duration: "10 Days / 9 Nights",
     hotel: "4★ Hotel",
     transport: "Coach Transfer",
@@ -348,7 +348,7 @@ export const packages: PackageCard[] = [
     title: "Bali Voyage - 04 Nights",
     description:
       "Relax in Bali's tropical paradise with beautiful beaches, luxury resorts, temples and unforgettable island adventures.",
-    price: "₹59,990",
+    price: 59990,
     duration: "5 Days / 4 Nights",
     hotel: "Luxury Resort",
     transport: "Airport Transfer",
@@ -363,7 +363,7 @@ export const packages: PackageCard[] = [
     title: "Chardham Yatra Ex Delhi",
     description:
       "Embark on a sacred pilgrimage to Yamunotri, Gangotri, Kedarnath and Badrinath with a comfortable departure from Delhi.",
-    price: "₹49,990",
+    price: 49990,
     duration: "11 Days / 10 Nights",
     hotel: "Hotel + Camp",
     transport: "Private Coach",
@@ -378,7 +378,7 @@ export const packages: PackageCard[] = [
     title: "Dazzling Singapore - 03 Nights",
     description:
       "Discover Marina Bay Sands, Gardens by the Bay, Sentosa Island and exciting city attractions during your Singapore getaway.",
-    price: "₹69,990",
+    price: 69990,
     duration: "4 Days / 3 Nights",
     hotel: "4★ Hotel",
     transport: "Airport Transfer",
@@ -393,7 +393,7 @@ export const packages: PackageCard[] = [
     title: "Magnificent Maldives",
     description:
       "Enjoy crystal-clear lagoons, luxury water villas, white-sand beaches and unforgettable romantic island experiences.",
-    price: "₹1,29,990",
+    price: 129990,
     duration: "5 Days / 4 Nights",
     hotel: "Water Villa",
     transport: "Speed Boat",
@@ -408,7 +408,7 @@ export const packages: PackageCard[] = [
     title: "Maldives Serenity Tour Package",
     description:
       "Experience peaceful island living with luxury resorts, turquoise waters and breathtaking sunsets in the Maldives.",
-    price: "₹1,49,990",
+    price: 149990,
     duration: "5 Days / 4 Nights",
     hotel: "Luxury Resort",
     transport: "Seaplane Transfer",
@@ -423,7 +423,7 @@ export const packages: PackageCard[] = [
     title: "Mesmerizing Meghalaya",
     description:
       "Explore waterfalls, living root bridges, lush green valleys and the natural beauty of Meghalaya's breathtaking landscapes.",
-    price: "₹27,490",
+    price: 27490,
     duration: "6 Days / 5 Nights",
     hotel: "Premium Hotel",
     transport: "Private Cab",

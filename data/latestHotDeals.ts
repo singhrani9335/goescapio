@@ -8,7 +8,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "2 Nights & 3 Days Chail Weekend Package",
     nights: "2 Nights",
     location: "Chail, India",
-    price: "12,490",
+    price: 12490,
     features: {
       hotel: true,
       activity: true,
@@ -25,7 +25,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "2 Nights & 3 Days Ooty Hill Station Getaway",
     nights: "2 Nights",
     location: "Ooty, India",
-    price: "11,390",
+    price: 11390,
     features: {
       hotel: true,
       activity: true,
@@ -42,7 +42,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "2 Nights & 3 Days Toronto City Break",
     nights: "2 Nights",
     location: "Toronto, Canada",
-    price: "42,990",
+    price: 42990,
     features: {
       hotel: true,
       activity: true,
@@ -59,7 +59,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "3 Nights & 4 Days Jordan Timeless Treasures",
     nights: "3 Nights",
     location: "Amman, Jordan",
-    price: "47,690",
+    price: 47690,
     features: {
       hotel: true,
       activity: true,
@@ -76,7 +76,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "3 Nights & 4 Days Vietnam Timeless Charm",
     nights: "3 Nights",
     location: "Hanoi, Vietnam",
-    price: "19,999",
+    price: 19999,
     features: {
       hotel: true,
       activity: true,
@@ -93,7 +93,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "3 Nights 4 Days Ultimate Haridwar & Rishikesh Tour",
     nights: "3 Nights",
     location: "Haridwar, India",
-    price: "12,599",
+    price: 12599,
     features: {
       hotel: true,
       activity: true,
@@ -110,7 +110,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Baku Tour",
     nights: "4 Nights",
     location: "Baku, Azerbaijan",
-    price: "27,490",
+    price: 27490,
     features: {
       hotel: true,
       activity: true,
@@ -127,7 +127,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "05 Nights & 06 Days Beauty of Andaman",
     nights: "5 Nights",
     location: "Havelock - Andaman, India",
-    price: "25,990",
+    price: 25990,
     features: {
       hotel: true,
       activity: true,
@@ -144,7 +144,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Blissful Kerala",
     nights: "4 Nights",
     location: "Munnar, India",
-    price: "16,500",
+    price: 16500,
     features: {
       hotel: true,
       activity: true,
@@ -161,7 +161,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Classic Cairo with Alexandria Excursion",
     nights: "4 Nights",
     location: "Cairo, Egypt",
-    price: "54,990",
+    price: 54990,
     features: {
       hotel: true,
       activity: true,
@@ -178,7 +178,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Classic Georgia",
     nights: "4 Nights",
     location: "Tbilisi, Georgia",
-    price: "39,290",
+    price: 39290,
     features: {
       hotel: true,
       activity: true,
@@ -195,7 +195,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Dubai Vibes",
     nights: "4 Nights",
     location: "Dubai, United Arab Emirates",
-    price: "29,999",
+    price: 29999,
     features: {
       hotel: true,
       activity: true,
@@ -212,7 +212,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Gorgeous Kashmir",
     nights: "4 Nights",
     location: "Srinagar, India",
-    price: "16,990",
+    price: 16990,
     features: {
       hotel: true,
       activity: true,
@@ -229,7 +229,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Hong Kong Family Special",
     nights: "4 Nights",
     location: "Hong Kong",
-    price: "81,690",
+    price: 81690,
     features: {
       hotel: true,
       activity: true,
@@ -246,7 +246,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Incredible South India",
     nights: "4 Nights",
     location: "Bangalore, India",
-    price: "20,990",
+    price: 20990,
     features: {
       hotel: true,
       activity: true,
@@ -262,7 +262,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Kenyan Safari Adventure",
     nights: "4 Nights",
     location: "Nairobi, Kenya",
-    price: "1,62,790",
+    price: 162790,
     features: {
       hotel: true,
       activity: true,
@@ -279,7 +279,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Luxurious Mauritius",
     nights: "4 Nights",
     location: "Mauritius",
-    price: "51,990",
+    price: 51990,
     features: {
       hotel: true,
       activity: true,
@@ -296,7 +296,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Phu Quoc Escape",
     nights: "4 Nights",
     location: "Phu Quoc, Vietnam",
-    price: "70,990",
+    price: 70990,
     features: {
       hotel: true,
       activity: true,
@@ -313,7 +313,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Thailand Bachelor’s Trip – Pattaya & Bangkok",
     nights: "4 Nights",
     location: "Bangkok, Thailand",
-    price: "25,290",
+    price: 25290,
     features: {
       hotel: true,
       activity: true,
@@ -330,7 +330,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days The Allure of Shimla",
     nights: "4 Nights",
     location: "Shimla, India",
-    price: "8,390",
+    price: 8390,
     features: {
       hotel: true,
       activity: true,
@@ -347,7 +347,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "4 Nights & 5 Days Wow Andaman",
     nights: "4 Nights",
     location: "Havelock - Andaman, India",
-    price: "29,990",
+    price: 29990,
     features: {
       hotel: true,
       activity: true,
@@ -364,7 +364,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Amsterdam & Paris Classic",
     nights: "5 Nights",
     location: "Amsterdam, Netherlands",
-    price: "1,90,990",
+    price: 190990,
     features: {
       hotel: true,
       activity: true,
@@ -381,7 +381,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Azerbaijan Explorer",
     nights: "5 Nights",
     location: "Baku, Azerbaijan",
-    price: "24,990",
+    price: 24990,
     features: {
       hotel: true,
       activity: true,
@@ -398,7 +398,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Dubai Extravaganza",
     nights: "5 Nights",
     location: "Dubai, United Arab Emirates",
-    price: "57,690",
+    price: 57690,
     features: {
       hotel: true,
       activity: true,
@@ -415,7 +415,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Glorious Rajasthan",
     nights: "5 Nights",
     location: "Jaipur, India",
-    price: "23,500",
+    price: 23500,
     features: {
       hotel: true,
       activity: true,
@@ -432,7 +432,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Hong Kong Extravaganza",
     nights: "5 Nights",
     location: "Hong Kong",
-    price: "96,790",
+    price: 96790,
     features: {
       hotel: true,
       activity: true,
@@ -449,7 +449,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Marvelous Kashmir",
     nights: "5 Nights",
     location: "Srinagar, India",
-    price: "18,990",
+    price: 18990,
     features: {
       hotel: true,
       activity: true,
@@ -466,7 +466,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Thailand Honeymoon Special – Krabi & Phuket",
     nights: "5 Nights",
     location: "Krabi, Thailand",
-    price: "33,990",
+    price: 33990,
     features: {
       hotel: true,
       activity: true,
@@ -483,7 +483,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "6 Nights & 7 Days Discover Egypt with Nile Cruise",
     nights: "6 Nights",
     location: "Cairo, Egypt",
-    price: "1,10,990",
+    price: 110990,
     features: {
       hotel: true,
       activity: true,
@@ -500,7 +500,7 @@ export const latestHotDeals: LatestHotDeal[] = [
     title: "5 Nights & 6 Days Iceland Holiday",
     nights: "5 Nights",
     location: "Reykjavik, Iceland",
-    price: "1,09,990",
+    price: 109990,
     features: {
       hotel: true,
       activity: true,

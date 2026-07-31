@@ -1,12 +1,19 @@
+"use client";
+
 import { Users } from "lucide-react";
 
+import { useCurrency } from "@/context/CurrencyContext";
+import { formatPrice } from "@/lib/formatPrice";
+
 type BookNowPriceCardProps = {
-  price: string;
+  price: number;
 };
 
 export default function BookNowPriceCard({
   price,
 }: BookNowPriceCardProps) {
+  const { currency, rates } = useCurrency();
+
   return (
     <div
       className="
@@ -18,9 +25,7 @@ export default function BookNowPriceCard({
         shadow-sm
       "
     >
-      {/* ===========================
-          PRICE HEADER
-      =========================== */}
+      {/* PRICE HEADER */}
 
       <div
         className="
@@ -59,7 +64,7 @@ export default function BookNowPriceCard({
               text-black
             "
           >
-            ₹{price}
+            {formatPrice(price, currency, rates)}
           </h2>
 
           <span
@@ -101,9 +106,7 @@ export default function BookNowPriceCard({
         </div>
       </div>
 
-      {/* ===========================
-          BUTTON
-      =========================== */}
+      {/* BUTTON */}
 
       <div className="bg-white px-5 py-5">
         <button

@@ -15,7 +15,7 @@ interface ThemePackagesSectionProps {
 export default function ThemePackagesSection({
   packages,
 }: ThemePackagesSectionProps) {
-  const prices = packages.map((item) => Number(item.price.replace(/,/g, "")));
+  const prices = packages.map((item) => Number(item.price));
 
   const minPrice = Math.min(...prices);
   const maxPrice = Math.max(...prices);
@@ -26,7 +26,7 @@ export default function ThemePackagesSection({
 
   const filteredPackages = useMemo(() => {
     let data = packages.filter((item) => {
-      const price = Number(item.price.replace(/,/g, ""));
+      const price = Number(item.price);
 
       return price >= range[0] && price <= range[1];
     });
@@ -35,21 +35,21 @@ export default function ThemePackagesSection({
       case "price-low":
         data.sort(
           (a, b) =>
-            Number(a.price.replace(/,/g, "")) -
-            Number(b.price.replace(/,/g, "")),
+            Number(a.price) - Number(b.price)
         );
         break;
 
       case "price-high":
         data.sort(
           (a, b) =>
-            Number(b.price.replace(/,/g, "")) -
-            Number(a.price.replace(/,/g, "")),
+            Number(b.price) - Number(a.price)
         );
         break;
 
       default:
-        data.sort((a, b) => a.title.localeCompare(b.title));
+        data.sort((a, b) =>
+          a.title.localeCompare(b.title)
+        );
     }
 
     return data;

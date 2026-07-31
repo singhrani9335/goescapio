@@ -21,7 +21,7 @@ gallery: [
 
   title: "6 Nights & 7 Days Beautiful Vietnam Tour",
 
-  price: "59,990",
+  price: 59990,
 
   priceType: "Per Person | Twin Sharing Price",
 

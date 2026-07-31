@@ -21,7 +21,7 @@ gallery: [
 
   title: "4 Nights & 5 Days Singapore Highlights",
 
-  price: "54,990",
+  price: 54990,
 
   priceType: "Per Person | Twin Sharing Price",
 

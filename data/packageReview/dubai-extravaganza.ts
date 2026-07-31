@@ -21,7 +21,7 @@ const dubaiExtravaganza: PackageReview = {
 
   title: "4 nights & 5 days family time in dubai with free miracle garden",
 
-  price: "43,990",
+  price: 43990,
 
   priceType: "Per Person | Twin Sharing Price",
 

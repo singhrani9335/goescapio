@@ -22,7 +22,7 @@ const jordan: PackageReview = {
 
   title: "4 nights & 5 days classic jordan",
 
-  price: "46,990",
+  price: 46990,
 
   priceType: "Per Person | Twin Sharing Price",
 

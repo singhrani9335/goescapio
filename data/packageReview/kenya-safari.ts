@@ -21,7 +21,7 @@ const kenyaSafari: PackageReview = {
 
   title: "4 Nights & 5 Days Kenyan Safari Adventure",
 
-  price: "1,62,790",
+  price: 162790,
 
   priceType: "Per Person | Twin Sharing Price",
 

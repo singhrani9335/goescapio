@@ -21,7 +21,7 @@ const shimla: PackageReview = {
 
   title: "4 Nights & 5 Days The Allure of Shimla",
 
-  price: "8,390",
+  price: 8390,
 
   priceType: "Per Person | Twin Sharing Price",
 
