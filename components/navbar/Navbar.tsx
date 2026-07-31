@@ -184,7 +184,7 @@ export default function Navbar() {
 
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/logo.png"
+              src="/images/darklogo.png"
               alt="GoEscapio"
               width={180}
               height={60}
