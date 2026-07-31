@@ -7,7 +7,6 @@ export interface BookNow {
 
   gallery: string[];
 
-
   // ===========================
   // PACKAGE SUMMARY
   // ===========================
@@ -18,7 +17,7 @@ export interface BookNow {
 
   duration?: string;
 
-  price?: string;
+  price?: number;
 
   priceType?: string;
 
@@ -29,13 +28,11 @@ export interface BookNow {
     meal: boolean;
   };
 
-
   // ===========================
   // OVERVIEW
   // ===========================
 
   overview?: string;
-
 
   // ===========================
   // HIGHLIGHTS
@@ -43,13 +40,11 @@ export interface BookNow {
 
   highlights?: string[];
 
-
   // ===========================
   // INCLUSIONS
   // ===========================
 
   inclusions?: string[];
-
 
   // ===========================
   // EXCLUSIONS
@@ -57,13 +52,11 @@ export interface BookNow {
 
   exclusions?: string[];
 
-
   // ===========================
   // TERMS & CONDITIONS
   // ===========================
 
   terms?: string[];
-
 
   // ===========================
   // ITINERARY
@@ -76,24 +69,21 @@ export interface BookNow {
     description: string;
   }[];
 
-
   // ===========================
-// HOTELS
-// ===========================
+  // HOTELS
+  // ===========================
 
-hotels?: {
-  name: string;
-  image: string;
-  rating: number;
-  location: string;
-  room?: string;
-  nights?: string;
-  category?: string;
-  description?: string;
-  amenities?: string[];
-}[];
-
-
+  hotels?: {
+    name: string;
+    image: string;
+    rating: number;
+    location: string;
+    room?: string;
+    nights?: string;
+    category?: string;
+    description?: string;
+    amenities?: string[];
+  }[];
 
   // ===========================
   // FAQs
