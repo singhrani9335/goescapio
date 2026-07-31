@@ -18,10 +18,14 @@ type Props = {
   }>;
 };
 
-export default async function PackageReviewPage({ params }: Props) {
+export default async function PackageReviewPage({
+  params,
+}: Props) {
   const { slug } = await params;
 
-  const packageData = packageReviews.find((item) => item.slug === slug);
+  const packageData = packageReviews.find(
+    (item) => item.slug === slug
+  );
 
   if (!packageData) {
     notFound();
@@ -41,7 +45,9 @@ export default async function PackageReviewPage({ params }: Props) {
 
       <PackageSummary
         title={packageData.title || ""}
-        price={packageData.price || ""}
+        price={Number(
+          String(packageData.price).replace(/,/g, "")
+        )}
         priceType={packageData.priceType || ""}
         duration={packageData.duration || ""}
         location={packageData.location || ""}
@@ -60,7 +66,9 @@ export default async function PackageReviewPage({ params }: Props) {
       =========================== */}
 
       <div className="mx-auto max-w-[1380px] px-6">
-        <PackageBreadcrumb title={packageData.title || ""} />
+        <PackageBreadcrumb
+          title={packageData.title || ""}
+        />
       </div>
 
       {/* ===========================
@@ -71,9 +79,9 @@ export default async function PackageReviewPage({ params }: Props) {
         className="
           mx-auto
           grid
-          items-start
           max-w-[1380px]
           grid-cols-1
+          items-start
           gap-8
           px-6
           pb-12
@@ -86,17 +94,23 @@ export default async function PackageReviewPage({ params }: Props) {
 
         <section className="space-y-8">
           {packageData.overview && (
-            <PackageOverview packageData={packageData} />
+            <PackageOverview
+              packageData={packageData}
+            />
           )}
 
-          <PackageItinerary itinerary={packageData.itinerary} />
+          <PackageItinerary
+            itinerary={packageData.itinerary}
+          />
 
           <PackageInclusionsExclusions
             inclusions={packageData.inclusions}
             exclusions={packageData.exclusions}
           />
 
-          <PackageTermsConditions terms={packageData.terms} />
+          <PackageTermsConditions
+            terms={packageData.terms}
+          />
         </section>
 
         {/* ===========================
@@ -105,13 +119,15 @@ export default async function PackageReviewPage({ params }: Props) {
 
         <aside
           className="
-            -mt-12
-            h-fit
             sticky
             top-32
+            -mt-12
+            h-fit
           "
         >
-          <PackageSidebar packageData={packageData} />
+          <PackageSidebar
+            packageData={packageData}
+          />
         </aside>
       </div>
 
